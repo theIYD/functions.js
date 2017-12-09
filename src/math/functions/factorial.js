@@ -35,8 +35,24 @@ const factorialOneLine = (n) => {
     return (n==1 || n==0) ? 1 : n*factorialOneLine(n-1);
 }
 
+/**
+ * @function doubleFactorial: Print semi-factorial or double factorial of number using the iterative approach. 
+ * 
+ * Double factorial of a non-integer n is the product of all integers from 1 to n that have the same parity i.e odd or even
+ *  
+ * @param {*} n 
+ */
+const doublefactorial = (n) => {
+    let temp = 1;
+    for(let i=n; i>=0; i=i-2) {
+        if(i==0 || i==1) return temp;
+        else temp*=i;
+    }
+}
+
 module.exports = {
     factorialRecursive,
     factorialIterative,
-    factorialOneLine
+    factorialOneLine,
+    doublefactorial
 }
