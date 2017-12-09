@@ -5,7 +5,7 @@
  * @param {*} n 
  */
 const factorialRecursive = (n) => {
-    if(n == 0) {
+    if(n === 0) {
         return 1
     } else {
         return n*factorialRecursive(n-1);
@@ -32,7 +32,7 @@ const factorialIterative = (n) => {
  * @param {*} n 
  */
 const factorialOneLine = (n) => {
-    return (n==1 || n==0) ? 1 : n*factorialOneLine(n-1);
+    return (n===1 || n===0) ? 1 : n*factorialOneLine(n-1);
 }
 
 /**
@@ -45,7 +45,7 @@ const factorialOneLine = (n) => {
 const doublefactorial = (n) => {
     let temp = 1;
     for(let i=n; i>=0; i=i-2) {
-        if(i==0 || i==1) return temp;
+        if(i===0 || i===1) return temp;
         else temp*=i;
     }
 }
