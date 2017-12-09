@@ -50,9 +50,22 @@ const doublefactorial = (n) => {
     }
 }
 
+/**
+ * @function facCountTrailingZeroes: Print the count of trailing zeroes in n!
+ * @param {*} n 
+ */
+const factCountTrailingZeroes = (n) => {
+    let count = 0;
+    for(let i=5; n/i>=1; i*=5) {
+        count += (n/i);
+    }
+    return count;
+}
+
 module.exports = {
     factorialRecursive,
     factorialIterative,
     factorialOneLine,
-    doublefactorial
+    doublefactorial,
+    factCountTrailingZeroes
 }
