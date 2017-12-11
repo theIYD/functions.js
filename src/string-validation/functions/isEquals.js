@@ -5,9 +5,7 @@ const string_util = require('./util/isString');
  * @param {*} str 
  * @param {*} elem 
  */
-const isEquals = (str, elem) => {
+export default function isEquals(str, elem){
     string_util.isString(str);
     return str === elem;
 }
-
-module.exports = {isEquals}
