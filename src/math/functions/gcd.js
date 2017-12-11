@@ -1,3 +1,9 @@
+/**
+ * @function gcd: Calculate the greatest common divisor among the two numbers using Euclidean's algorithm.
+ * 
+ * @param {*} numb1 
+ * @param {*} numb2 
+ */
 const gcd = (numb1, numb2) => {
     let remain1, remain2, output;
     if(numb1!=numb2) {
