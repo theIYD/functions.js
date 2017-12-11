@@ -1,5 +1,6 @@
 const func = {
-    Math: require('./math/math')
+    MathFunc: require('./math/math'),
+    StringValidate: require('./string-validation/string') 
 };
 
 module.exports = func;
