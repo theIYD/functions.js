@@ -1,7 +1,8 @@
 const string_util = require('./util/isString');
+import regexpattern from './util/RegexPatterns';
 
 export default function isMACAddress(str) {
-    const mac = /^([0-9a-fA-F][0-9a-fA-F]:){5}([0-9a-fA-F][0-9a-fA-F])$/;
+    const mac = regexpattern('mac');
     
     string_util.isString(str);
     return mac.test(str);    
