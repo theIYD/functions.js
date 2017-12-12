@@ -7,6 +7,7 @@ import isEndWith from './functions/isEndWith';
 import isASCII from './functions/isASCII';
 import isHexColor from './functions/isHexColor';
 import isMACAddress from './functions/isMACAddress';
+import isValidEmail from './functions/isValidEmail';
 
 const stringfunc = {
     isItMD5: isMD5,
@@ -17,7 +18,8 @@ const stringfunc = {
     isItEndWith: isEndWith,
     isItASCII: isASCII,
     isItHexColor: isHexColor,
-    isItMACAddress: isMACAddress
+    isItMACAddress: isMACAddress,
+    isItAValidEmail: isValidEmail
 }
 
 module.exports = {stringfunc};
