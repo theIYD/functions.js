@@ -12,6 +12,7 @@ import isIPAddress from './functions/isIPAddress';
 import isHexaDecimal from './functions/isHexaDecimal';
 import isLowerCase from './functions/isLowerCase';
 import isUpperCase from './functions/isUpperCase';
+import isDataURI from './functions/isDataURI';
 
 const stringfunc = {
     isItMD5: isMD5,
@@ -27,7 +28,8 @@ const stringfunc = {
     isItAnIPAddress: isIPAddress,
     isItAHexDecimal: isHexaDecimal,
     isItLowerCased: isLowerCase,
-    isItUpperCased: isUpperCase
+    isItUpperCased: isUpperCase,
+    isItADataURI: isDataURI
 }
 
 module.exports = {stringfunc};
