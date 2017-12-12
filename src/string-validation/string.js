@@ -8,6 +8,10 @@ import isASCII from './functions/isASCII';
 import isHexColor from './functions/isHexColor';
 import isMACAddress from './functions/isMACAddress';
 import isValidEmail from './functions/isValidEmail';
+import isIPAddress from './functions/isIPAddress';
+import isHexaDecimal from './functions/isHexaDecimal';
+import isLowerCase from './functions/isLowerCase';
+import isUpperCase from './functions/isUpperCase';
 
 const stringfunc = {
     isItMD5: isMD5,
@@ -19,7 +23,11 @@ const stringfunc = {
     isItASCII: isASCII,
     isItHexColor: isHexColor,
     isItMACAddress: isMACAddress,
-    isItAValidEmail: isValidEmail
+    isItAValidEmail: isValidEmail,
+    isItAnIPAddress: isIPAddress,
+    isItAHexDecimal: isHexaDecimal,
+    isItLowerCased: isLowerCase,
+    isItUpperCased: isUpperCase
 }
 
 module.exports = {stringfunc};
