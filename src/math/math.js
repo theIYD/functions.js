@@ -1,8 +1,10 @@
 const mathfunc = {
+    CountPrimeFactors: require('./functions/countPrimeFactors'),
     Fibonacci: require('./functions/fibonacci'),
     Factorial: require('./functions/factorial'),
     FisherYates: require('./functions/fisher_yates'),
-    GCD: require('./functions/gcd')
+    GCD: require('./functions/gcd'),
+    MaxOrMin: require('./functions/max_min')
 }
 
 module.exports = mathfunc;

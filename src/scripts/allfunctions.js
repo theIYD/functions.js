@@ -1,5 +1,11 @@
 const funcs = [
     {
+        title: '`countPrimeFactors(n)`',
+        topic: 'math',
+        description: 'A function to count all prime factors of a given number.',
+        return_type: 'number'
+    },
+    {
         title: '`factorialRecursive(n)`',
         topic: 'math',
         description: 'Print factorial of a number using recursive function approach.',
@@ -51,6 +57,12 @@ const funcs = [
         title: '`gcd(numb1, numb2)`',
         topic: 'math',
         description: 'Calculate the greatest common divisor among the two numbers using Euclideans algorithm.',
+        return_type: 'number'
+    },
+    {
+        title: '`maxOrMin(arr, task)`',
+        topic: 'math',
+        description: 'Get maximum or minimum of an array',
         return_type: 'number'
     },
     {

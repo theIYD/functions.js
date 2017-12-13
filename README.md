@@ -11,6 +11,7 @@
 
 | Method Name | Topic | Description | Return Type |
 | ------------| ------------| ------------| ------------|
+|`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
 |`factorialRecursive(n)` |math |Print factorial of a number using recursive function approach. |number |
 |`factorialIterative(n)` |math |Print factorial of a number using iterative approach. |number |
 |`factorialOneLine(n)` |math |Print factorial of a number using a ternary operator. |number |
@@ -20,6 +21,7 @@
 |`fibDynamic(n)` |math |Print nth fibonacci number using dynamic programming approach. |number |
 |`fisherYates(arr)` |math |Shuffle an array using the Fisher Yates Algorithm using a while loop. |array |
 |`gcd(numb1, numb2)` |math |Calculate the greatest common divisor among the two numbers using Euclideans algorithm. |number |
+|`maxOrMin(arr, task)` |math |Get maximum or minimum of an array |number |
 |`isASCII(str)` |validation |String contains ASCII characters |boolean |
 |`isBool(str)` |validation |String contains true or false |boolean |
 |`isDataURI(str)` |validation |String is a data uri format. |boolean |
