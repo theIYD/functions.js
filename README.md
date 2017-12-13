@@ -32,5 +32,5 @@ functions.js is a hub of various functions or methods which act differently acco
 |`isValidEmail(str)` |validation |String is a valid email id. |boolean |
 
 
-# License
+## License
  The project is licensed under ![MIT](https://github.com/theIYD/functions.js/blob/master/LICENSE)

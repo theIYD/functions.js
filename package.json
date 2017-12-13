@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-dir dist",
+    "build": "babel src --out-dir dist && npm run generate-readme",
     "generate-readme": "node ./src/scripts/generator.js",
     "prepublish": "npm run build"
   },
