@@ -7,7 +7,10 @@ let func_generated_table = `## Methods \n\n| Method Name | Topic | Description |
 | ------------| ------------| ------------| ------------|`;
 
 const header = `# ![functions.js](https://github.com/theIYD/functions.js/blob/master/media/functionsjs.png)\n
-functions.js is a hub of various functions or methods which act differently according to their functionality.\n
+# functions.js\n
+> **functions.js** is a hub of various functions or methods which act differently according to their functionality.\n
+ - Please feel free to contribute, read the ![contributions guide]().
+ - The code is written in ES6.\n
 `;
 
 func_generated_table += '\n';

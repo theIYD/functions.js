@@ -1,6 +1,11 @@
 # ![functions.js](https://github.com/theIYD/functions.js/blob/master/media/functionsjs.png)
 
-functions.js is a hub of various functions or methods which act differently according to their functionality.
+# functions.js
+
+> **functions.js** is a hub of various functions or methods which act differently according to their functionality.
+
+ - Please feel free to contribute, read the ![contributions guide]().
+ - The code is written in ES6.
 
 ## Methods 
 
