@@ -23,7 +23,7 @@ try {
 
 func_generated_table += '\n';
 
-const license = `\n# License\n The project is licensed under ![MIT](https://github.com/theIYD/functions.js/blob/master/LICENSE)`;
+const license = `\n## License\n The project is licensed under ![MIT](https://github.com/theIYD/functions.js/blob/master/LICENSE)`;
 output = header + func_generated_table + license;
 
 fs.writeFileSync(path.join(generated, 'README.md'), output, function(err) {
