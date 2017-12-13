@@ -1,4 +1,4 @@
-# ![functions.js](https://github.com/theIYD/functions.js/blob/master/media/functionsjs.png)
+![functions.js](https://github.com/theIYD/functions.js/blob/master/media/functionsjs.png)
 
 # functions.js
 
