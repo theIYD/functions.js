@@ -6,10 +6,10 @@ const generated = './';
 let func_generated_table = `## Methods \n\n| Method Name | Category | Description | Return Type |
 | ------------| ------------| ------------| ------------|`;
 
-const header = `![functions.js](https://github.com/theIYD/functions.js/blob/master/media/functionsjs.png)\n
+const header = `![](https://github.com/theIYD/functions.js/blob/master/media/functionsjs.png)\n
 # functions.js\n
 > **functions.js** is a hub of various functions or methods which act differently according to their functionality.\n
- - Please feel free to contribute, read the ![contributions guide]().
+ - Please feel free to contribute, read the ![contributions guide](https://github.com/theIYD/functions.js/blob/master/CONTRIBUTING.md).
  - The code is written in ES6.\n
 `;
 
