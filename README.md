@@ -9,7 +9,7 @@
 
 ## Methods 
 
-| Method Name | Topic | Description | Return Type |
+| Method Name | Category | Description | Return Type |
 | ------------| ------------| ------------| ------------|
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
 |`factorialRecursive(n)` |math |Print factorial of a number using recursive function approach. |number |
