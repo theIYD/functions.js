@@ -26,7 +26,7 @@ const func = require('functions.js');
 console.log(func.MathFunc.Pythagoras.pythagorasDistance(3,4));
 //returns '5'
 
-console.log(func.StringValidate.stringfunc.isItHexColor('#fc3'));
+console.log(func.StringFunc.stringfunc.isItHexColor('#fc3'));
 //returns 'true'
 ```
 ## Methods 
@@ -43,23 +43,25 @@ console.log(func.StringValidate.stringfunc.isItHexColor('#fc3'));
 |`fibDynamic(n)` |math |Print nth fibonacci number using dynamic programming approach. |number |
 |`fisherYates(arr)` |math |Shuffle an array using the Fisher Yates Algorithm using a while loop. |array |
 |`gcd(numb1, numb2)` |math |Calculate the greatest common divisor among the two numbers using Euclideans algorithm. |number |
+|`hasAtleastOneUpperCaseLetter(str)` |string |String has atleast one upper-cased letter. |boolean |
+|`hasAtleastOneLowerCaseLetter(str)` |string |String has atleast one lower-cased letter. |boolean |
+|`isASCII(str)` |string |String contains ASCII characters |boolean |
+|`isBool(str)` |string |String contains true or false |boolean |
+|`isDataURI(str)` |string |String is a data uri format. |boolean |
+|`isEmpty(str)` |string |String is empty. |boolean |
+|`isEndWith(str, target)` |string |String ends with target. |boolean |
+|`isEquals(str, elem)` |string |Compares the two strings entered. |boolean |
+|`isHexaDecimal(str)` |string |String is hexadecimal. |boolean |
+|`isHexColor(str)` |string |String is a hex color. |boolean |
+|`isIPAddress(str)` |string |String is an IP address. |boolean |
+|`isLowerCase(str)` |string |String is all lower-cased. |boolean |
+|`isMACAddress(str)` |string |String is a MAC Address. |boolean |
+|`isMD5(str)` |string |String is a a MD5 type. |boolean |
+|`isPalindrome(str)` |string |String is a palindrome. |boolean |
+|`isUpperCase(str)` |string |String is all upper-cased. |boolean |
+|`isValidEmail(str)` |string |String is a valid email id. |boolean |
 |`maxOrMin(arr, task)` |math |Get maximum or minimum of an array |number |
 |`pythagorasDistance(arg1, arg2)` |math |Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle |number |
-|`isASCII(str)` |validation |String contains ASCII characters |boolean |
-|`isBool(str)` |validation |String contains true or false |boolean |
-|`isDataURI(str)` |validation |String is a data uri format. |boolean |
-|`isEmpty(str)` |validation |String is empty. |boolean |
-|`isEndWith(str, target)` |validation |String ends with target. |boolean |
-|`isEquals(str, elem)` |validation |Compares the two strings entered. |boolean |
-|`isHexaDecimal(str)` |validation |String is hexadecimal. |boolean |
-|`isHexColor(str)` |validation |String is a hex color. |boolean |
-|`isIPAddress(str)` |validation |String is an IP address. |boolean |
-|`isLowerCase(str)` |validation |String is all lower-cased. |boolean |
-|`isMACAddress(str)` |validation |String is a MAC Address. |boolean |
-|`isMD5(str)` |validation |String is a a MD5 type. |boolean |
-|`isPalindrome(str)` |validation |String is a palindrome. |boolean |
-|`isUpperCase(str)` |validation |String is all upper-cased. |boolean |
-|`isValidEmail(str)` |validation |String is a valid email id. |boolean |
 
 
 ## License

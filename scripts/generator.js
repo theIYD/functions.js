@@ -28,7 +28,7 @@ func_generated_table += '\n';
 
 const marked = '```';
 
-const jscode = `const func = require('functions.js');\n\nconsole.log(func.MathFunc.Pythagoras.pythagorasDistance(3,4));\n//returns '5'\n\nconsole.log(func.StringValidate.stringfunc.isItHexColor('#fc3'));\n//returns 'true'\n` + marked + '\n';
+const jscode = `const func = require('functions.js');\n\nconsole.log(func.MathFunc.Pythagoras.pythagorasDistance(3,4));\n//returns '5'\n\nconsole.log(func.StringFunc.stringfunc.isItHexColor('#fc3'));\n//returns 'true'\n` + marked + '\n';
 
 const install = `## Install\n\nThe project is up on ![npm]() and can be used in a project by: \n\n` + marked + `\nnpm install --save functions.js\n\n` + marked + '\n';
 

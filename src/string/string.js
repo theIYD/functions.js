@@ -13,6 +13,8 @@ import isHexaDecimal from './functions/isHexaDecimal';
 import isLowerCase from './functions/isLowerCase';
 import isUpperCase from './functions/isUpperCase';
 import isDataURI from './functions/isDataURI';
+import hasAtleastOneUpperCaseLetter from './functions/hasAtleastOneUpperCaseLetter';
+import hasAtleastLowerCaseLetter from './functions/hasAtleastOneLowerCaseLetter';
 
 const stringfunc = {
     isItMD5: isMD5,
@@ -29,7 +31,9 @@ const stringfunc = {
     isItAHexDecimal: isHexaDecimal,
     isItLowerCased: isLowerCase,
     isItUpperCased: isUpperCase,
-    isItADataURI: isDataURI
+    isItADataURI: isDataURI,
+    hasAtleastOneUpperCaseLetter: hasAtleastOneUpperCaseLetter,
+    hasAtleastOneLowerCaseLetter: hasAtleastLowerCaseLetter
 }
 
 module.exports = {stringfunc};
