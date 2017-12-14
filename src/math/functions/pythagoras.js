@@ -8,5 +8,5 @@ const pythagorasDistance = (arg1, arg2) => {
 }
 
 module.exports = {
-    pythagorasTriplet
+    pythagorasDistance
 }
