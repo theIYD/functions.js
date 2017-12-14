@@ -22,6 +22,7 @@
 |`fisherYates(arr)` |math |Shuffle an array using the Fisher Yates Algorithm using a while loop. |array |
 |`gcd(numb1, numb2)` |math |Calculate the greatest common divisor among the two numbers using Euclideans algorithm. |number |
 |`maxOrMin(arr, task)` |math |Get maximum or minimum of an array |number |
+|`pythagorasDistance(arg1, arg2)` |math |Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle |number |
 |`isASCII(str)` |validation |String contains ASCII characters |boolean |
 |`isBool(str)` |validation |String contains true or false |boolean |
 |`isDataURI(str)` |validation |String is a data uri format. |boolean |
