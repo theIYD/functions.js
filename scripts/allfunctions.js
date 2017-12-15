@@ -6,6 +6,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`euclideanDistance(initial, final)`',
+        topic: 'math',
+        description: 'Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points.',
+        return_type: 'number'
+    },
+    {
         title: '`factorialRecursive(n)`',
         topic: 'math',
         description: 'Print factorial of a number using recursive function approach.',

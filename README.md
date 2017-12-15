@@ -34,6 +34,7 @@ console.log(func.StringFunc.stringfunc.isItHexColor('#fc3'));
 | Method Name | Category | Description | Return Type |
 | ------------| ------------| ------------| ------------|
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
+|`euclideanDistance(initial, final)` |math |Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points. |number |
 |`factorialRecursive(n)` |math |Print factorial of a number using recursive function approach. |number |
 |`factorialIterative(n)` |math |Print factorial of a number using iterative approach. |number |
 |`factorialOneLine(n)` |math |Print factorial of a number using a ternary operator. |number |
