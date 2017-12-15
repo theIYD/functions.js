@@ -1,8 +1,14 @@
 const string_util = require('./util/isString');
-import regexpattern from './util/RegexPatterns';
+const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
-export default function isHexaDecimal(str) {
+/**
+ * @function isHexaDecimal: String is hexadecimal.
+ * @param {*} str 
+ */
+const isHexaDecimal = (str) => {
     string_util.isString(str);
 
     return regexpattern('hexdecimal').test(str);
 }
+
+module.exports = isHexaDecimal

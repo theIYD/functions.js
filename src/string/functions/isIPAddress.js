@@ -1,8 +1,14 @@
 const string_util = require('./util/isString');
-import regexpattern from './util/RegexPatterns';
+const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
-export default function isIPAddress(str) {
+/**
+ * @function isIPAddress: String is an IP address.
+ * @param {*} str 
+ */
+const isIPAddress = (str) => {
     string_util.isString(str);
 
     return regexpattern('ip').test(str);
 }
+
+module.exports = isIPAddress

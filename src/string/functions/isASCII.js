@@ -1,9 +1,15 @@
 const string_util = require('./util/isString');
-import regexpattern from './util/RegexPatterns';
+const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
-export default function isASCII(str) {
+/**
+ * @function isASCII: String contains ASCII characters
+ * @param {*} str 
+ */
+const isASCII = (str) => {
     const regex = regexpattern('ascii');
     
     string_util.isString(str);
     return regex.test(str);
 }
+
+module.exports = isASCII

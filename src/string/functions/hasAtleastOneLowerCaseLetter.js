@@ -4,7 +4,7 @@ const string_util = require('./util/isString');
  * @function hasAtleastOneLowerCaseLetter: String has atleast one lower-cased letter.
  * @param {*} str 
  */
-export default function hasAtleastOneLowerCaseLetter(str) {
+const hasAtleastOneLowerCaseLetter= (str) => {
     string_util.isString(str);
     let temp = false;
     let a = str.split("");
@@ -16,3 +16,5 @@ export default function hasAtleastOneLowerCaseLetter(str) {
 
     return temp;
 }
+
+module.exports = hasAtleastOneLowerCaseLetter

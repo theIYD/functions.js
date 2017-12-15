@@ -1,9 +1,15 @@
 const string_util = require('./util/isString');
-import regexpattern from './util/RegexPatterns';
+const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
-export default function isHexColor(str) {
+/**
+ * @function isHexColor: String is a hex color.
+ * @param {*} str 
+ */
+const isHexColor = (str) => {
     const hex = regexpattern('hexcolor');
 
     string_util.isString(str);
     return hex.test(str);
 }       
+
+module.exports = isHexColor

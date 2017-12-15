@@ -1,4 +1,4 @@
-export default function RegexPatterns(str) {
+const RegexPatterns = (str) => {
     const obj = {
       email: /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
       md5: /^[a-f0-9]{32}$/,
@@ -18,4 +18,8 @@ export default function RegexPatterns(str) {
   });
   
   return temp;
+}
+
+module.exports = {
+  RegexPatterns
 }

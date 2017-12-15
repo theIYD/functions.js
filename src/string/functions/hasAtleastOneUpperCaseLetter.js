@@ -4,7 +4,7 @@ const string_util = require('./util/isString');
  * @function hasAtleastOneUpperCaseLetter: String has atleast one upper-cased letter.
  * @param {*} str 
  */
-export default function hasAtleastOneUpperCaseLetter(str) {
+const hasAtleastOneUpperCaseLetter = (str) => {
     string_util.isString(str);
     let temp = false;
     let a = str.split("");
@@ -15,3 +15,5 @@ export default function hasAtleastOneUpperCaseLetter(str) {
     });
     return temp;
 }
+
+module.exports = hasAtleastOneUpperCaseLetter

@@ -1,9 +1,15 @@
 const string_util = require('./util/isString');
-import regexpattern from './util/RegexPatterns';
+const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
-export default function isMACAddress(str) {
+/**
+ * @function isMACAddress: String is a MAC Address.
+ * @param {*} str 
+ */
+const isMACAddress = (str) => {
     const mac = regexpattern('mac');
     
     string_util.isString(str);
     return mac.test(str);    
 }
+
+module.exports = isMACAddress

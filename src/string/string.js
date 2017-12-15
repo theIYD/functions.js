@@ -1,39 +1,20 @@
-import isBool from './functions/isBool';
-import isEmpty from './functions/isEmpty';
-import isEquals from './functions/isEquals';
-import isMD5 from './functions/isMD5';
-import isPalindrome from './functions/isPalindrome';
-import isEndWith from './functions/isEndWith';
-import isASCII from './functions/isASCII';
-import isHexColor from './functions/isHexColor';
-import isMACAddress from './functions/isMACAddress';
-import isValidEmail from './functions/isValidEmail';
-import isIPAddress from './functions/isIPAddress';
-import isHexaDecimal from './functions/isHexaDecimal';
-import isLowerCase from './functions/isLowerCase';
-import isUpperCase from './functions/isUpperCase';
-import isDataURI from './functions/isDataURI';
-import hasAtleastOneUpperCaseLetter from './functions/hasAtleastOneUpperCaseLetter';
-import hasAtleastLowerCaseLetter from './functions/hasAtleastOneLowerCaseLetter';
-
-const stringfunc = {
-    isItMD5: isMD5,
-    isItEquals: isEquals,
-    isItEmpty: isEmpty,
-    isItBool: isBool,
-    isItPalindrome: isPalindrome,
-    isItEndWith: isEndWith,
-    isItASCII: isASCII,
-    isItHexColor: isHexColor,
-    isItMACAddress: isMACAddress,
-    isItAValidEmail: isValidEmail,
-    isItAnIPAddress: isIPAddress,
-    isItAHexDecimal: isHexaDecimal,
-    isItLowerCased: isLowerCase,
-    isItUpperCased: isUpperCase,
-    isItADataURI: isDataURI,
-    hasAtleastOneUpperCaseLetter: hasAtleastOneUpperCaseLetter,
-    hasAtleastOneLowerCaseLetter: hasAtleastLowerCaseLetter
+module.exports = {
+    isItMD5: require('./functions/isMD5'),
+    isItEquals: require('./functions/isEquals'),
+    isItEmpty: require('./functions/isEmpty'),
+    isItBool: require('./functions/isBool'),
+    isItPalindrome: require('./functions/isPalindrome'),
+    isItEndWith: require('./functions/isEndWith'),
+    isItASCII: require('./functions/isASCII'),
+    isItHexColor: require('./functions/isHexColor'),
+    isItMACAddress: require('./functions/isMACAddress'),
+    isItAValidEmail: require('./functions/isValidEmail'),
+    isItAnIPAddress: require('./functions/isIPAddress'),
+    isItAHexaDecimal: require('./functions/isHexaDecimal'),
+    isItLowerCased: require('./functions/isLowerCase'),
+    isItUpperCased: require('./functions/isUpperCase'),
+    isItADataURI: require('./functions/isDataURI'),
+    hasAtleastOneUpperCaseLetter: require('./functions/hasAtleastOneUpperCaseLetter'),
+    hasAtleastOneLowerCaseLetter: require('./functions/hasAtleastOneLowerCaseLetter'),
+    FisherYates: require('./functions/fisher_yates')
 }
-
-module.exports = {stringfunc};
