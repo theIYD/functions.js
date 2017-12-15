@@ -4,5 +4,6 @@ module.exports = {
     Factorial: require('./functions/factorial'),
     GCD: require('./functions/gcd'),
     MaxOrMin: require('./functions/max_min'),
-    Pythagoras: require('./functions/pythagoras')
+    Pythagoras: require('./functions/pythagoras'),
+    EuclideanDistanceBetweenTwoPoints2D: require('./functions/euclideanDistance')
 };
