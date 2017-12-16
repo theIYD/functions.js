@@ -6,6 +6,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`camelize(str)`',
+        topic: 'string',
+        description: 'Camelize a string i.e CamelCase',
+        return_type: 'string'
+    },
+    {
         title: '`changeBase(number, original, final)`',
         topic: 'math',
         description: 'Convert a base of a number to any base.',

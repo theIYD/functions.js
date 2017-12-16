@@ -18,5 +18,6 @@ module.exports = {
     hasAtleastOneLowerCaseLetter: require('./functions/hasAtleastOneLowerCaseLetter'),
     FisherYates: require('./functions/fisher_yates'),
     RgbToHex: require('./functions/rgbToHex'),
-    Initials: require('./functions/initials')
+    Initials: require('./functions/initials'),
+    Camelize: require('./functions/camelize')
 }

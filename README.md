@@ -34,6 +34,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 | Method Name | Category | Description | Return Type |
 | ------------| ------------| ------------| ------------|
 |`average(arr)` |math |Calculates the average of an array |number |
+|`camelize(str)` |string |Camelize a string i.e CamelCase |string |
 |`changeBase(number, original, final)` |math |Convert a base of a number to any base. |number |
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
 |`euclideanDistance(initial, final)` |math |Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points. |number |
