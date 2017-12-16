@@ -48,6 +48,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`evenOrOdd(number)`',
+        topic: 'math',
+        description: 'Number is even or odd',
+        return_type: 'boolean'
+    },
+    {
         title: '`factorialRecursive(n)`',
         topic: 'math',
         description: 'Print factorial of a number using recursive function approach.',

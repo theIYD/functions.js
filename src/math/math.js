@@ -10,5 +10,6 @@ module.exports = {
     NthRoot: require('./functions/nthRoot'),
     Average: require('./functions/average'),
     BaseChange: require('./functions/changeBase'),
-    SumOfArray: require('./functions/sum')
+    SumOfArray: require('./functions/sum'),
+    EvenOrOdd: require('./functions/evenOrOdd')
 };
