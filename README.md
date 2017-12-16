@@ -70,6 +70,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`isMACAddress(str)` |string |String is a MAC Address. |boolean |
 |`isMD5(str)` |string |String is a a MD5 type. |boolean |
 |`initials(str)` |string |Get the initials of a persons name. |string |
+|`ISO8601WeekNumber(dateObj)` |string |Get ISO-8601 week number of a year. |number |
 |`isPalindrome(str)` |string |String is a palindrome. |boolean |
 |`isUpperCase(str)` |string |String is all upper-cased. |boolean |
 |`isValidEmail(str)` |string |String is a valid email id. |boolean |

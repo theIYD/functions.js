@@ -24,5 +24,6 @@ module.exports = {
     CountVowels: require('./functions/vowels'),
     SecureEmail: require('./functions/secureEmail'),
     Filter: require('./functions/filter'),
-    Escape: require('./functions/escape')
+    Escape: require('./functions/escape'),
+    ISO8601: require('./functions/date')
 }

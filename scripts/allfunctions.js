@@ -204,6 +204,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`ISO8601WeekNumber(dateObj)`',
+        topic: 'string',
+        description: 'Get ISO-8601 week number of a year.',
+        return_type: 'number'
+    },
+    {
         title: '`isPalindrome(str)`',
         topic: 'string',
         description: 'String is a palindrome.',
