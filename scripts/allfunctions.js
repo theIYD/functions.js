@@ -24,6 +24,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`concat(...arrs)`',
+        topic: 'algorithm',
+        description: 'Concatenates into a single array.',
+        return_type: 'arr'
+    },
+    {
         title: '`countPrimeFactors(n)`',
         topic: 'math',
         description: 'A function to count all prime factors of a given number.',
