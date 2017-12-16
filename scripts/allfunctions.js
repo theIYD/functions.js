@@ -174,6 +174,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`nthRoot(number, n)`',
+        topic: 'math',
+        description: 'Calculates the nth root of a positive number',
+        return_type: 'number'
+    },
+    {
         title: '`pythagorasDistance(arg1, arg2)`',
         topic: 'math',
         description: 'Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle',

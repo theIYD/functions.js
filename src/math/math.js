@@ -6,5 +6,6 @@ module.exports = {
     MaxOrMin: require('./functions/max_min'),
     Pythagoras: require('./functions/pythagoras'),
     EuclideanDistance: require('./functions/euclideanDistance'),
-    Slope: require('./functions/slope')
+    Slope: require('./functions/slope'),
+    NthRoot: require('./functions/nthRoot')
 };

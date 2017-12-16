@@ -62,6 +62,7 @@ console.log(func.StringFunc.stringfunc.isItHexColor('#fc3'));
 |`isUpperCase(str)` |string |String is all upper-cased. |boolean |
 |`isValidEmail(str)` |string |String is a valid email id. |boolean |
 |`maxOrMin(arr, task)` |math |Get maximum or minimum of an array |number |
+|`nthRoot(number, n)` |math |Calculates the nth root of a positive number |number |
 |`pythagorasDistance(arg1, arg2)` |math |Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle |number |
 |`slopeOfALine(arg)` |math |Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points. Example arg = 60 degrees or [x0,y0,x1,y1] |number |
 
