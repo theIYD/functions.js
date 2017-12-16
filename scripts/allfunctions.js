@@ -78,6 +78,18 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`filter(arr, elem)`',
+        topic: 'string',
+        description: 'Filter out an element from an array',
+        return_type: 'array'
+    },
+    {
+        title: '`filterFalsy(arr)`',
+        topic: 'string',
+        description: 'Filter out falsy values from an array',
+        return_type: 'array'
+    },
+    {
         title: '`fisherYates(arr)`',
         topic: 'math',
         description: 'Shuffle an array using the Fisher Yates Algorithm using a while loop.',

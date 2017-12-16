@@ -22,5 +22,6 @@ module.exports = {
     Camelize: require('./functions/camelize'),
     GUID: require('./functions/guid'),
     CountVowels: require('./functions/vowels'),
-    SecureEmail: require('./functions/secureEmail')
+    SecureEmail: require('./functions/secureEmail'),
+    Filter: require('./functions/filter')
 }

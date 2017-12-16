@@ -49,6 +49,8 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`factCountTrailingZeroes(n)` |math |Print the count of trailing zeroes in n!. |number |
 |`fibRecursion(n)` |math |Print nth fibonacci number using recursion. |number |
 |`fibDynamic(n)` |math |Print nth fibonacci number using dynamic programming approach. |number |
+|`filter(arr, elem)` |string |Filter out an element from an array |array |
+|`filterFalsy(arr)` |string |Filter out falsy values from an array |array |
 |`fisherYates(arr)` |math |Shuffle an array using the Fisher Yates Algorithm using a while loop. |array |
 |`gcd(numb1, numb2)` |math |Calculate the greatest common divisor among the two numbers using Euclideans algorithm. |number |
 |`guid(len)` |string |Generate a Global Unique Identifier |string |
