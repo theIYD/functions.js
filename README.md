@@ -33,6 +33,7 @@ console.log(func.StringFunc.stringfunc.isItHexColor('#fc3'));
 
 | Method Name | Category | Description | Return Type |
 | ------------| ------------| ------------| ------------|
+|`average(arr)` |math |Calculates the average of an array |number |
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
 |`euclideanDistance(initial, final)` |math |Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points. |number |
 |`factorialRecursive(n)` |math |Print factorial of a number using recursive function approach. |number |

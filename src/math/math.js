@@ -7,5 +7,6 @@ module.exports = {
     Pythagoras: require('./functions/pythagoras'),
     EuclideanDistance: require('./functions/euclideanDistance'),
     Slope: require('./functions/slope'),
-    NthRoot: require('./functions/nthRoot')
+    NthRoot: require('./functions/nthRoot'),
+    Average: require('./functions/average')
 };

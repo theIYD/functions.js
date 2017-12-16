@@ -1,5 +1,11 @@
 const funcs = [
     {
+        title: '`average(arr)`',
+        topic: 'math',
+        description: 'Calculates the average of an array',
+        return_type: 'number'
+    },
+    {
         title: '`countPrimeFactors(n)`',
         topic: 'math',
         description: 'A function to count all prime factors of a given number.',
