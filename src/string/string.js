@@ -23,5 +23,6 @@ module.exports = {
     GUID: require('./functions/guid'),
     CountVowels: require('./functions/vowels'),
     SecureEmail: require('./functions/secureEmail'),
-    Filter: require('./functions/filter')
+    Filter: require('./functions/filter'),
+    Escape: require('./functions/escape')
 }

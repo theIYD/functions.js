@@ -42,6 +42,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
 |`countVowels(str)` |string |Count the number of vowels in a string. |number |
 |`doublefactorial(n)` |math |Print semi-factorial or double factorial of number using the iterative approach. |number |
+|`escape(str)` |string |Escape characters from string |string |
 |`euclideanDistance(initial, final)` |math |Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points. |number |
 |`factorialRecursive(n)` |math |Print factorial of a number using recursive function approach. |number |
 |`factorialIterative(n)` |math |Print factorial of a number using iterative approach. |number |

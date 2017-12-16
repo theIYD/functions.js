@@ -36,6 +36,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`escape(str)`',
+        topic: 'string',
+        description: 'Escape characters from string',
+        return_type: 'string'
+    },
+    {
         title: '`euclideanDistance(initial, final)`',
         topic: 'math',
         description: 'Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points.',
