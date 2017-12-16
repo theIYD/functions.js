@@ -228,6 +228,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`secureEmail(str)`',
+        topic: 'string',
+        description: 'Secures your email using asterisks',
+        return_type: 'string'
+    },
+    {
         title: '`slopeOfALine(arg)`',
         topic: 'math',
         description: 'Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points. Example arg = 60 degrees or [x0,y0,x1,y1]',

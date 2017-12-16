@@ -21,5 +21,6 @@ module.exports = {
     Initials: require('./functions/initials'),
     Camelize: require('./functions/camelize'),
     GUID: require('./functions/guid'),
-    CountVowels: require('./functions/vowels')
+    CountVowels: require('./functions/vowels'),
+    SecureEmail: require('./functions/secureEmail')
 }
