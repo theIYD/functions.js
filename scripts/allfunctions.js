@@ -6,6 +6,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`changeBase(number, original, final)`',
+        topic: 'math',
+        description: 'Convert a base of a number to any base.',
+        return_type: 'number'
+    },
+    {
         title: '`countPrimeFactors(n)`',
         topic: 'math',
         description: 'A function to count all prime factors of a given number.',

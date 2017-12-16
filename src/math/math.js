@@ -8,5 +8,6 @@ module.exports = {
     EuclideanDistance: require('./functions/euclideanDistance'),
     Slope: require('./functions/slope'),
     NthRoot: require('./functions/nthRoot'),
-    Average: require('./functions/average')
+    Average: require('./functions/average'),
+    BaseChange: require('./functions/changeBase')
 };
