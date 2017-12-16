@@ -162,6 +162,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`initials(str)`',
+        topic: 'string',
+        description: 'Get the initials of a persons name.',
+        return_type: 'string'
+    },
+    {
         title: '`isPalindrome(str)`',
         topic: 'string',
         description: 'String is a palindrome.',
