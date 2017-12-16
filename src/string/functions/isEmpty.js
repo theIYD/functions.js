@@ -6,7 +6,7 @@ const string_util = require('./util/isString');
  */
 const isEmpty = (str) => {
     string_util.isString(str);
-    return (str === null || str === 'undefined');
+    return (str === null || str === 'undefined' || str.length === 0);
 }
 
 module.exports = isEmpty
