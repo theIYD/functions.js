@@ -6,6 +6,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`bubbleSort(arr)`',
+        topic: 'algorithm',
+        description: 'Sort an array using bubble sort technique',
+        return_type: 'array'
+    },
+    {
         title: '`camelize(str)`',
         topic: 'string',
         description: 'Camelize a string i.e CamelCase',
