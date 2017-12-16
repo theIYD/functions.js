@@ -9,7 +9,7 @@ let func_generated_table = `## Methods \n\n| Method Name | Category | Descriptio
 const header = `![](https://github.com/theIYD/functions.js/blob/master/media/functionsjs.png)\n
 # functions.js\n
 > **functions.js** is a hub of various functions or methods which act differently according to their functionality.\n
- - Please feel free to contribute, read the ![contributions guide](https://github.com/theIYD/functions.js/blob/master/CONTRIBUTING.md).
+ - Please feel free to contribute, read the <a href="https://github.com/theIYD/functions.js/blob/master/CONTRIBUTING.md">contributing guide</a>.
  - The code is written in ES6.\n
 `;
 
@@ -28,9 +28,9 @@ func_generated_table += '\n';
 
 const marked = '```';
 
-const jscode = `const func = require('functions.js');\n\nconsole.log(func.MathFunc.Pythagoras.pythagorasDistance(3,4));\n//returns '5'\n\nconsole.log(func.StringFunc.stringfunc.isItHexColor('#fc3'));\n//returns 'true'\n` + marked + '\n';
+const jscode = `const func = require('functions.js');\n\nconsole.log(func.MathFunc.EuclideanDistance([3,4,5], [8,7,9]));\n//returns '7.0710678118654755'\n\nconsole.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));\n//returns 'true'\n` + marked + '\n';
 
-const install = `## Install\n\nThe project is up on ![npm]() and can be used in a project by: \n\n` + marked + `\nnpm install --save functions.js\n\n` + marked + '\n';
+const install = `## Install\n\nThe project is up on <a href="#">npm</a> and can be used in a project by: \n\n` + marked + `\nnpm install --save functions.js\n\n` + marked + '\n';
 
 const usage = `## Usage\n\nBelow is an example on how to use the library into your projects.\n\n` + marked + 'js\n\n' + jscode;
 

@@ -4,12 +4,12 @@
 
 > **functions.js** is a hub of various functions or methods which act differently according to their functionality.
 
- - Please feel free to contribute, read the ![contributions guide](https://github.com/theIYD/functions.js/blob/master/CONTRIBUTING.md).
+ - Please feel free to contribute, read the <a href="https://github.com/theIYD/functions.js/blob/master/CONTRIBUTING.md">contributing guide</a>.
  - The code is written in ES6.
 
 ## Install
 
-The project is up on ![npm]() and can be used in a project by: 
+The project is up on <a href="#">npm</a> and can be used in a project by: 
 
 ```
 npm install --save functions.js
@@ -23,10 +23,10 @@ Below is an example on how to use the library into your projects.
 
 const func = require('functions.js');
 
-console.log(func.MathFunc.Pythagoras.pythagorasDistance(3,4));
-//returns '5'
+console.log(func.MathFunc.EuclideanDistance([3,4,5], [8,7,9]));
+//returns '7.0710678118654755'
 
-console.log(func.StringFunc.stringfunc.isItHexColor('#fc3'));
+console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 //returns 'true'
 ```
 ## Methods 
