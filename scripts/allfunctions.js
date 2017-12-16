@@ -258,6 +258,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`reverse(arr)`',
+        topic: 'algorithm',
+        description: 'Reverse an array',
+        return_type: 'arr'
+    },
+    {
         title: '`rgbToHex(red,green,blue)`',
         topic: 'string',
         description: 'RGB to Hex format',
