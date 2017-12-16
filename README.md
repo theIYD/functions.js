@@ -37,16 +37,17 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`camelize(str)` |string |Camelize a string i.e CamelCase |string |
 |`changeBase(number, original, final)` |math |Convert a base of a number to any base. |number |
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
+|`doublefactorial(n)` |math |Print semi-factorial or double factorial of number using the iterative approach. |number |
 |`euclideanDistance(initial, final)` |math |Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points. |number |
 |`factorialRecursive(n)` |math |Print factorial of a number using recursive function approach. |number |
 |`factorialIterative(n)` |math |Print factorial of a number using iterative approach. |number |
 |`factorialOneLine(n)` |math |Print factorial of a number using a ternary operator. |number |
-|`doublefactorial(n)` |math |Print semi-factorial or double factorial of number using the iterative approach. |number |
 |`factCountTrailingZeroes(n)` |math |Print the count of trailing zeroes in n!. |number |
 |`fibRecursion(n)` |math |Print nth fibonacci number using recursion. |number |
 |`fibDynamic(n)` |math |Print nth fibonacci number using dynamic programming approach. |number |
 |`fisherYates(arr)` |math |Shuffle an array using the Fisher Yates Algorithm using a while loop. |array |
 |`gcd(numb1, numb2)` |math |Calculate the greatest common divisor among the two numbers using Euclideans algorithm. |number |
+|`guid(len)` |string |Generate a Global Unique Identifier |string |
 |`hasAtleastOneUpperCaseLetter(str)` |string |String has atleast one upper-cased letter. |boolean |
 |`hasAtleastOneLowerCaseLetter(str)` |string |String has atleast one lower-cased letter. |boolean |
 |`isASCII(str)` |string |String contains ASCII characters |boolean |

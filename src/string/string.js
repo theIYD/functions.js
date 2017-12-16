@@ -19,5 +19,6 @@ module.exports = {
     FisherYates: require('./functions/fisher_yates'),
     RgbToHex: require('./functions/rgbToHex'),
     Initials: require('./functions/initials'),
-    Camelize: require('./functions/camelize')
+    Camelize: require('./functions/camelize'),
+    GUID: require('./functions/guid')
 }

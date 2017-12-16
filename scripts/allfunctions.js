@@ -24,6 +24,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`doublefactorial(n)`',
+        topic: 'math',
+        description: 'Print semi-factorial or double factorial of number using the iterative approach.',
+        return_type: 'number'
+    },
+    {
         title: '`euclideanDistance(initial, final)`',
         topic: 'math',
         description: 'Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points.',
@@ -45,12 +51,6 @@ const funcs = [
         title: '`factorialOneLine(n)`',
         topic: 'math',
         description: 'Print factorial of a number using a ternary operator.',
-        return_type: 'number'
-    },
-    {
-        title: '`doublefactorial(n)`',
-        topic: 'math',
-        description: 'Print semi-factorial or double factorial of number using the iterative approach.',
         return_type: 'number'
     },
     {
@@ -82,6 +82,12 @@ const funcs = [
         topic: 'math',
         description: 'Calculate the greatest common divisor among the two numbers using Euclideans algorithm.',
         return_type: 'number'
+    },
+    {
+        title: '`guid(len)`',
+        topic: 'string',
+        description: 'Generate a Global Unique Identifier',
+        return_type: 'string'
     },
     {
         title: '`hasAtleastOneUpperCaseLetter(str)`',
