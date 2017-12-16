@@ -24,6 +24,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`countVowels(str)`',
+        topic: 'string',
+        description: 'Count the number of vowels in a string.',
+        return_type: 'number'
+    },
+    {
         title: '`doublefactorial(n)`',
         topic: 'math',
         description: 'Print semi-factorial or double factorial of number using the iterative approach.',

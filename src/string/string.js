@@ -20,5 +20,6 @@ module.exports = {
     RgbToHex: require('./functions/rgbToHex'),
     Initials: require('./functions/initials'),
     Camelize: require('./functions/camelize'),
-    GUID: require('./functions/guid')
+    GUID: require('./functions/guid'),
+    CountVowels: require('./functions/vowels')
 }
