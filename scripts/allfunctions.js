@@ -258,6 +258,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`remove(arr)`',
+        topic: 'algorithm',
+        description: 'Remove an element from an array',
+        return_type: 'arr'
+    },
+    {
         title: '`reverse(arr)`',
         topic: 'algorithm',
         description: 'Reverse an array',
