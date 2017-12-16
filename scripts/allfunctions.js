@@ -202,7 +202,13 @@ const funcs = [
         topic: 'math',
         description: 'Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points. Example arg = 60 degrees or [x0,y0,x1,y1]',
         return_type: 'number'
-    }
+    },
+    {
+        title: '`sumOfArray(arr)`',
+        topic: 'math',
+        description: 'Addition of all the integers in an array',
+        return_type: 'number'
+    },
 ];
 
 module.exports = funcs;

@@ -67,6 +67,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`nthRoot(number, n)` |math |Calculates the nth root of a positive number |number |
 |`pythagorasDistance(arg1, arg2)` |math |Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle |number |
 |`slopeOfALine(arg)` |math |Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points. Example arg = 60 degrees or [x0,y0,x1,y1] |number |
+|`sumOfArray(arr)` |math |Addition of all the integers in an array |number |
 
 
 ## License
