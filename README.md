@@ -23,6 +23,9 @@ Below is an example on how to use the library into your projects.
 
 const func = require('functions.js');
 
+console.log(func.StringFunc.SecureEmail('helloworld@example.com'));
+//returns 'he********@example.com'
+
 console.log(func.MathFunc.EuclideanDistance([3,4,5], [8,7,9]));
 //returns '7.0710678118654755'
 
