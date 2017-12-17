@@ -1,9 +1,9 @@
 module.exports = {
-    BubbleSort: require('./functions/bubbleSort'),
-    SelectionSort: require('./functions/selectionSort'),
-    Reverse: require('./functions/reverse'),
-    Remove: require('./functions/remove'),
-    Concat: require('./functions/concat'),
     BinarySearch: require('./functions/binarySearch'),
-    LinearSearch: require('./functions/linearSearch')
+    BubbleSort: require('./functions/bubbleSort'),
+    Concat: require('./functions/concat'),
+    LinearSearch: require('./functions/linearSearch'),
+    Remove: require('./functions/remove'),
+    Reverse: require('./functions/reverse'),
+    SelectionSort: require('./functions/selectionSort')
 }
