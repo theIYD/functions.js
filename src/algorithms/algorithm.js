@@ -3,5 +3,6 @@ module.exports = {
     SelectionSort: require('./functions/selectionSort'),
     Reverse: require('./functions/reverse'),
     Remove: require('./functions/remove'),
-    Concat: require('./functions/concat')
+    Concat: require('./functions/concat'),
+    BinarySearch: require('./functions/binarySearch')
 }

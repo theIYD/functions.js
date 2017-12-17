@@ -6,6 +6,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`binarySearch(arr, elem)`',
+        topic: 'algorithm',
+        description: 'Search an element using binary search tehcnique',
+        return_type: 'number(position)'
+    },
+    {
         title: '`bubbleSort(arr)`',
         topic: 'algorithm',
         description: 'Sort an array using bubble sort technique',

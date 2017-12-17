@@ -40,6 +40,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 | Method Name | Category | Description | Return Type |
 | ------------| ------------| ------------| ------------|
 |`average(arr)` |math |Calculates the average of an array |number |
+|`binarySearch(arr, elem)` |algorithm |Search an element using binary search tehcnique |number(position) |
 |`bubbleSort(arr)` |algorithm |Sort an array using bubble sort technique |array |
 |`camelize(str)` |string |Camelize a string i.e CamelCase |string |
 |`changeBase(number, original, final)` |math |Convert a base of a number to any base. |number |
