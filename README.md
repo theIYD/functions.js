@@ -96,5 +96,8 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`sumOfArray(arr)` |math |Addition of all the integers in an array |number |
 
 
+## About
+ The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/package/okay-string">okay-string</a>**. I thought of rename it & learn more by actually practicing functions. That's how <code>functions.js</code> was created.
+
 ## License
  The project is licensed under ![MIT](https://github.com/theIYD/functions.js/blob/master/LICENSE)
