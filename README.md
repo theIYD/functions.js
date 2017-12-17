@@ -9,7 +9,7 @@
 
 ## Install
 
-The project is up on <a href="#">npm</a> and can be used in a project by: 
+The project is up on <a href="https://www.npmjs.com/package/functions.js">npm</a> and can be used in a project by: 
 
 ```
 npm install --save functions.js

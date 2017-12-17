@@ -30,7 +30,7 @@ const marked = '```';
 
 const jscode = `const func = require('functions.js');\n\nconsole.log(func.StringFunc.SecureEmail('helloworld@example.com'));\n//returns 'he********@example.com'\n\nconsole.log(func.MathFunc.EuclideanDistance([3,4,5], [8,7,9]));\n//returns '7.0710678118654755'\n\nconsole.log(func.AlgoFunc.Reverse([17,65,100,32,98,14,25]));\n//returns '[25,14,98,32,100,65,17]'\n\nconsole.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));\n//returns 'true'\n` + marked + '\n';
 
-const install = `## Install\n\nThe project is up on <a href="#">npm</a> and can be used in a project by: \n\n` + marked + `\nnpm install --save functions.js\n\n` + marked + '\n';
+const install = `## Install\n\nThe project is up on <a href="https://www.npmjs.com/package/functions.js">npm</a> and can be used in a project by: \n\n` + marked + `\nnpm install --save functions.js\n\n` + marked + '\n';
 
 const usage = `## Usage\n\nBelow is an example on how to use the library into your projects.\n\n` + marked + 'js\n\n' + jscode;
 
