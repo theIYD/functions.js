@@ -4,5 +4,6 @@ module.exports = {
     Reverse: require('./functions/reverse'),
     Remove: require('./functions/remove'),
     Concat: require('./functions/concat'),
-    BinarySearch: require('./functions/binarySearch')
+    BinarySearch: require('./functions/binarySearch'),
+    LinearSearch: require('./functions/linearSearch')
 }

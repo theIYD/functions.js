@@ -258,6 +258,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`linearSearch(arr, elem)`',
+        topic: 'algorithm',
+        description: 'Search an element using linear search technique',
+        return_type: 'number(position)'
+    },
+    {
         title: '`maxOrMin(arr, task)`',
         topic: 'math',
         description: 'Get maximum or minimum of an array',
