@@ -29,6 +29,9 @@ console.log(func.StringFunc.SecureEmail('helloworld@example.com'));
 console.log(func.MathFunc.EuclideanDistance([3,4,5], [8,7,9]));
 //returns '7.0710678118654755'
 
+console.log(func.AlgoFunc.Reverse([17,65,100,32,98,14,25]));
+//returns '[25,14,98,32,100,65,17]'
+
 console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 //returns 'true'
 ```

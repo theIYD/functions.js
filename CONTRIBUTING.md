@@ -7,7 +7,7 @@
 
 - The function should be explained above the function declaration itself with the help of multi-line comments. 
 
-- The code written should be in **ES6** only.
+- The code written should be preferably in **ES6** standard.
 
 - Be sure to test the function before making a pull request. 
 

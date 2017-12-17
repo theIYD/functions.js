@@ -28,7 +28,7 @@ func_generated_table += '\n';
 
 const marked = '```';
 
-const jscode = `const func = require('functions.js');\n\nconsole.log(func.StringFunc.SecureEmail('helloworld@example.com'));\n//returns 'he********@example.com'\n\nconsole.log(func.MathFunc.EuclideanDistance([3,4,5], [8,7,9]));\n//returns '7.0710678118654755'\n\nconsole.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));\n//returns 'true'\n` + marked + '\n';
+const jscode = `const func = require('functions.js');\n\nconsole.log(func.StringFunc.SecureEmail('helloworld@example.com'));\n//returns 'he********@example.com'\n\nconsole.log(func.MathFunc.EuclideanDistance([3,4,5], [8,7,9]));\n//returns '7.0710678118654755'\n\nconsole.log(func.AlgoFunc.Reverse([17,65,100,32,98,14,25]));\n//returns '[25,14,98,32,100,65,17]'\n\nconsole.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));\n//returns 'true'\n` + marked + '\n';
 
 const install = `## Install\n\nThe project is up on <a href="#">npm</a> and can be used in a project by: \n\n` + marked + `\nnpm install --save functions.js\n\n` + marked + '\n';
 
@@ -44,7 +44,7 @@ const contributing_guide_content = `\n### Guide for new functions\n
 
 - The function should be explained above the function declaration itself with the help of multi-line comments. 
 
-- The code written should be in **ES6** only.
+- The code written should be preferably in **ES6** standard.
 
 - Be sure to test the function before making a pull request. 
 
