@@ -40,6 +40,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`bubbleSort(arr)` |algorithm |Sort an array using bubble sort technique |array |
 |`camelize(str)` |string |Camelize a string i.e CamelCase |string |
 |`changeBase(number, original, final)` |math |Convert a base of a number to any base. |number |
+|`combination(number,rep)` |math |Calculates simple combination. |number |
 |`concat(...arrs)` |algorithm |Concatenates into a single array. |arr |
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
 |`countVowels(str)` |string |Count the number of vowels in a string. |number |

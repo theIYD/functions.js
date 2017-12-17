@@ -11,5 +11,6 @@ module.exports = {
     Average: require('./functions/average'),
     BaseChange: require('./functions/changeBase'),
     SumOfArray: require('./functions/sum'),
-    EvenOrOdd: require('./functions/evenOrOdd')
+    EvenOrOdd: require('./functions/evenOrOdd'),
+    Combination: require('./functions/combination')
 };

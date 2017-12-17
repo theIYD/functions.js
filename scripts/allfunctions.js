@@ -24,6 +24,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`combination(number,rep)`',
+        topic: 'math',
+        description: 'Calculates simple combination.',
+        return_type: 'number'
+    },
+    {
         title: '`concat(...arrs)`',
         topic: 'algorithm',
         description: 'Concatenates into a single array.',
