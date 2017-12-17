@@ -7,7 +7,7 @@ let func_generated_table = `## Methods \n\n| Method Name | Category | Descriptio
 | ------------| ------------| ------------| ------------|`;
 
 const header = `![](https://github.com/theIYD/functions.js/blob/master/media/functionsjs.png)\n
-# functions.js\n
+# functions.js\n[![npm](https://img.shields.io/npm/v/functions.js.svg)](https://www.npmjs.com/package/functions.js) [![npm](https://img.shields.io/npm/dw/functions.js.svg)](https://www.npmjs.com/package/functions.js) [![GitHub stars](https://img.shields.io/github/stars/theIYD/functions.js.svg)](https://github.com/theIYD/functions.js/stargazers) [![GitHub license](https://img.shields.io/github/license/theIYD/functions.js.svg)](https://github.com/theIYD/functions.js/blob/master/LICENSE)\n
 > **functions.js** is a hub of various functions or methods which act differently according to their functionality.\n
  - Please feel free to contribute, read the <a href="https://github.com/theIYD/functions.js/blob/master/CONTRIBUTING.md">contributing guide</a>.
  - The code is written in ES6.\n

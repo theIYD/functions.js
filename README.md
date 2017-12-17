@@ -1,6 +1,7 @@
 ![](https://github.com/theIYD/functions.js/blob/master/media/functionsjs.png)
 
 # functions.js
+[![npm](https://img.shields.io/npm/v/functions.js.svg)](https://www.npmjs.com/package/functions.js) [![npm](https://img.shields.io/npm/dw/functions.js.svg)](https://www.npmjs.com/package/functions.js) [![GitHub stars](https://img.shields.io/github/stars/theIYD/functions.js.svg)](https://github.com/theIYD/functions.js/stargazers) [![GitHub license](https://img.shields.io/github/license/theIYD/functions.js.svg)](https://github.com/theIYD/functions.js/blob/master/LICENSE)
 
 > **functions.js** is a hub of various functions or methods which act differently according to their functionality.
 
