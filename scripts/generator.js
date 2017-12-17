@@ -42,9 +42,11 @@ output = header + install + usage + func_generated_table + about + license;
 const contributing_guide_header = `# Contributing ✏️\n To this project, you can contribute by sending pull requests for new functions that might solve some problem or reduce the complexity of a problem.\n`;
 
 const contributing_guide_content = `\n### Guide for new functions\n 
--  The function should be created in <code>src/{category}/functions/{filename.js}</code>. Add the function names to <code>category.js</code> and <code>allfunctions.js</code>.
+-  The function should be created in <code>src/{category}/functions/{filename.js}</code>. Add the function names to <code>{category}.js</code> and <code>allfunctions.js</code>.
 
 - While adding the function names to above mentioned files, make sure to maintain the **alphabetical order**.
+
+- The functions defined in <code>{category}.js</code> should have first letter of every word **capitalized** to maintain the consistency.
 
 - The function should be explained above the function declaration itself with the help of **JSDOC**. 
 

@@ -66,6 +66,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`guid(len)` |string |Generate a Global Unique Identifier |string |
 |`hasAtleastOneUpperCaseLetter(str)` |string |String has atleast one upper-cased letter. |boolean |
 |`hasAtleastOneLowerCaseLetter(str)` |string |String has atleast one lower-cased letter. |boolean |
+|`insertionSort(arr)` |algorithm |Sort an array using the insertion sort technique. |array |
 |`isASCII(str)` |string |String contains ASCII characters |boolean |
 |`isBool(str)` |string |String contains true or false |boolean |
 |`isDataURI(str)` |string |String is a data uri format. |boolean |
