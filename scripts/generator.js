@@ -34,9 +34,9 @@ const install = `## Install\n\nThe project is up on <a href="#">npm</a> and can 
 
 const usage = `## Usage\n\nBelow is an example on how to use the library into your projects.\n\n` + marked + 'js\n\n' + jscode;
 
-const about = `\n## About\n The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/package/okay-string">okay-string</a>**. I thought of rename it & learn more by actually practicing functions. That's how <code>functions.js</code> was created.\n`;
+const about = `\n## About\n The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/package/okay-string">okay-string</a>**. I thought of renaming it to <em>functions</em> & learn more by actually practicing functions. That's how <code>functions.js</code> was created.😍\n`;
 
-const license = `\n## License\n The project is licensed under ![MIT](https://github.com/theIYD/functions.js/blob/master/LICENSE)`;
+const license = `\n## License\n The project is licensed under <a href="https://github.com/theIYD/functions.js/blob/master/LICENSE">MIT</a>`;
 output = header + install + usage + func_generated_table + about + license;
 
 const contributing_guide_header = `# Contributing\n To this project, you can contribute by sending pull requests for new functions that might solve some problem or reduce the complexity of a problem.\n`;
