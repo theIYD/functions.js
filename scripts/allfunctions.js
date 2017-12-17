@@ -264,9 +264,15 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`permutation(num,rep)`',
+        topic: 'math',
+        description: 'Calculates simple permutation.',
+        return_type: 'number'
+    },
+    {
         title: '`pythagorasDistance(arg1, arg2)`',
         topic: 'math',
-        description: 'Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle',
+        description: 'Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle.',
         return_type: 'number'
     },
     {

@@ -12,5 +12,6 @@ module.exports = {
     BaseChange: require('./functions/changeBase'),
     SumOfArray: require('./functions/sum'),
     EvenOrOdd: require('./functions/evenOrOdd'),
-    Combination: require('./functions/combination')
+    Combination: require('./functions/combination'),
+    Permutation: require('./functions/permutation')
 };
