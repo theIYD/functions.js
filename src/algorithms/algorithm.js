@@ -5,5 +5,6 @@ module.exports = {
     LinearSearch: require('./functions/linearSearch'),
     Remove: require('./functions/remove'),
     Reverse: require('./functions/reverse'),
-    SelectionSort: require('./functions/selectionSort')
+    SelectionSort: require('./functions/selectionSort'),
+    InsertionSort: require('./functions/insertionSort')
 }

@@ -156,6 +156,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`insertionSort(arr)`',
+        topic: 'algorithm',
+        description: 'Sort an array using the insertion sort technique.',
+        return_type: 'array'
+    },
+    {
         title: '`isASCII(str)`',
         topic: 'string',
         description: 'String contains ASCII characters',
