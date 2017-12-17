@@ -3,7 +3,9 @@
 
 ### Guide for new functions
  
--  The function should be created in <code>src/{category}/functions/{filename.js}</code> Add the particular function entry to category.js.
+-  The function should be created in <code>src/{category}/functions/{filename.js}</code> Add the particular function entry to <code>allfunctions.js</code>.
+
+- While adding the function to <code>allfunctions.js</code>, make sure to maintain the alphabetical order.
 
 - The function should be explained above the function declaration itself with the help of multi-line comments. 
 
