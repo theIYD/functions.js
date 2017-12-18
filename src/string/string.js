@@ -26,5 +26,6 @@ module.exports = {
     IsItMACAddress: require('./functions/isMACAddress'),
     IsItMD5: require('./functions/isMD5'),
     IsItPalindrome: require('./functions/isPalindrome'),
-    IsItUpperCased: require('./functions/isUpperCase')
+    IsItUpperCased: require('./functions/isUpperCase'),
+    SecurePassword: require('./functions/securePassword')
 }

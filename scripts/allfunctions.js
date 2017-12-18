@@ -330,6 +330,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`securePassword(str)`',
+        topic: 'string',
+        description: 'Secure password using astrisks',
+        return_type: 'string'
+    },
+    {
         title: '`selectionSort(arr)`',
         topic: 'algorithm',
         description: 'Sort an array using the selection sort technique',
