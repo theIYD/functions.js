@@ -168,6 +168,12 @@ const funcs = [
         return_type: 'array'
     },
     {
+        title: '`humanizeNumber(num)`',
+        topic: 'string',
+        description: 'Humanize a number.',
+        return_type: 'string'
+    },
+    {
         title: '`insertionSort(arr)`',
         topic: 'algorithm',
         description: 'Sort an array using the insertion sort technique.',

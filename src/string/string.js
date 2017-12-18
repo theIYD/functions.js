@@ -10,6 +10,7 @@ module.exports = {
     HasAtleastOneLowerCaseLetter: require('./functions/hasAtleastOneLowerCaseLetter'),
     HasAtleastOneUpperCaseLetter: require('./functions/hasAtleastOneUpperCaseLetter'),
     HexToRGB: require('./functions/hexToRgb'),
+    HumanizeNumber: require('./functions/humanizeNumber'),
     IsItADataURI: require('./functions/isDataURI'),
     IsItAHexaDecimal: require('./functions/isHexaDecimal'),
     IsItASCII: require('./functions/isASCII'),

@@ -68,6 +68,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`hasAtleastOneUpperCaseLetter(str)` |string |String has atleast one upper-cased letter. |boolean |
 |`hasAtleastOneLowerCaseLetter(str)` |string |String has atleast one lower-cased letter. |boolean |
 |`hexToRgb(hex)` |string |Converts hex color to RGB. |array |
+|`humanizeNumber(num)` |string |Humanize a number. |string |
 |`insertionSort(arr)` |algorithm |Sort an array using the insertion sort technique. |array |
 |`isASCII(str)` |string |String contains ASCII characters |boolean |
 |`isBool(str)` |string |String contains true or false |boolean |
