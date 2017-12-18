@@ -318,6 +318,12 @@ const funcs = [
         return_type: 'arr'
     },
     {
+        title: '`removeTags(str)`',
+        topic: 'string',
+        description: 'Remove tags from an HTML statement',
+        return_type: 'string'
+    },
+    {
         title: '`reverse(arr)`',
         topic: 'algorithm',
         description: 'Reverse an array',

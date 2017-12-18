@@ -93,6 +93,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`permutation(num,rep)` |math |Calculates simple permutation. |number |
 |`pythagorasDistance(arg1, arg2)` |math |Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle. |number |
 |`remove(arr)` |algorithm |Remove an element from an array |arr |
+|`removeTags(str)` |string |Remove tags from an HTML statement |string |
 |`reverse(arr)` |algorithm |Reverse an array |arr |
 |`rgbToHex(red,green,blue)` |string |RGB to Hex format |string |
 |`secureEmail(str)` |string |Secures your email using asterisks |string |

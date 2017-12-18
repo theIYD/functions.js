@@ -26,6 +26,7 @@ module.exports = {
     IsItMD5: require('./functions/isMD5'),
     IsItPalindrome: require('./functions/isPalindrome'),
     IsItUpperCased: require('./functions/isUpperCase'),
+    RemoveTags: require('./functions/removeTags'),
     RgbToHex: require('./functions/rgbToHex'),
     SecureEmail: require('./functions/secureEmail'),
     SecurePassword: require('./functions/securePassword')
