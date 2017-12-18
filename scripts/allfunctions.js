@@ -132,6 +132,12 @@ const funcs = [
         return_type: 'array'
     },
     {
+        title: '`flatten(arr, givenArr)`',
+        topic: 'algorithm',
+        description: 'Flatten/Merge two arrays.',
+        return_type: 'array'
+    },
+    {
         title: '`gcd(numb1, numb2)`',
         topic: 'math',
         description: 'Calculate the greatest common divisor among the two numbers using Euclideans algorithm.',

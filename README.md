@@ -62,6 +62,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`filter(arr, elem)` |string |Filter out an element from an array |array |
 |`filterFalsy(arr)` |string |Filter out falsy values from an array |array |
 |`fisherYates(arr)` |math |Shuffle an array using the Fisher Yates Algorithm using a while loop. |array |
+|`flatten(arr, givenArr)` |algorithm |Flatten/Merge two arrays. |array |
 |`gcd(numb1, numb2)` |math |Calculate the greatest common divisor among the two numbers using Euclideans algorithm. |number |
 |`guid(len)` |string |Generate a Global Unique Identifier |string |
 |`hasAtleastOneUpperCaseLetter(str)` |string |String has atleast one upper-cased letter. |boolean |
