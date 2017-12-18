@@ -11,6 +11,7 @@ module.exports = {
     SecureEmail: require('./functions/secureEmail'),
     HasAtleastOneLowerCaseLetter: require('./functions/hasAtleastOneLowerCaseLetter'),
     HasAtleastOneUpperCaseLetter: require('./functions/hasAtleastOneUpperCaseLetter'),
+    HexToRGB: require('./functions/hexToRgb'),
     IsItADataURI: require('./functions/isDataURI'),
     IsItAHexaDecimal: require('./functions/isHexaDecimal'),
     IsItASCII: require('./functions/isASCII'),

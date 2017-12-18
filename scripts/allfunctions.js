@@ -162,6 +162,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`hexToRgb(hex)`',
+        topic: 'string',
+        description: 'Converts hex color to RGB.',
+        return_type: 'array'
+    },
+    {
         title: '`insertionSort(arr)`',
         topic: 'algorithm',
         description: 'Sort an array using the insertion sort technique.',
