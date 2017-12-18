@@ -1,6 +1,6 @@
 const isString = (input) => {
     if(!(typeof input === 'string' || input instanceof String)) {
-        throw new TypeError('String validation only');
+        throw new TypeError('Enter String Only !');
     }
 }
 
