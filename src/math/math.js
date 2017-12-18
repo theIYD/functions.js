@@ -8,6 +8,7 @@ module.exports = {
     Factorial: require('./functions/factorial'),
     Fibonacci: require('./functions/fibonacci'),
     GCD: require('./functions/gcd'),
+    HammingDistance: require('./functions/hammingDistance'),
     MaxOrMin: require('./functions/max_min'),
     NthRoot: require('./functions/nthRoot'),
     Permutation: require('./functions/permutation'),

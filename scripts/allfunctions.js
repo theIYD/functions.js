@@ -150,6 +150,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`hammingDistance(number1, number2)`',
+        topic: 'math',
+        description: 'Calculate hamming distance.',
+        return_type: 'number'
+    },
+    {
         title: '`hasAtleastOneUpperCaseLetter(str)`',
         topic: 'string',
         description: 'String has atleast one upper-cased letter.',

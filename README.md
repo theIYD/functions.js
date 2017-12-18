@@ -65,6 +65,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`flatten(arr, givenArr)` |algorithm |Flatten/Merge two arrays. |array |
 |`gcd(numb1, numb2)` |math |Calculate the greatest common divisor among the two numbers using Euclideans algorithm. |number |
 |`guid(len)` |string |Generate a Global Unique Identifier |string |
+|`hammingDistance(number1, number2)` |math |Calculate hamming distance. |number |
 |`hasAtleastOneUpperCaseLetter(str)` |string |String has atleast one upper-cased letter. |boolean |
 |`hasAtleastOneLowerCaseLetter(str)` |string |String has atleast one lower-cased letter. |boolean |
 |`hexToRgb(hex)` |string |Converts hex color to RGB. |array |
