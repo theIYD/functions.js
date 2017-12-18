@@ -7,8 +7,6 @@ module.exports = {
     GUID: require('./functions/guid'),
     ISO8601: require('./functions/date'),
     Initials: require('./functions/initials'),
-    RgbToHex: require('./functions/rgbToHex'),
-    SecureEmail: require('./functions/secureEmail'),
     HasAtleastOneLowerCaseLetter: require('./functions/hasAtleastOneLowerCaseLetter'),
     HasAtleastOneUpperCaseLetter: require('./functions/hasAtleastOneUpperCaseLetter'),
     HexToRGB: require('./functions/hexToRgb'),
@@ -27,5 +25,7 @@ module.exports = {
     IsItMD5: require('./functions/isMD5'),
     IsItPalindrome: require('./functions/isPalindrome'),
     IsItUpperCased: require('./functions/isUpperCase'),
+    RgbToHex: require('./functions/rgbToHex'),
+    SecureEmail: require('./functions/secureEmail'),
     SecurePassword: require('./functions/securePassword')
 }
