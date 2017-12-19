@@ -54,6 +54,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`division(dividend, divisor)`',
+        topic: 'math',
+        description: 'Simple division function which returns an array of quotient & remainder.',
+        return_type: 'array'
+    },
+    {
         title: '`doublefactorial(n)`',
         topic: 'math',
         description: 'Print semi-factorial or double factorial of number using the iterative approach.',

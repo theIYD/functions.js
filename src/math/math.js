@@ -3,6 +3,7 @@ module.exports = {
     BaseChange: require('./functions/changeBase'),
     Combination: require('./functions/combination'),
     CountPrimeFactors: require('./functions/countPrimeFactors'),
+    Division: require('./functions/division'),
     EuclideanDistance: require('./functions/euclideanDistance'),
     EvenOrOdd: require('./functions/evenOrOdd'),
     Factorial: require('./functions/factorial'),
