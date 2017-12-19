@@ -1,6 +1,7 @@
 module.exports = {
     Average: require('./functions/average'),
     BaseChange: require('./functions/changeBase'),
+    Clamp: require('./functions/clamp'),
     Combination: require('./functions/combination'),
     CountPrimeFactors: require('./functions/countPrimeFactors'),
     Division: require('./functions/division'),

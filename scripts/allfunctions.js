@@ -30,6 +30,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`clamp(number, min, max)`',
+        topic: 'math',
+        description: 'Clamp a number.',
+        return_type: 'number'
+    },
+    {
         title: '`combination(number,rep)`',
         topic: 'math',
         description: 'Calculates simple combination.',
