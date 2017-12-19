@@ -31,5 +31,6 @@ module.exports = {
     RgbToHex: require('./functions/rgbToHex'),
     SecureEmail: require('./functions/secureEmail'),
     SecurePassword: require('./functions/securePassword'),
+    SnakeCase: require('./functions/snakeCase'),
     StringHammingDistance: require('./functions/hamming')
 }

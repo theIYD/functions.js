@@ -378,6 +378,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`snakeCase(str)`',
+        topic: 'string',
+        description: 'to Snake Case',
+        return_type: 'string'
+    },
+    {
         title: '`stringHammingDistance(str1, str2)`',
         topic: 'string',
         description: 'String Hamming Distance',
