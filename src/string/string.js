@@ -32,5 +32,6 @@ module.exports = {
     SecureEmail: require('./functions/secureEmail'),
     SecurePassword: require('./functions/securePassword'),
     SnakeCase: require('./functions/snakeCase'),
-    StringHammingDistance: require('./functions/hamming')
+    StringHammingDistance: require('./functions/hamming'),
+    ThousandSeperator: require('./functions/thousandSeperator')
 }

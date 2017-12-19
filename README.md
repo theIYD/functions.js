@@ -108,6 +108,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`stringHammingDistance(str1, str2)` |string |String Hamming Distance |number |
 |`subtract(firstNum, secondNum)` |math |Subtract a number from another |number |
 |`sumOfArray(arr)` |math |Addition of all the integers in an array |number |
+|`thousandSeperator(num)` |string |Seperate thousands using commas |number |
 
 
 ## About

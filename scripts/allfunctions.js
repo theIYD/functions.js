@@ -406,6 +406,12 @@ const funcs = [
         topic: 'math',
         description: 'Addition of all the integers in an array',
         return_type: 'number'
+    },
+    {
+        title: '`thousandSeperator(num)`',
+        topic: 'string',
+        description: 'Seperate thousands using commas',
+        return_type: 'number'
     }
 ];
 
