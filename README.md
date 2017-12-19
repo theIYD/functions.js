@@ -101,6 +101,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`securePassword(str)` |string |Secure password using astrisks |string |
 |`selectionSort(arr)` |algorithm |Sort an array using the selection sort technique |arr |
 |`slopeOfALine(arg)` |math |Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points. Example arg = 60 degrees or [x0,y0,x1,y1] |number |
+|`subtract(firstNum, secondNum)` |math |Subtract a number from another |number |
 |`sumOfArray(arr)` |math |Addition of all the integers in an array |number |
 
 

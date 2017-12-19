@@ -366,11 +366,17 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`subtract(firstNum, secondNum)`',
+        topic: 'math',
+        description: 'Subtract a number from another',
+        return_type: 'number'
+    },
+    {
         title: '`sumOfArray(arr)`',
         topic: 'math',
         description: 'Addition of all the integers in an array',
         return_type: 'number'
-    },
+    }
 ];
 
 module.exports = funcs;

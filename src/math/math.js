@@ -14,5 +14,6 @@ module.exports = {
     Permutation: require('./functions/permutation'),
     Pythagoras: require('./functions/pythagoras'),
     Slope: require('./functions/slope'),
+    Subtract: require('./functions/subtract'),
     SumOfArray: require('./functions/sum')
 };
