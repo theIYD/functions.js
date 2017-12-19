@@ -30,6 +30,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`chunk(arr, size)`',
+        topic: 'math',
+        description: 'Split array into chunks of smaller arrays of the desired size.',
+        return_type: 'array'
+    },
+    {
         title: '`clamp(number, min, max)`',
         topic: 'math',
         description: 'Clamp a number.',

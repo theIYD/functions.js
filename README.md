@@ -45,6 +45,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`bubbleSort(arr)` |algorithm |Sort an array using bubble sort technique |array |
 |`camelize(str)` |string |Camelize a string i.e CamelCase |string |
 |`changeBase(number, original, final)` |math |Convert a base of a number to any base. |number |
+|`chunk(arr, size)` |math |Split array into chunks of smaller arrays of the desired size. |array |
 |`clamp(number, min, max)` |math |Clamp a number. |number |
 |`combination(number,rep)` |math |Calculates simple combination. |number |
 |`concat(...arrs)` |algorithm |Concatenates into a single array. |arr |
