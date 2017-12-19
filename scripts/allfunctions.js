@@ -294,6 +294,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`kebabCase(str)`',
+        topic: 'string',
+        description: 'to Kebab Case.',
+        return_type: 'string'
+    },
+    {
         title: '`linearSearch(arr, elem)`',
         topic: 'algorithm',
         description: 'Search an element using linear search technique',

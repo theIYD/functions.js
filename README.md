@@ -89,6 +89,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`isPalindrome(str)` |string |String is a palindrome. |boolean |
 |`isUpperCase(str)` |string |String is all upper-cased. |boolean |
 |`isValidEmail(str)` |string |String is a valid email id. |boolean |
+|`kebabCase(str)` |string |to Kebab Case. |string |
 |`linearSearch(arr, elem)` |algorithm |Search an element using linear search technique |number(position) |
 |`maxOrMin(arr, task)` |math |Get maximum or minimum of an array |number |
 |`nthRoot(number, n)` |math |Calculates the nth root of a positive number |number |
