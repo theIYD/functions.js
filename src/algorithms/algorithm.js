@@ -5,6 +5,7 @@ module.exports = {
     Flatten: require('./functions/flatten'),
     InsertionSort: require('./functions/insertionSort'),
     LinearSearch: require('./functions/linearSearch'),
+    NthLargest: require('./functions/nthLargest'),
     Remove: require('./functions/remove'),
     Reverse: require('./functions/reverse'),
     SelectionSort: require('./functions/selectionSort')

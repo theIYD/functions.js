@@ -324,6 +324,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`nthLargest(arr, nth)`',
+        topic: 'algorithm',
+        description: 'Find the nth largest number from an unsorted array',
+        return_type: 'number'
+    },
+    {
         title: '`permutation(num,rep)`',
         topic: 'math',
         description: 'Calculates simple permutation.',

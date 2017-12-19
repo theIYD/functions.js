@@ -94,6 +94,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`linearSearch(arr, elem)` |algorithm |Search an element using linear search technique |number(position) |
 |`maxOrMin(arr, task)` |math |Get maximum or minimum of an array |number |
 |`nthRoot(number, n)` |math |Calculates the nth root of a positive number |number |
+|`nthLargest(arr, nth)` |algorithm |Find the nth largest number from an unsorted array |number |
 |`permutation(num,rep)` |math |Calculates simple permutation. |number |
 |`pythagorasDistance(arg1, arg2)` |math |Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle. |number |
 |`remove(arr)` |algorithm |Remove an element from an array |arr |
