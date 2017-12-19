@@ -29,5 +29,6 @@ module.exports = {
     RemoveTags: require('./functions/removeTags'),
     RgbToHex: require('./functions/rgbToHex'),
     SecureEmail: require('./functions/secureEmail'),
-    SecurePassword: require('./functions/securePassword')
+    SecurePassword: require('./functions/securePassword'),
+    StringHammingDistance: require('./functions/hamming')
 }

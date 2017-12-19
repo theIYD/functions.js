@@ -372,6 +372,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`stringHammingDistance(str1, str2)`',
+        topic: 'string',
+        description: 'String Hamming Distance',
+        return_type: 'number'
+    },
+    {
         title: '`subtract(firstNum, secondNum)`',
         topic: 'math',
         description: 'Subtract a number from another',
