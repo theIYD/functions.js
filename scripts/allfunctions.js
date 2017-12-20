@@ -408,6 +408,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`splitName(str)`',
+        topic: 'string',
+        description: 'Return the first name and the last name of a person\'s name.',
+        return_type: 'array'
+    },
+    {
         title: '`stringHammingDistance(str1, str2)`',
         topic: 'string',
         description: 'String Hamming Distance',
