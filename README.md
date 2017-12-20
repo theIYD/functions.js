@@ -47,6 +47,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`changeBase(number, original, final)` |math |Convert a base of a number to any base. |number |
 |`chunk(arr, size)` |math |Split array into chunks of smaller arrays of the desired size. |array |
 |`clamp(number, min, max)` |math |Clamp a number. |number |
+|`collatz(number)` |algortihm |Collatz Algorithm. |number |
 |`combination(number,rep)` |math |Calculates simple combination. |number |
 |`concat(...arrs)` |algorithm |Concatenates into a single array. |arr |
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |

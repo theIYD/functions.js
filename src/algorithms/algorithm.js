@@ -2,6 +2,7 @@ module.exports = {
     BinarySearch: require('./functions/binarySearch'),
     BubbleSort: require('./functions/bubbleSort'),
     Chunk: require('./functions/chunk'),
+    Collatz: require('./functions/collatz'),
     Concat: require('./functions/concat'),
     Flatten: require('./functions/flatten'),
     InsertionSort: require('./functions/insertionSort'),

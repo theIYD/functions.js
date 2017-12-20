@@ -42,6 +42,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`collatz(number)`',
+        topic: 'algortihm',
+        description: 'Collatz Algorithm.',
+        return_type: 'number'
+    },
+    {
         title: '`combination(number,rep)`',
         topic: 'math',
         description: 'Calculates simple combination.',
