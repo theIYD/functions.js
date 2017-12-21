@@ -390,6 +390,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`romanize(num)`',
+        topic: 'string',
+        description: 'Romanize a number',
+        return_type: 'string'
+    },
+    {
         title: '`secureEmail(str)`',
         topic: 'string',
         description: 'Secures your email using asterisks',

@@ -29,6 +29,7 @@ module.exports = {
     KebabCase: require('./functions/kebabCase'),
     RemoveTags: require('./functions/removeTags'),
     RgbToHex: require('./functions/rgbToHex'),
+    Romanize: require('./functions/romanize'),
     SecureEmail: require('./functions/secureEmail'),
     SecurePassword: require('./functions/securePassword'),
     SnakeCase: require('./functions/snakeCase'),

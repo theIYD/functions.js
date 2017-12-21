@@ -105,6 +105,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`removeTags(str)` |string |Remove tags from an HTML statement |string |
 |`reverse(arr)` |algorithm |Reverse an array |arr |
 |`rgbToHex(red,green,blue)` |string |RGB to Hex format |string |
+|`romanize(num)` |string |Romanize a number |string |
 |`secureEmail(str)` |string |Secures your email using asterisks |string |
 |`securePassword(str)` |string |Secure password using astrisks |string |
 |`segregate(arr)` |algorithm |Segregate 0's and 1's in an array |array |
