@@ -102,6 +102,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`nthLargest(arr, nth)` |algorithm |Find the nth largest number from an unsorted array |number |
 |`permutation(num,rep)` |math |Calculates simple permutation. |number |
 |`pythagorasDistance(arg1, arg2)` |math |Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle. |number |
+|`radToDeg(rad)` |math |Convert radians to degrees |number |
 |`remove(arr)` |algorithm |Remove an element from an array |arr |
 |`removeTags(str)` |string |Remove tags from an HTML statement |string |
 |`reverse(arr)` |algorithm |Reverse an array |arr |

@@ -372,6 +372,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`radToDeg(rad)`',
+        topic: 'math',
+        description: 'Convert radians to degrees',
+        return_type: 'number'
+    },
+    {
         title: '`remove(arr)`',
         topic: 'algorithm',
         description: 'Remove an element from an array',

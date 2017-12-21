@@ -1,5 +1,5 @@
 /**
- * Convert degrees to radians
+ * @function Convert degrees to radians
  * @param {*} deg 
  */
 const degToRad = (deg) => {
