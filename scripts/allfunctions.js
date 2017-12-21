@@ -180,6 +180,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`generateHexColor()`',
+        topic: 'string',
+        description: 'Generate random hex color.',
+        return_type: 'string'
+    },
+    {
         title: '`guid(len)`',
         topic: 'string',
         description: 'Generate a Global Unique Identifier',

@@ -70,6 +70,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`fizzBuzz(n)` |algorithm |FizzBuzz Algorithm: most famous asked question. |string |
 |`flatten(arr, givenArr)` |algorithm |Flatten/Merge two arrays. |array |
 |`gcd(numb1, numb2)` |math |Calculate the greatest common divisor among the two numbers using Euclideans algorithm. |number |
+|`generateHexColor()` |string |Generate random hex color. |string |
 |`guid(len)` |string |Generate a Global Unique Identifier |string |
 |`hammingDistance(number1, number2)` |math |Calculate hamming distance. |number |
 |`hasAtleastOneUpperCaseLetter(str)` |string |String has atleast one upper-cased letter. |boolean |
