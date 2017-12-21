@@ -4,6 +4,7 @@ module.exports = {
     Clamp: require('./functions/clamp'),
     Combination: require('./functions/combination'),
     CountPrimeFactors: require('./functions/countPrimeFactors'),
+    DegToRad: require('./functions/degToRad'),
     Division: require('./functions/division'),
     EuclideanDistance: require('./functions/euclideanDistance'),
     EvenOrOdd: require('./functions/evenOrOdd'),

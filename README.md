@@ -52,6 +52,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`concat(...arrs)` |algorithm |Concatenates into a single array. |arr |
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
 |`countVowels(str)` |string |Count the number of vowels in a string. |number |
+|`degToRad(deg)` |math |Convert degrees to radians. |number |
 |`division(dividend, divisor)` |math |Simple division function which returns an array of quotient & remainder. |array |
 |`doublefactorial(n)` |math |Print semi-factorial or double factorial of number using the iterative approach. |number |
 |`escape(str)` |string |Escape characters from string |string |
