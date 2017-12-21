@@ -156,6 +156,12 @@ const funcs = [
         return_type: 'array'
     },
     {
+        title: '`fizzBuzz(n)`',
+        topic: 'algorithm',
+        description: 'FizzBuzz Algorithm: most famous asked question.',
+        return_type: 'string'
+    },
+    {
         title: '`flatten(arr, givenArr)`',
         topic: 'algorithm',
         description: 'Flatten/Merge two arrays.',

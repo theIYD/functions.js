@@ -4,6 +4,7 @@ module.exports = {
     Chunk: require('./functions/chunk'),
     Collatz: require('./functions/collatz'),
     Concat: require('./functions/concat'),
+    FizzBuzz: require('./functions/fizzBuzz'),
     Flatten: require('./functions/flatten'),
     InsertionSort: require('./functions/insertionSort'),
     LinearSearch: require('./functions/linearSearch'),
