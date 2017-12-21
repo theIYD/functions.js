@@ -330,6 +330,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`modularExponential(base, power, mod)`',
+        topic: 'algorithm',
+        description: 'Modular Exponential Algorithm',
+        return_type: 'number'
+    },
+    {
         title: '`nthRoot(number, n)`',
         topic: 'math',
         description: 'Calculates the nth root of a positive number',

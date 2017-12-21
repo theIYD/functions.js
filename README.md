@@ -95,6 +95,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`kebabCase(str)` |string |to Kebab Case. |string |
 |`linearSearch(arr, elem)` |algorithm |Search an element using linear search technique |number(position) |
 |`maxOrMin(arr, task)` |math |Get maximum or minimum of an array |number |
+|`modularExponential(base, power, mod)` |algorithm |Modular Exponential Algorithm |number |
 |`nthRoot(number, n)` |math |Calculates the nth root of a positive number |number |
 |`nthLargest(arr, nth)` |algorithm |Find the nth largest number from an unsorted array |number |
 |`permutation(num,rep)` |math |Calculates simple permutation. |number |
