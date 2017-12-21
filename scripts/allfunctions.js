@@ -402,6 +402,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`segregate(arr)`',
+        topic: 'algorithm',
+        description: 'Segregate 0\'s and 1\'s in an array',
+        return_type: 'array'
+    },
+    {
         title: '`selectionSort(arr)`',
         topic: 'algorithm',
         description: 'Sort an array using the selection sort technique',

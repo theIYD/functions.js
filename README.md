@@ -107,6 +107,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`rgbToHex(red,green,blue)` |string |RGB to Hex format |string |
 |`secureEmail(str)` |string |Secures your email using asterisks |string |
 |`securePassword(str)` |string |Secure password using astrisks |string |
+|`segregate(arr)` |algorithm |Segregate 0's and 1's in an array |array |
 |`selectionSort(arr)` |algorithm |Sort an array using the selection sort technique |arr |
 |`slopeOfALine(arg)` |math |Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points. Example arg = 60 degrees or [x0,y0,x1,y1] |number |
 |`snakeCase(str)` |string |to Snake Case |string |

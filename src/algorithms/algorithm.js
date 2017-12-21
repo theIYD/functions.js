@@ -12,5 +12,6 @@ module.exports = {
     NthLargest: require('./functions/nthLargest'),
     Remove: require('./functions/remove'),
     Reverse: require('./functions/reverse'),
+    Segregate: require('./functions/segregate'),
     SelectionSort: require('./functions/selectionSort')
 }
