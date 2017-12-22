@@ -126,6 +126,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`sumOfArray(arr)` |math |Addition of all the integers in an array |number |
 |`thousandSeperator(num)` |string |Seperate thousands using commas |number |
 |`truncate(str,pos)` |string |Truncate a string at provided position |string |
+|`trailingAndLeading(arr)` |string |Remove leading and trailing zeroes from an array |array |
 |`uuid()` |string |Generate a UUID i.e universally unique identifier. |number |
 |`zeroFill(number, len)` |string |Zerofill a number to the given length. |number |
 

@@ -516,6 +516,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`trailingAndLeading(arr)`',
+        topic: 'string',
+        description: 'Remove leading and trailing zeroes from an array',
+        return_type: 'array'
+    },
+    {
         title: '`uuid()`',
         topic: 'string',
         description: 'Generate a UUID i.e universally unique identifier.',
