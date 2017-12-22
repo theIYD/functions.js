@@ -12,6 +12,7 @@ module.exports = {
     Fibonacci: require('./functions/fibonacci'),
     GCD: require('./functions/gcd'),
     HammingDistance: require('./functions/hammingDistance'),
+    LCM: require('./functions/lcm'),
     MaxOrMin: require('./functions/max_min'),
     Median: require('./functions/median'),
     NthRoot: require('./functions/nthRoot'),

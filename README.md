@@ -97,6 +97,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`isUpperCase(str)` |string |String is all upper-cased. |boolean |
 |`isValidEmail(str)` |string |String is a valid email id. |boolean |
 |`kebabCase(str)` |string |to Kebab Case. |string |
+|`lcm(arr)` |math |Calculate LCM of an array of numbers |number |
 |`linearSearch(arr, elem)` |algorithm |Search an element using linear search technique |number(position) |
 |`maxOrMin(arr, task)` |math |Get maximum or minimum of an array |number |
 |`median(arr)` |math |Calculate median of a sorted number array |number |

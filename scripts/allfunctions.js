@@ -342,6 +342,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`lcm(arr)`',
+        topic: 'math',
+        description: 'Calculate LCM of an array of numbers',
+        return_type: 'number'
+    },
+    {
         title: '`linearSearch(arr, elem)`',
         topic: 'algorithm',
         description: 'Search an element using linear search technique',

@@ -5,28 +5,13 @@
  * @param {*} numb2 
  */
 const gcd = (numb1, numb2) => {
-    let remain1, remain2, output;
-    if(numb1!=numb2) {
-        remain1 = numb1%numb2; 
-        remain2 = numb2%remain1; 
-        // Handle Exception
-        try {
-            let temp = remain1%remain2;
-            if(temp==0) {
-                output = remain2;
-            }
-            else {
-                output = remain1;
-            }
-        }catch(e) {
-            output = e;
-        }	
-    } 
-    else {
-        output = 'Numbers equal';
+    var temp = 0;
+    while(numb1 !== 0){
+        temp = numb1;
+        numb1 = numb2 % numb1;
+        numb2 = temp; 
     }
-
-    return output;
+    return numb2;
 }
 
-module.exports = {gcd};
+module.exports = gcd
