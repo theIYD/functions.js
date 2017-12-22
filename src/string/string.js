@@ -37,5 +37,6 @@ module.exports = {
     SnakeCase: require('./functions/snakeCase'),
     SplitName: require('./functions/splitName'),
     StringHammingDistance: require('./functions/hamming'),
-    ThousandSeperator: require('./functions/thousandSeperator')
+    ThousandSeperator: require('./functions/thousandSeperator'),
+    UUID: require('./functions/uuid')
 }

@@ -484,6 +484,12 @@ const funcs = [
         topic: 'string',
         description: 'Seperate thousands using commas',
         return_type: 'number'
+    },
+    {
+        title: '`uuid()`',
+        topic: 'string',
+        description: 'Generate a UUID i.e universally unique identifier.',
+        return_type: 'number'
     }
 ];
 

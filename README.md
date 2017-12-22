@@ -121,6 +121,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`subtract(firstNum, secondNum)` |math |Subtract a number from another |number |
 |`sumOfArray(arr)` |math |Addition of all the integers in an array |number |
 |`thousandSeperator(num)` |string |Seperate thousands using commas |number |
+|`uuid()` |string |Generate a UUID i.e universally unique identifier. |number |
 
 
 ## About
