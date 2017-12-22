@@ -354,6 +354,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`median(arr)`',
+        topic: 'math',
+        description: 'Calculate median of a sorted number array',
+        return_type: 'number'
+    },
+    {
         title: '`modularExponential(base, power, mod)`',
         topic: 'algorithm',
         description: 'Modular Exponential Algorithm',

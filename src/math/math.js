@@ -13,6 +13,7 @@ module.exports = {
     GCD: require('./functions/gcd'),
     HammingDistance: require('./functions/hammingDistance'),
     MaxOrMin: require('./functions/max_min'),
+    Median: require('./functions/median'),
     NthRoot: require('./functions/nthRoot'),
     Permutation: require('./functions/permutation'),
     Pythagoras: require('./functions/pythagoras'),
