@@ -468,6 +468,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`sortChar(str)`',
+        topic: 'string',
+        description: 'Sort string characters in alphabetical order',
+        return_type: 'string'
+    },
+    {
         title: '`splitName(str)`',
         topic: 'string',
         description: 'Return the first name and the last name of a person\'s name.',

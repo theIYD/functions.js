@@ -118,6 +118,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`selectionSort(arr)` |algorithm |Sort an array using the selection sort technique |arr |
 |`slopeOfALine(arg)` |math |Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points. Example arg = 60 degrees or [x0,y0,x1,y1] |number |
 |`snakeCase(str)` |string |to Snake Case |string |
+|`sortChar(str)` |string |Sort string characters in alphabetical order |string |
 |`splitName(str)` |string |Return the first name and the last name of a person's name. |array |
 |`stringHammingDistance(str1, str2)` |string |String Hamming Distance |number |
 |`subtract(firstNum, secondNum)` |math |Subtract a number from another |number |
