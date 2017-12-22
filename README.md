@@ -126,6 +126,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`thousandSeperator(num)` |string |Seperate thousands using commas |number |
 |`truncate(str,pos)` |string |Truncate a string at provided position |string |
 |`uuid()` |string |Generate a UUID i.e universally unique identifier. |number |
+|`zeroFill(number, len)` |string |Zerofill a number to the given length. |number |
 
 
 ## About

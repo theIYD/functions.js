@@ -40,5 +40,6 @@ module.exports = {
     StringHammingDistance: require('./functions/hamming'),
     ThousandSeperator: require('./functions/thousandSeperator'),
     Truncate: require('./functions/truncate'),
-    UUID: require('./functions/uuid')
+    UUID: require('./functions/uuid'),
+    ZeroFill: require('./functions/zeroFill')
 }

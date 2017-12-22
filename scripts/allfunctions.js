@@ -514,6 +514,12 @@ const funcs = [
         topic: 'string',
         description: 'Generate a UUID i.e universally unique identifier.',
         return_type: 'number'
+    },
+    {
+        title: '`zeroFill(number, len)`',
+        topic: 'string',
+        description: 'Zerofill a number to the given length.',
+        return_type: 'number'
     }
 ];
 
