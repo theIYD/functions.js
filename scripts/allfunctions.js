@@ -504,6 +504,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`truncate(str,pos)`',
+        topic: 'string',
+        description: 'Truncate a string at provided position',
+        return_type: 'string'
+    },
+    {
         title: '`uuid()`',
         topic: 'string',
         description: 'Generate a UUID i.e universally unique identifier.',

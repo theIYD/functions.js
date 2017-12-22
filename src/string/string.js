@@ -39,5 +39,6 @@ module.exports = {
     SplitName: require('./functions/splitName'),
     StringHammingDistance: require('./functions/hamming'),
     ThousandSeperator: require('./functions/thousandSeperator'),
+    Truncate: require('./functions/truncate'),
     UUID: require('./functions/uuid')
 }
