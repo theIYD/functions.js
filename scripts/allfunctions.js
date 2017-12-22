@@ -258,6 +258,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`isEmoji(str)`',
+        topic: 'string',
+        description: 'String is an emoji.',
+        return_type: 'boolean'
+    },
+    {
         title: '`isEmpty(str)`',
         topic: 'string',
         description: 'String is empty.',

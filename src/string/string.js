@@ -19,6 +19,7 @@ module.exports = {
     IsItAValidEmail: require('./functions/isValidEmail'),
     IsItAnIPAddress: require('./functions/isIPAddress'),
     IsItBool: require('./functions/isBool'),
+    IsItEmoji: require('./functions/isEmoji'),
     IsItEmpty: require('./functions/isEmpty'),
     IsItEndWith: require('./functions/isEndWith'),
     IsItEquals: require('./functions/isEquals'),

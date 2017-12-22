@@ -83,6 +83,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`isASCII(str)` |string |String contains ASCII characters |boolean |
 |`isBool(str)` |string |String contains true or false |boolean |
 |`isDataURI(str)` |string |String is a data uri format. |boolean |
+|`isEmoji(str)` |string |String is an emoji. |boolean |
 |`isEmpty(str)` |string |String is empty. |boolean |
 |`isEndWith(str, target)` |string |String ends with target. |boolean |
 |`isEquals(str, elem)` |string |Compares the two strings entered. |boolean |
