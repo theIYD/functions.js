@@ -186,6 +186,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`generateRGBColor()`',
+        topic: 'string',
+        description: 'Generate random RGB color.',
+        return_type: 'string'
+    },
+    {
         title: '`guid(len)`',
         topic: 'string',
         description: 'Generate a Global Unique Identifier',

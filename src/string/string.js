@@ -5,6 +5,7 @@ module.exports = {
     Filter: require('./functions/filter'),
     FisherYates: require('./functions/fisher_yates'),
     GenerateHexColor: require('./functions/generateHexColor'),
+    GenerateRGBColor: require('./functions/generateRGBColor'),
     GUID: require('./functions/guid'),
     ISO8601: require('./functions/date'),
     Initials: require('./functions/initials'),
