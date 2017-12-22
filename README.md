@@ -130,5 +130,17 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 ## About
  The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/package/okay-string">okay-string</a>**. I thought of renaming it to <em>functions</em> & learn more by actually practicing functions. That's how <code>functions.js</code> was created.😍
 
+## FAQ
+Here are some solutions to frequently asked questions:
+
+#### Q. How to use ?
+Take a look over <a href="https://github.com/theIYD/functions.js#usage">here</a>.
+
+#### Q. Another lodash or underscore ?
+These two libraries are industry standards & are widely used. They have a ton of great, useful functions to use in a project. There is a **difference**. functions.js was created to learn predefined methods and make something out of it by creating a new method. So i think there is no comparison between this & the other two libraries. 
+
+#### Q. How do i contribute ?
+Read the guidelines mentioned <a href="https://github.com/theIYD/functions.js/blob/master/CONTRIBUTING.md">here</a>
+
 ## License
  The project is licensed under <a href="https://github.com/theIYD/functions.js/blob/master/LICENSE">MIT</a>
