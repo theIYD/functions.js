@@ -78,6 +78,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`differenceBetweenDates(date1, date2)`',
+        topic: 'math',
+        description: 'Simple division function which returns an array of quotient & remainder.',
+        return_type: 'array'
+    },
+    {
         title: '`division(dividend, divisor)`',
         topic: 'math',
         description: 'Simple division function which returns an array of quotient & remainder.',

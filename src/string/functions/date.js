@@ -11,4 +11,15 @@ const ISO8601WeekNumber = (date) => {
     return 1 + Math.ceil((temp - d) / 604800000);
 }
 
-module.exports = ISO8601WeekNumber
+/**
+ * @function Calculate the days between two dates
+ * @param {*} date1: First date object
+ * @param {*} date2: Second date object 
+ */
+const differenceBetweenDates = (date1, date2) => {
+    let difference =(date2.getTime() - date1.getTime()) / 1000;
+    difference /= (60 * 60 * 24);
+    return Math.abs(Math.round(difference));
+}
+
+module.exports = {ISO8601WeekNumber, differenceBetweenDates}
