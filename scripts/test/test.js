@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const func = require('../index');
+const func = require('../../src/index');
 
 const isANumber = num => typeof input !== NaN;
 

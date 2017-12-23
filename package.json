@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src --out-dir dist && npm run generate-readme",
     "test": "mocha scripts/test/test.js -w",
-    "test:single": "mocha script/test/test.js",
+    "test:single": "mocha scripts/test/test.js",
     "generate-readme": "node ./scripts/generator.js",
     "prepublish": "npm run build"
   },
