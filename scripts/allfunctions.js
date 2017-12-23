@@ -258,6 +258,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`isDivisible(dividend, divisor)`',
+        topic: 'math',
+        description: 'Check if the first number is divisible by second one.',
+        return_type: 'boolean'
+    },
+    {
         title: '`isEmoji(str)`',
         topic: 'string',
         description: 'String is an emoji.',

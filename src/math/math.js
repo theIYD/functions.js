@@ -12,6 +12,7 @@ module.exports = {
     Fibonacci: require('./functions/fibonacci'),
     GCD: require('./functions/gcd'),
     HammingDistance: require('./functions/hammingDistance'),
+    IsItDivisible: require('./functions/isDivisible'),
     LCM: require('./functions/lcm'),
     MaxOrMin: require('./functions/max_min'),
     Median: require('./functions/median'),
