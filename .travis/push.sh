@@ -12,8 +12,8 @@ commit_website_files() {
 }
 
 upload_files() {
-   echo "https://${GH_TOKEN}@github.com/theIYD/functions.js.git"
-   git push --force "https://${GH_TOKEN}@github.com/theIYD/functions.js.git" master > /dev/null 2>&1
+  git remote add origin-pages https://${GH_TOKEN}@github.com/theIYD/functions.js.git > /dev/null 2>&1
+  git push --quiet --set-upstream origin-pages master 
 }
 
 setup_git
