@@ -135,7 +135,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 ## About
  The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/package/okay-string">okay-string</a>**. I thought of renaming it to <em>functions</em> & learn more by actually practicing functions. That's how <code>functions.js</code> was created.😍
 
-## FAQ
+## FAQ🙋
 Here are some solutions to frequently asked questions:
 
 #### Q. How to use ?
@@ -147,5 +147,5 @@ These two libraries are industry standards & are widely used. They have a ton of
 #### Q. How do i contribute ?
 Read the guidelines mentioned <a href="https://github.com/theIYD/functions.js/blob/master/CONTRIBUTING.md">here</a>
 
-## License
+## License📃
  The project is licensed under <a href="https://github.com/theIYD/functions.js/blob/master/LICENSE">MIT</a>
