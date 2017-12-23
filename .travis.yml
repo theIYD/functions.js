@@ -3,6 +3,7 @@ node_js:
 - node
 script:
 - npm run build
+- npm run test:single
 after_success:
 - chmod +x .travis/push.sh
 - sudo .travis/push.sh

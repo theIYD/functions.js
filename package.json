@@ -5,6 +5,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist && npm run generate-readme",
+    "test": "mocha src/test/test.js -w",
+    "test:single": "mocha src/test/test.js",
     "generate-readme": "node ./scripts/generator.js",
     "prepublish": "npm run build"
   },
@@ -25,6 +27,8 @@
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
   }
 }
