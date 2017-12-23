@@ -4,7 +4,7 @@
   "description": "A hub of numerous functions.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist && npm run generate-readme",
+    "build": "babel src --out-dir dist",
     "test": "mocha scripts/test/test.js -w",
     "test:single": "mocha scripts/test/test.js",
     "generate-readme": "node ./scripts/generator.js",
