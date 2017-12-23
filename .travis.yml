@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- node
+
+script: 
+- npm run build
+
+after_success: 
+- chmod +x .travis/push.sh
+- sudo .travis/push.sh
+
+env:
+  global:
+    secure: KF5P/54ew6ti+GdI6CEZz78FEQ7QumzrzVieHUcjfHEm3TPUxVhtMTCnKpAHgJt4/0SF2ObBaxW9iIqTusWOmhxCirQi66HJ8m4QEDeCrbDzeQKM/j9bn45bS/XxfOTrvtp3AglAhb/8fiWXVj50tlnT0nRpvY7V8s2+cdyc8HWB6+hn0aPsSqeeZHuI8OSMq+qphraxcLbmWmehs7QTiKPKccIe4Qoj4XjubiIEW9a4Jv6zwUds0V3+JnyGl/DugUFnWnvgVSZsxE9yYTGsa0s+0bnH6cw+Bg89diZs8Bx2FEvoEhaijHDaRYDuKPwTg+f+PT0BrLjbiwyjNLsa2qSjOQK/fCriuZ84mMtB1RYpY5lLwWM/VIkLRybYm5fU9vFEqbwJMFL5QYckMpK3YtHUg+irmEaSJnD0ZQNbslN0H+p83nPyVGCwmwsfuOLJI9xseiBfJYYA2xGvaZbJ81Cp0OWO0Xwys1TZ3EXJcmtF4olzLH4wzSgW8c/wFsbp2LOMkCrshefLnf3Bbglto68d4zrHRerbU+kOVx5XIhcI8yCRmJ8RqiumrZ8QjIztlLVCgyPa0UFHCHqxwN1OVc+3nG8WiIxN05iDYZAj/rslZAFUaIvxzj4H1bsONvG8b385N8SyP+M53WF4KwC0QlLtOiC5hwzK/bbleTA3izc=
