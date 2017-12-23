@@ -173,6 +173,41 @@ describe('functions.js', () => {
                 assert.isBoolean(func.StringFunc.IsItAValidEmail('test@test123.com'));
             });
         });
+
+        describe('math', () => {
+            describe('EvenOrOdd', () => {
+                var numbers = [0,1,2,3,4,5,6,7,8,9,10];
+                var even = [true, false, true, false, true, false, true, false, true, false, true];
+                var odd = [false, true, false, true, false, true, false, true, false, true, false];
+            
+                describe('the isEven function', () => {
+                    it('should return true for even numbers', ()=> {
+                        numbers.forEach((num, index) => {
+                            expect(func.MathFunc.EvenOrOdd.isEven(num)).to.be.eql(even[index]);
+                        });
+                    });
+
+                    it('should not return the same value as the isOdd function for the same input', () => {
+                        numbers.forEach((num, index) => {
+                            expect(func.MathFunc.EvenOrOdd.isEven(num)).not.to.be.eql(func.MathFunc.EvenOrOdd.isOdd(num));
+                        });
+                    });
+                });
+                describe('the isOdd function', () => {
+                    it('should return true for even numbers', ()=> {
+                        numbers.forEach((num, index) => {
+                            expect(func.MathFunc.EvenOrOdd.isOdd(num)).to.be.eql(odd[index]);
+                        });
+                    });
+
+                    it('should not return the same value as the isEven function for the same input', () => {
+                        numbers.forEach((num, index) => {
+                            expect(func.MathFunc.EvenOrOdd.isOdd(num)).not.to.be.eql(func.MathFunc.EvenOrOdd.isEven(num));
+                        });
+                    });
+                });
+            });
+        });
         
     });
     
