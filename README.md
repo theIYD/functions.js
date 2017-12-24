@@ -134,6 +134,15 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`zeroFill(number, len)` |string |Zerofill a number to the given length. |number |
 
 
+## Test
+
+Run the following command:
+
+```
+npm run test
+
+```
+
 ## About
  The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/package/okay-string">okay-string</a>**. I thought of renaming it to <em>functions</em> & learn more by actually practicing functions. That's how <code>functions.js</code> was created.😍
 
