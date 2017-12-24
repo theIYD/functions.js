@@ -108,18 +108,6 @@ const funcs = [
         return_type: 'number'
     },
     {
-        title: '`isEven(number)`',
-        topic: 'math',
-        description: 'True if a number is even, false otherwise.',
-        return_type: 'boolean'
-    },
-    {
-        title: '`isOdd(number)`',
-        topic: 'math',
-        description: 'True if a number is odd, false otherwise.',
-        return_type: 'boolean'
-    },
-    {
         title: '`factorialRecursive(n)`',
         topic: 'math',
         description: 'Print factorial of a number using recursive function approach.',
@@ -294,6 +282,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`isEven(number)`',
+        topic: 'math',
+        description: 'True if a number is even, false otherwise.',
+        return_type: 'boolean'
+    },
+    {
         title: '`isHexaDecimal(str)`',
         topic: 'string',
         description: 'String is hexadecimal.',
@@ -334,6 +328,12 @@ const funcs = [
         topic: 'string',
         description: 'Get the initials of a persons name.',
         return_type: 'string'
+    },
+    {
+        title: '`isOdd(number)`',
+        topic: 'math',
+        description: 'True if a number is odd, false otherwise.',
+        return_type: 'boolean'
     },
     {
         title: '`ISO8601WeekNumber(dateObj)`',
