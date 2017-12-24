@@ -58,8 +58,6 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`doublefactorial(n)` |math |Print semi-factorial or double factorial of number using the iterative approach. |number |
 |`escape(str)` |string |Escape characters from string |string |
 |`euclideanDistance(initial, final)` |math |Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points. |number |
-|`isEven(number)` |math |True if a number is even, false otherwise. |boolean |
-|`isOdd(number)` |math |True if a number is odd, false otherwise. |boolean |
 |`factorialRecursive(n)` |math |Print factorial of a number using recursive function approach. |number |
 |`factorialIterative(n)` |math |Print factorial of a number using iterative approach. |number |
 |`factorialOneLine(n)` |math |Print factorial of a number using a ternary operator. |number |
@@ -89,6 +87,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`isEmpty(str)` |string |String is empty. |boolean |
 |`isEndWith(str, target)` |string |String ends with target. |boolean |
 |`isEquals(str, elem)` |string |Compares the two strings entered. |boolean |
+|`isEven(number)` |math |True if a number is even, false otherwise. |boolean |
 |`isHexaDecimal(str)` |string |String is hexadecimal. |boolean |
 |`isHexColor(str)` |string |String is a hex color. |boolean |
 |`isIPAddress(str)` |string |String is an IP address. |boolean |
@@ -96,6 +95,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`isMACAddress(str)` |string |String is a MAC Address. |boolean |
 |`isMD5(str)` |string |String is a a MD5 type. |boolean |
 |`initials(str)` |string |Get the initials of a persons name. |string |
+|`isOdd(number)` |math |True if a number is odd, false otherwise. |boolean |
 |`ISO8601WeekNumber(dateObj)` |string |Get ISO-8601 week number of a year. |number |
 |`isPalindrome(str)` |string |String is a palindrome. |boolean |
 |`isUpperCase(str)` |string |String is all upper-cased. |boolean |
