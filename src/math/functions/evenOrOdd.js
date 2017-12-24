@@ -2,8 +2,15 @@
  * @function Number is even or odd
  * @param {*} number 
  */
-const evenOrOdd = (number) => {
+const isEven = (number) => {
     return number % 2 === 0;
 }
 
-module.exports = evenOrOdd
+const isOdd = (number) => {
+    return number % 2 !== 0;
+}
+
+module.exports = {
+  isEven,
+  isOdd,  
+};

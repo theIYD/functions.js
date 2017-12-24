@@ -58,7 +58,8 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`doublefactorial(n)` |math |Print semi-factorial or double factorial of number using the iterative approach. |number |
 |`escape(str)` |string |Escape characters from string |string |
 |`euclideanDistance(initial, final)` |math |Calculates the distance between two points in any plane. initial takes an array of initial points & final takes an array of final points. |number |
-|`evenOrOdd(number)` |math |Number is even or odd |boolean |
+|`isEven(number)` |math |True if a number is even, false otherwise. |boolean |
+|`isOdd(number)` |math |True if a number is odd, false otherwise. |boolean |
 |`factorialRecursive(n)` |math |Print factorial of a number using recursive function approach. |number |
 |`factorialIterative(n)` |math |Print factorial of a number using iterative approach. |number |
 |`factorialOneLine(n)` |math |Print factorial of a number using a ternary operator. |number |

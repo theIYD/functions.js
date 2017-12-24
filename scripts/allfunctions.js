@@ -108,9 +108,15 @@ const funcs = [
         return_type: 'number'
     },
     {
-        title: '`evenOrOdd(number)`',
+        title: '`isEven(number)`',
         topic: 'math',
-        description: 'Number is even or odd',
+        description: 'True if a number is even, false otherwise.',
+        return_type: 'boolean'
+    },
+    {
+        title: '`isOdd(number)`',
+        topic: 'math',
+        description: 'True if a number is odd, false otherwise.',
         return_type: 'boolean'
     },
     {
