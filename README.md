@@ -40,6 +40,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 
 | Method Name | Category | Description | Return Type |
 | ------------| ------------| ------------| ------------|
+|`anagram(str1, str2)` |string |Both strings are anagrams |boolean |
 |`average(arr)` |math |Calculates the average of an array |number |
 |`binarySearch(arr, elem)` |algorithm |Search an element using binary search tehcnique |number(position) |
 |`bubbleSort(arr)` |algorithm |Sort an array using bubble sort technique |array |
@@ -50,6 +51,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`collatz(number)` |algortihm |Collatz Algorithm. |number |
 |`combination(number,rep)` |math |Calculates simple combination. |number |
 |`concat(...arrs)` |algorithm |Concatenates into a single array. |arr |
+|`cosineRule(sideOne, sideTwo, theta)` |math |Cosine Rule. |number |
 |`countPrimeFactors(n)` |math |A function to count all prime factors of a given number. |number |
 |`countVowels(str)` |string |Count the number of vowels in a string. |number |
 |`degToRad(deg)` |math |Convert degrees to radians. |number |
@@ -119,10 +121,12 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`reverseInPlace(str)` |string |Reverse words of a sentence in place |string |
 |`rgbToHex(red,green,blue)` |string |RGB to Hex format |string |
 |`romanize(num)` |string |Romanize a number |string |
+|`round(number)` |math |Round a number to two places |number |
 |`secureEmail(str)` |string |Secures your email using asterisks |string |
 |`securePassword(str)` |string |Secure password using astrisks |string |
 |`segregate(arr)` |algorithm |Segregate 0's and 1's in an array |array |
 |`selectionSort(arr)` |algorithm |Sort an array using the selection sort technique |arr |
+|`sineRule(sideOne, angleOne, angleTwo)` |math |Sine Rule using two angles & one side |number |
 |`slopeOfALine(arg)` |math |Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points. Example arg = 60 degrees or [x0,y0,x1,y1] |number |
 |`snakeCase(str)` |string |to Snake Case |string |
 |`sortChar(str)` |string |Sort string characters in alphabetical order |string |
@@ -131,6 +135,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`subtract(firstNum, secondNum)` |math |Subtract a number from another |number |
 |`sumOfArray(arr)` |math |Addition of all the integers in an array |number |
 |`thousandSeperator(num)` |string |Seperate thousands using commas |number |
+|`toTitleCase(str)` |string |Convert string to titleCase |string |
 |`truncate(str,pos)` |string |Truncate a string at provided position |string |
 |`trailingAndLeading(arr)` |string |Remove leading and trailing zeroes from an array |array |
 |`uuid()` |string |Generate a UUID i.e universally unique identifier. |number |
