@@ -10,7 +10,7 @@
 
 ## Install
 
-The project is up on <a href="https://www.npmjs.com/package/functions.js">npm</a> and can be used in a project by: 
+The project is up on <a href="https://www.npmjs.com/functions.js">npm</a> and can be used in a project by: 
 
 ```
 npm install --save functions.js
@@ -144,7 +144,7 @@ npm run test
 ```
 
 ## About
- The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/package/okay-string">okay-string</a>**. I thought of renaming it to <em>functions</em> & learn more by actually practicing functions. That's how <code>functions.js</code> was created.😍
+ The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/okay-string">okay-string</a>**. I thought of renaming it to <em>functions</em> & learn more by actually practicing functions. That's how <code>functions.js</code> was created.😍
 
 ## FAQ🙋
 Here are some solutions to frequently asked questions:
