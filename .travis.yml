@@ -3,7 +3,6 @@ node_js:
 - node
 script:
 - npm run generate-readme
-- npm run test:single
 after_success:
 - chmod +x .travis/push.sh
 - sudo .travis/push.sh
