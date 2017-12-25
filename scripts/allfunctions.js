@@ -1,5 +1,11 @@
 const funcs = [
     {
+        title: '`anagram(str1, str2)`',
+        topic: 'string',
+        description: 'Both strings are anagrams',
+        return_type: 'boolean'
+    },
+    {
         title: '`average(arr)`',
         topic: 'math',
         description: 'Calculates the average of an array',
@@ -58,6 +64,12 @@ const funcs = [
         topic: 'algorithm',
         description: 'Concatenates into a single array.',
         return_type: 'arr'
+    },
+    {
+        title: '`cosineRule(sideOne, sideTwo, theta)`',
+        topic: 'math',
+        description: 'Cosine Rule.',
+        return_type: 'number'
     },
     {
         title: '`countPrimeFactors(n)`',
@@ -474,6 +486,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`round(number)`',
+        topic: 'math',
+        description: 'Round a number to two places',
+        return_type: 'number'
+    },
+    {
         title: '`secureEmail(str)`',
         topic: 'string',
         description: 'Secures your email using asterisks',
@@ -496,6 +514,12 @@ const funcs = [
         topic: 'algorithm',
         description: 'Sort an array using the selection sort technique',
         return_type: 'arr'
+    },
+    {
+        title: '`sineRule(sideOne, angleOne, angleTwo)`',
+        topic: 'math',
+        description: 'Sine Rule using two angles & one side',
+        return_type: 'number'
     },
     {
         title: '`slopeOfALine(arg)`',
@@ -544,6 +568,12 @@ const funcs = [
         topic: 'string',
         description: 'Seperate thousands using commas',
         return_type: 'number'
+    },
+    {
+        title: '`toTitleCase(str)`',
+        topic: 'string',
+        description: 'Convert string to titleCase',
+        return_type: 'string'
     },
     {
         title: '`truncate(str,pos)`',
