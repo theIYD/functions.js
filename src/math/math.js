@@ -13,6 +13,7 @@ module.exports = {
     GCD: require('./functions/gcd'),
     HammingDistance: require('./functions/hammingDistance'),
     IsItDivisible: require('./functions/isDivisible'),
+    ItItPrime: require('./functions/isPrime'),
     LCM: require('./functions/lcm'),
     MaxOrMin: require('./functions/max_min'),
     Median: require('./functions/median'),

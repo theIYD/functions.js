@@ -31,6 +31,7 @@ module.exports = {
     IsItUpperCased: require('./functions/isUpperCase'),
     KebabCase: require('./functions/kebabCase'),
     RemoveTags: require('./functions/removeTags'),
+    ReverseInPlace: require('./functions/reverseInPlace'),
     RgbToHex: require('./functions/rgbToHex'),
     Romanize: require('./functions/romanize'),
     SecureEmail: require('./functions/secureEmail'),

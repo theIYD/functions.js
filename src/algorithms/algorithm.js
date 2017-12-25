@@ -11,6 +11,7 @@ module.exports = {
     ModularExponential: require('./functions/modularExponential'),
     NthLargest: require('./functions/nthLargest'),
     Remove: require('./functions/remove'),
+    RemoveDuplicates: require('./functions/removeDuplicate'),
     Reverse: require('./functions/reverse'),
     Segregate: require('./functions/segregate'),
     SelectionSort: require('./functions/selectionSort')

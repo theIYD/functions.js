@@ -348,6 +348,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`isPrime(number)`',
+        topic: 'string',
+        description: 'Number is a prime.',
+        return_type: 'boolean'
+    },
+    {
         title: '`isUpperCase(str)`',
         topic: 'string',
         description: 'String is all upper-cased.',
@@ -432,6 +438,12 @@ const funcs = [
         return_type: 'arr'
     },
     {
+        title: '`removeDuplicate(arr)`',
+        topic: 'algorithm',
+        description: 'Remove duplicates from an array',
+        return_type: 'arr'
+    },
+    {
         title: '`removeTags(str)`',
         topic: 'string',
         description: 'Remove tags from an HTML statement',
@@ -442,6 +454,12 @@ const funcs = [
         topic: 'algorithm',
         description: 'Reverse an array',
         return_type: 'arr'
+    },
+    {
+        title: '`reverseInPlace(str)`',
+        topic: 'string',
+        description: 'Reverse words of a sentence in place',
+        return_type: 'string'
     },
     {
         title: '`rgbToHex(red,green,blue)`',
