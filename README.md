@@ -98,6 +98,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`isOdd(number)` |math |True if a number is odd, false otherwise. |boolean |
 |`ISO8601WeekNumber(dateObj)` |string |Get ISO-8601 week number of a year. |number |
 |`isPalindrome(str)` |string |String is a palindrome. |boolean |
+|`isPrime(number)` |string |Number is a prime. |boolean |
 |`isUpperCase(str)` |string |String is all upper-cased. |boolean |
 |`isValidEmail(str)` |string |String is a valid email id. |boolean |
 |`kebabCase(str)` |string |to Kebab Case. |string |
@@ -112,8 +113,10 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 |`pythagorasDistance(arg1, arg2)` |math |Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle. |number |
 |`radToDeg(rad)` |math |Convert radians to degrees |number |
 |`remove(arr)` |algorithm |Remove an element from an array |arr |
+|`removeDuplicate(arr)` |algorithm |Remove duplicates from an array |arr |
 |`removeTags(str)` |string |Remove tags from an HTML statement |string |
 |`reverse(arr)` |algorithm |Reverse an array |arr |
+|`reverseInPlace(str)` |string |Reverse words of a sentence in place |string |
 |`rgbToHex(red,green,blue)` |string |RGB to Hex format |string |
 |`romanize(num)` |string |Romanize a number |string |
 |`secureEmail(str)` |string |Secures your email using asterisks |string |
