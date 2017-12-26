@@ -5,6 +5,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
+    "test": "mocha scripts/test/ -w --recursive",
+    "test:single": "mocha scripts/test/ --recursive",
     "generate-readme": "node ./scripts/generator.js",
     "prepublish": "npm run build"
   },
