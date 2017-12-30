@@ -1,6 +1,7 @@
 /**
  * @function Reverse an array
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Array} 
  */
 const reverse = arr => {
     let len = arr.length;

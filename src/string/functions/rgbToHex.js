@@ -1,8 +1,9 @@
 /**
  * @function rgbToHex: RGB to Hex format
- * @param {*} red 
- * @param {*} green 
- * @param {*} blue 
+ * @param {Number} red 
+ * @param {Number} green 
+ * @param {Number} blue
+ * @returns {String} 
  */
 const rgbToHex = (red, green, blue) => {
     let hex = '';

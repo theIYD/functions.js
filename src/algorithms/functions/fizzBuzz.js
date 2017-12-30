@@ -1,6 +1,7 @@
 /**
  * @function FizzBuzz Algorithm: most famous asked question
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {String || Number} 
  */
 const fizzBuzz = n => {
     for (let i = 1; i < n; i++) {

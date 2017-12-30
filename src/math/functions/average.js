@@ -1,6 +1,7 @@
 /**
  * @function average: Calculates the average of an array
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Number} 
  */
 const average = arr => {
     let temp = 0, average;

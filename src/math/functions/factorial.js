@@ -2,7 +2,8 @@
  * Method 1: Recursive Function
  * @function factorialRecursive: Print factorial of a number using recursive function approach
  * Time complexity is O(n).
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {Number}
  */
 const factorialRecursive = n => {
     if(n === 0) {
@@ -15,7 +16,8 @@ const factorialRecursive = n => {
 /**
  * Method 2: Iterative 
  * @function factorialIterative: Print factorial of a number using iterative approach
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {Number}
  * Time complexity is O(n).
  */
 const factorialIterative = n => {
@@ -29,7 +31,8 @@ const factorialIterative = n => {
 /**
  * Method 3: One line solution
  * @function factorialOneLine: Print factorial of a number using a ternary operator.
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {Number}
  */
 const factorialOneLine = n => {
     return (n===1 || n===0) ? 1 : n*factorialOneLine(n-1);
@@ -39,8 +42,8 @@ const factorialOneLine = n => {
  * @function doubleFactorial: Print semi-factorial or double factorial of number using the iterative approach. 
  * 
  * Double factorial of a non-integer n is the product of all integers from 1 to n that have the same parity i.e odd or even
- *  
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {Number}
  */
 const doublefactorial = n => {
     let temp = 1;
@@ -52,7 +55,8 @@ const doublefactorial = n => {
 
 /**
  * @function facCountTrailingZeroes: Print the count of trailing zeroes in n!
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {Number}
  */
 const factCountTrailingZeroes = n => {
     let count = 0;

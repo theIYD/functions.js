@@ -1,8 +1,9 @@
 /**
  * @function Sine Rule using two angles & one side
- * @param {*} sideOne 
- * @param {*} angleOne 
- * @param {*} angleTwo 
+ * @param {Number} sideOne 
+ * @param {Number} angleOne 
+ * @param {Number} angleTwo 
+ * @returns {Number}
  */
 const sineRule = (sideOne, angleOne, angleTwo) => {
     return Math.sin(angleTwo / 180*Math.PI) * (sideOne / Math.sin(angleOne/180*Math.PI));
@@ -10,9 +11,10 @@ const sineRule = (sideOne, angleOne, angleTwo) => {
 
 /**
  * @function Cosine Rule
- * @param {*} sideOne 
- * @param {*} sideTwo 
- * @param {*} theta 
+ * @param {Number} sideOne 
+ * @param {Number} sideTwo 
+ * @param {Number} theta
+ * @returns {Number} 
  */
 const cosineRule = (sideOne, sideTwo, theta=0) => {
     let angle = (Math.PI / 180) * parseFloat(theta)

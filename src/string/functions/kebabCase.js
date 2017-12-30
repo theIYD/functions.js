@@ -1,7 +1,8 @@
 const string_util = require('./util/isString');
 /**
  * @function to Kebab Case
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {String} 
  */
 const kebabCase = str => {
     string_util.isString(str);

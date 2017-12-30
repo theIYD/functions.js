@@ -1,7 +1,8 @@
 const string_util = require('./util/isString');
 /**
- * to Snake Case
- * @param {*} str 
+ * @function to Snake Case
+ * @param {String} str - a string 
+ * @returns {String}
  */
 const snakeCase = str => {
     string_util.isString(str);

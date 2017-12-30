@@ -1,8 +1,9 @@
 
 /**
- * @function: euclideanDistance: Calculates the distance between two points in any   plane. Initial takes an array of initial points & Final takes an array of final points.
- * @param {*} initial: initial points 
- * @param {*} final: final points
+ * @function: euclideanDistance: Calculates the distance between two points in any plane. Initial takes an array of initial points & Final takes an array of final points.
+ * @param {Array} initial: initial points 
+ * @param {Array} final: final points
+ * @returns {Number}
  */
 const euclideanDistance = (initial, final) => {
     let total = 0;

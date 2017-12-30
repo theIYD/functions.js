@@ -1,6 +1,7 @@
 /**
  * @function Check if a number is prime
- * @param {*} number 
+ * @param {Number} number
+ * @returns {Boolean} 
  */
 const isPrime = number => {
     let divisor = 2;

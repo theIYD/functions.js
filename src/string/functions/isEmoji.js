@@ -3,7 +3,8 @@ const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function String is an emoji
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 const isEmoji = str => {
     string_util.isString(str);

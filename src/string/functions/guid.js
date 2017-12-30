@@ -1,6 +1,7 @@
 /**
  * @function Generate a Global Unique Identifier
- * @param {*} len 
+ * @param {Number} len - length 
+ * @returns {String}
  */
 const guid = len => {
     let arr = [],

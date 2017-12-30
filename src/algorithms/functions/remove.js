@@ -1,7 +1,8 @@
 /**
  * @function Remove an element from an array
- * @param {*} arr 
- * @param {*} elem 
+ * @param {Array} arr - an array 
+ * @param {Element} elem - an element
+ * @returns {Array}
  */
 const remove = (arr, elem) => {
     arr.forEach((num, i) => { if (num === elem) arr.splice(i, 1) });

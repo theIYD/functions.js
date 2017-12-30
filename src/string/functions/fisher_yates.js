@@ -1,6 +1,7 @@
 /**
  * @function fisherYates: Shuffle an array using the Fisher Yates Algorithm using a while loop.
- * @param {*} arr 
+ * @param {Array} arr: an array
+ * @returns {Array} 
  */
 const fisherYates = arr => {
     let currentIndex = arr.length

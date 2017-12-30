@@ -2,7 +2,8 @@ const string_util = require('./util/isString');
 
 /**
  * @function Escape characters from string
- * @param {*} str 
+ * @param {String} str - a String 
+ * @returns {String}
  */
 const escape = str => {
     string_util.isString(str);

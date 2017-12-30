@@ -3,7 +3,8 @@ const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isMACAddress: String is a MAC Address.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 const isMACAddress = str => {
     const mac = regexpattern('mac');

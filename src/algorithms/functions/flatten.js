@@ -1,7 +1,7 @@
 /**
  * @function Flatten/Merge two arrays
- * @param {*} arr 
- * @param {*} givenArr 
+ * @param {Array} arr - an array
+ * @param {Array} givenArr 
  */
 const flatten = (arr, givenArr) => {
     arr.forEach((item) => {

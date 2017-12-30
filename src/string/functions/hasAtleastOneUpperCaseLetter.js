@@ -2,7 +2,8 @@ const string_util = require('./util/isString');
 
 /**
  * @function hasAtleastOneUpperCaseLetter: String has atleast one upper-cased letter.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 const hasAtleastOneUpperCaseLetter = str => {
     string_util.isString(str);

@@ -1,5 +1,6 @@
 /**
  * @function Generate a UUID i.e universally unique identifier
+ * @returns {String}
  */
 const uuid = () => {
     let date = new Date().getTime();

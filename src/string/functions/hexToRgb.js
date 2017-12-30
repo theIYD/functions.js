@@ -2,7 +2,8 @@ const string_util = require('./util/isString');
 
 /**
  * @function Converts hex color to RGB
- * @param {*} hex 
+ * @param {String} hex - a hex string
+ * @returns {Array}
  */
 const hexToRgb = hex => {
     string_util.isString(hex);

@@ -1,6 +1,7 @@
 /**
  * @function Reverse words of a sentence in place
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {String}  
  */
 const reverseInPlace = str => {
     return str.split(' ').reverse().join(' ').split('').reverse().join('');

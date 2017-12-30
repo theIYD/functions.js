@@ -1,6 +1,7 @@
 /**
  * @function Concatenates into a single array
- * @param {*} arrs 
+ * @param {Array} arrs 
+ * @returns {Array}
  */
 const concat = (...arrs) => {
     let temp = [];

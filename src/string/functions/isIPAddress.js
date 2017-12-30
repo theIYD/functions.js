@@ -3,7 +3,8 @@ const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isIPAddress: String is an IP address.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean} 
  */
 const isIPAddress = str => {
     string_util.isString(str);

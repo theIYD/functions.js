@@ -1,7 +1,8 @@
 /**
  * @function Search an element using linear search technique
- * @param {*} arr 
- * @param {*} elem 
+ * @param {Array} arr - an array
+ * @param {Element} elem - an element
+ * @returns {Number}
  */
 const linearSearch = (arr, elem) => {
     let temp = 0;

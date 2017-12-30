@@ -1,6 +1,7 @@
 /**
  * @function Sort an array using the insertion sort technique
- * @param {*} arr 
+ * @param {Array} arr 
+ * @returns {Array}
  */
 const insertionSort = arr => {
     for(let i = 1; i < arr.length; i++){

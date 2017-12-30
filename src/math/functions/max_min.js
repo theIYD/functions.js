@@ -1,7 +1,8 @@
 /**
  * @function maxOrmin: Get maximum or minimum of an array
- * @param {*} arr 
- * @param {*} task 
+ * @param {Array} arr 
+ * @param {String} task
+ * @returns {Number} 
  */
 const maxOrMin = (arr, task) => {
     if(task) {

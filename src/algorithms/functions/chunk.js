@@ -1,7 +1,8 @@
 /**
  * @function Split array into chunks of smaller arrays of the desired size
- * @param {*} arr 
- * @param {*} size 
+ * @param {Array} arr - an array 
+ * @param {Number} size
+ * @returns {Array} 
  */
 const chunk = (arr, size) => {
     let output = [], chunks = arr.length / size;

@@ -1,6 +1,7 @@
 /**
  * @function Filter out falsy values from an array
- * @param {*} arr 
+ * @param {Array} arr - an array  
+ * @returns {Array}
  */
 const filterFalsy = arr => {
     return arr.filter((val) => {
@@ -12,8 +13,9 @@ const filterFalsy = arr => {
 
 /**
  * @function Filter out an element from an array
- * @param {*} arr 
- * @param {*} elem 
+ * @param {Array} arr: an array 
+ * @param {Element} elem: an element 
+ * @returns {Array}
  */
 const filter = (arr, elem) => {
     return arr.filter((val) => (val === elem) ? val : null)

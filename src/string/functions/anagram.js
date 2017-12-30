@@ -2,8 +2,9 @@ const string_util = require('./util/isString');
 
 /**
  * @function Both strings are anagrams
- * @param {*} str1 
- * @param {*} str2 
+ * @param {String} str1 - First string
+ * @param {String} str2  - Second String
+ * @returns {Boolean} 
  */
 const anagram = (str1, str2) => {
     string_util.isString(str1);

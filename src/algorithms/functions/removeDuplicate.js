@@ -1,6 +1,7 @@
 /**
  * @function Remove duplicates from an array
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Array} 
  */
 const removeDuplicate = arr => {
     let exists = {}, output = [];

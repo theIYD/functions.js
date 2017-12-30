@@ -1,8 +1,9 @@
 /**
  * @function Clamp a number
- * @param {*} number 
- * @param {*} min 
- * @param {*} max 
+ * @param {Number} number 
+ * @param {Number} min 
+ * @param {Number} max
+ * @returns {Number} 
  */
 const clamp = (number, min, max) => {
     if (min > max) throw new RangeError('`max` must be greater than `min`');

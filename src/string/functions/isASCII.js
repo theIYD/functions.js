@@ -3,7 +3,8 @@ const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isASCII: String contains ASCII characters
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean} 
  */
 const isASCII = str => {
     const regex = regexpattern('ascii');

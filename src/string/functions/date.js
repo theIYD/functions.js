@@ -1,6 +1,7 @@
 /**
  * @function Get ISO-8601 week number of a year
- * @param {*} date: Date Object
+ * @param {Object} date: Date Object
+ * @returns {Number}
  */
 const ISO8601WeekNumber = date => {
     let d = new Date(date.valueOf());
@@ -13,8 +14,9 @@ const ISO8601WeekNumber = date => {
 
 /**
  * @function Calculate the days between two dates
- * @param {*} date1: First date object
- * @param {*} date2: Second date object 
+ * @param {Object} date1: First date object
+ * @param {Object} date2: Second date object 
+ * @returns {Number}
  */
 const differenceBetweenDates = (date1, date2) => {
     let difference =(date2.getTime() - date1.getTime()) / 1000;

@@ -2,7 +2,8 @@ const string_util = require('./util/isString');
 
 /**
  * @function isPalindrome: String is a palindrome.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 const isPalindrome = str => {
     string_util.isString(str);

@@ -3,7 +3,8 @@ const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isValidEmail: String is a valid email id.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 const isValidEmail = str => {
     const regex = regexpattern('email');

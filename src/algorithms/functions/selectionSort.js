@@ -1,6 +1,7 @@
 /**
  * @function Sort an array using the selection sort technique
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Array} 
  */
 const selectionSort = arr => {
     for(let index = 0; index < arr.length; index++) {

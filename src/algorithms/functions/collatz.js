@@ -1,6 +1,7 @@
 /**
  * @function Collatz Algorithm
- * @param {*} number 
+ * @param {Number} number
+ * @returns {Number} 
  */
 const collatz = number => {
     return (number % 2 == 0) ? (number / 2) : (3 * number + 1);

@@ -2,7 +2,8 @@ const string_util = require('./util/isString');
 
 /**
  * @function isLowerCase: String is all lower-cased.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 const isLowerCase = str => {
     string_util.isString(str);

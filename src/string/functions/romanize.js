@@ -1,6 +1,7 @@
 /**
  * @function Romanize a number
- * @param {*} num 
+ * @param {Number} num - a number
+ * @returns {String} 
  */
 const romanize = num => {
     if (!+num) throw new Error('Some error');

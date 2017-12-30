@@ -1,7 +1,8 @@
 /**
  * @function Find the nth largest number from an unsorted array
- * @param {*} arr 
- * @param {*} nth 
+ * @param {Array} arr - an array 
+ * @param {Number} nth 
+ * @returns {Number}
  */
 const nthLargest = (arr, nth) => {
     let large = arr.splice(arr.indexOf(Math.max.apply(null, arr)), 1);

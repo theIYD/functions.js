@@ -1,6 +1,7 @@
 /**
  * @function Sort an array using bubble sort technique
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Array} 
  */
 const bubbleSort = arr => {
     let is_sorted = false, temp;

@@ -2,7 +2,8 @@ const string_util = require('./util/isString');
 
 /**
  * @function isBool: String contains true, false, 0 or 1
- * @param {*} str 
+ * @param {String} str - a string 
+ * @returns {Boolean} 
  */
 const isBool = str => {
     string_util.isString(str);

@@ -1,7 +1,8 @@
 /**
  * @function Search an element using binary search tehcnique
- * @param {*} arr 
- * @param {*} elem 
+ * @param {Array} arr - an array 
+ * @param {Element} elem - an element
+ * @returns {Number} 
  */
 const binarySearch = (arr, elem) => {
     let upperBound = arr.length, lowerBound = 0,

@@ -1,6 +1,7 @@
 /**
  * @function Humanize a number
- * @param {*} num 
+ * @param {Number} num - a number
+ * @returns {String} 
  */
 const humanizeNumber = num => {
     let array = ["th","st","nd","rd"]

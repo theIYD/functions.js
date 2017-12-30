@@ -3,7 +3,8 @@ const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isHexColor: String is a hex color.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 const isHexColor = str => {
     const hex = regexpattern('hexcolor');

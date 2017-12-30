@@ -1,7 +1,7 @@
 /**
  * @function Zerofill a number to the given length
- * @param {*} number 
- * @param {*} len 
+ * @param {Number} number - a number
+ * @param {*} len - length
  */
 const zeroFill = (number, len) => {
 	return '0'.repeat(len - number.toString().length) + number;

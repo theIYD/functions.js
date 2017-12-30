@@ -2,7 +2,8 @@ const string_util = require('./util/isString');
 
 /**
  * @function Count the number of vowels in a string
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Number}
  */
 const countVowels = str => {
     string_util.isString(str);

@@ -1,6 +1,7 @@
 /**
  * @function countPrimeFactors: A function to count all prime factors of a given number
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {Number} 
  */
 const countPrimeFactors = n => {
     let count = 0;

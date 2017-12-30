@@ -3,7 +3,8 @@ const regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isHexaDecimal: String is hexadecimal.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean} 
  */
 const isHexaDecimal = str => {
     string_util.isString(str);
