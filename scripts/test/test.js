@@ -2,7 +2,7 @@ const func = require('../../src/index');
 const expect = require('chai').expect;
 
 describe('start functions.js', () => {
-    describe('strings', () => {
+    describe('start string function tests', () => {
         const stringFunc = func.StringFunc;
 
         describe('function_name: anagram', () => {
@@ -322,6 +322,83 @@ describe('start functions.js', () => {
                 expect(stringFunc.ZeroFill(25,4)).to.be.eql('0025');
              });
            });
+        });
+    });
+
+    describe('start algorithm function tests', () => {
+        const algoFunc = func.AlgoFunc;
+        describe('function_name: binarySearch', () => {
+            it('should return the number 3 i.e position of number 2 in the array ([6,5,4,2,3,5])', () => {
+                expect(algoFunc.BinarySearch([6,5,4,2,3,5], 2)).to.be.eql(3);
+            });
+        });
+
+        describe('function_name: bubbleSort', () => {
+            it('should return a sorted array ([6,5,4,2,3,5])', () => {
+                expect(algoFunc.BubbleSort([6,5,4,2,3,5], 2)).to.be.an('array').eql([2,3,4,5,5,6]);
+            });
+        });
+
+        describe('function_name: chunk', () => {
+            it('should return a an array splitted into the mentioned size. ([6,5,4,2,3,5,8,9,4,1])', () => {
+                expect(algoFunc.Chunk([6,5,4,2,3,5,8,9,4,1], 2)).to.be.an('array');
+            });
+        });
+
+        describe('function_name: collatz', () => {
+            it('should return a Collatz number', () => {
+                expect(algoFunc.Collatz(4)).to.satisfy((num) => {
+                    return !isNaN(num);
+                });
+            });
+        });
+
+        describe('function_name: flatten', () => {
+            it('should return a merged array ([1,2,3,4,5], [6,7,8,9,10])', () => {
+                expect(algoFunc.Flatten([1,2,3,4,5], [6,7,8,9,10])).to.be.an('array');
+            });
+        });
+
+        describe('function_name: insertion sort', () => {
+            it('should return a sorted array using Insertion Sort Technique ([6,7,8,9,10])', () => {
+                expect(algoFunc.InsertionSort([6,7,8,9,10])).to.be.an('array');
+            });
+        });
+
+        describe('function_name: linear search', () => {
+            it('should return the index of element to be searched ([100,200,300,400,800,900])', () => {
+                expect(algoFunc.LinearSearch([100,200,300,400,800,900], 900)).to.be.eql(5);
+            });
+        });
+
+        describe('function_name: nthLargest', () => {
+            it('should return the nth largest of ([25,12,31,65,0,7,8,100])', () => {
+                expect(algoFunc.NthLargest([25,12,31,65,0,7,8,100], 3)).to.be.eql(31);
+            });
+        });
+
+        describe('function_name: remove', () => {
+            it('should return array with removed element ([8,1,0,8,9,6,0,0,7,2])', () => {
+                expect(algoFunc.Remove([8,1,0,8,9,6,0,0,7,2], 1)).to.be.an('array');
+            });
+        });
+
+        describe('function_name: removeDuplicate', () => {
+            it('should return array with duplicates removed ([9,8,6,7,6,4,5,2,9,7])', () => {
+                expect(algoFunc.RemoveDuplicates([9,8,6,7,6,4,5,2,9,7])).to.be.an('array');
+            });
+        });
+
+        describe('function_name: segregate', () => {
+            it('should return array with 0\'s and 1\'s segregated ([0,1,0,0,0,1,1,1,0])', () => {
+                expect(algoFunc.Segregate([0,1,0,0,0,1,1,1,0])).to.be.an('array');
+            });
+        });
+
+        describe('function_name: selectionSort', () => {
+            it('should return a sorted array using Selection Sort Technique ([-1,-2,-3,0,1,2])', () => {
+                expect(algoFunc.SelectionSort([-1,-2,-3,0,1,2])).to.be.an('array');
+            });
         });
     });
 });
