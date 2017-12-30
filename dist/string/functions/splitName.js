@@ -8,9 +8,9 @@ var string_util = require('./util/isString');
  * @returns {Array}
  */
 var splitName = function splitName(str) {
-    string_util.isString(str);
+  string_util.isString(str);
 
-    return str.split(" ");
+  return str.split(" ");
 };
 
 module.exports = splitName;

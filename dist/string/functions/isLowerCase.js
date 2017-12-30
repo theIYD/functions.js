@@ -8,9 +8,9 @@ var string_util = require('./util/isString');
  * @returns {Boolean}  
  */
 var isLowerCase = function isLowerCase(str) {
-    string_util.isString(str);
+  string_util.isString(str);
 
-    return str === str.toLowerCase();
+  return str === str.toLowerCase();
 };
 
 module.exports = isLowerCase;
