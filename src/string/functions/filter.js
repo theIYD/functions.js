@@ -2,7 +2,7 @@
  * @function Filter out falsy values from an array
  * @param {*} arr 
  */
-const filterFalsy = (arr) => {
+const filterFalsy = arr => {
     return arr.filter((val) => {
         if(val !== false || val !== null || val !== 0 || val !== "") {
             return val;

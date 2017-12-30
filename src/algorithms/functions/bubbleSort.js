@@ -2,7 +2,7 @@
  * @function Sort an array using bubble sort technique
  * @param {*} arr 
  */
-const bubbleSort = (arr) => {
+const bubbleSort = arr => {
     let is_sorted = false, temp;
     while (!is_sorted) {
         is_sorted = true;

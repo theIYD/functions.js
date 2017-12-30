@@ -5,7 +5,7 @@ const regexpattern = require('./util/RegexPatterns').RegexPatterns;
  * @function isMACAddress: String is a MAC Address.
  * @param {*} str 
  */
-const isMACAddress = (str) => {
+const isMACAddress = str => {
     const mac = regexpattern('mac');
     
     string_util.isString(str);

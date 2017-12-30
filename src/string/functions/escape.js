@@ -4,7 +4,7 @@ const string_util = require('./util/isString');
  * @function Escape characters from string
  * @param {*} str 
  */
-const escape = (str) => {
+const escape = str => {
     string_util.isString(str);
     if(!str) {
         throw new Error('error');

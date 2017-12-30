@@ -5,7 +5,7 @@ const regexpattern = require('./util/RegexPatterns').RegexPatterns;
  * @function isIPAddress: String is an IP address.
  * @param {*} str 
  */
-const isIPAddress = (str) => {
+const isIPAddress = str => {
     string_util.isString(str);
 
     return regexpattern('ip').test(str);

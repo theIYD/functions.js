@@ -2,7 +2,7 @@
  * @function Generate a Global Unique Identifier
  * @param {*} len 
  */
-const guid = (len) => {
+const guid = len => {
     let arr = [],
         chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789',
         length = len || 32;

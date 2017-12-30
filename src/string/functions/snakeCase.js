@@ -3,7 +3,7 @@ const string_util = require('./util/isString');
  * to Snake Case
  * @param {*} str 
  */
-const snakeCase = (str) => {
+const snakeCase = str => {
     string_util.isString(str);
     return (str.indexOf(" ") !== -1) 
         ?

@@ -4,7 +4,7 @@ const string_util = require('./util/isString');
  * @function Secures your email using asterisks
  * @param {*} str 
  */
-const secureEmail = (str) => {
+const secureEmail = str => {
     string_util.isString(str);
     let str1, temp, asterisks;
     str1 = str.split("@");

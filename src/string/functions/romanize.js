@@ -2,7 +2,7 @@
  * @function Romanize a number
  * @param {*} num 
  */
-const romanize = (num) => {
+const romanize = num => {
     if (!+num) throw new Error('Some error');
     var digits = String(+num).split(""),
         key = ["","C","CC","CCC","CD","D","DC","DCC","DCCC","CM",

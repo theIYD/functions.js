@@ -4,7 +4,7 @@ const string_util = require('./util/isString');
  * @function initials: Get the intitials of a person's name
  * @param {*} str 
  */
-const initials = (str) => {
+const initials = str => {
     string_util.isString(str);
     let output = '';
     str = str.split("");

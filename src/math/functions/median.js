@@ -2,7 +2,7 @@
  * @function Calculate median of a sorted number array
  * @param {*} arr 
  */
-const median = (arr) => {
+const median = arr => {
     let median;
     arr.sort((a,b) => a - b);
     if (arr.length % 2 === 0) median = (arr[arr.length/2]+arr[arr.length/2 - 1])/2;

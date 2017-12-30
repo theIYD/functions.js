@@ -2,7 +2,7 @@
  * @function Sort an array using the selection sort technique
  * @param {*} arr 
  */
-const selectionSort = (arr) => {
+const selectionSort = arr => {
     for(let index = 0; index < arr.length; index++) {
         let minimum = index;
 

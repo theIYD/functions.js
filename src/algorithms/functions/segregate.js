@@ -2,7 +2,7 @@
  * @function Segregate 0's and 1's in an array
  * @param {*} arr 
  */
-const segregate = (arr) => {
+const segregate = arr => {
     let left = 0, size = arr.length, right = size - 1;
     while (left < right) {
         while (arr[left] === 0 && left < right) left++;

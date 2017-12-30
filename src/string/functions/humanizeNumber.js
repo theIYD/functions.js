@@ -2,7 +2,7 @@
  * @function Humanize a number
  * @param {*} num 
  */
-const humanizeNumber = (num) => {
+const humanizeNumber = num => {
     let array = ["th","st","nd","rd"]
     if (num === undefined) return "";
     let lstDg = num % 10;

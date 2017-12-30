@@ -2,7 +2,7 @@
  * @function Get ISO-8601 week number of a year
  * @param {*} date: Date Object
  */
-const ISO8601WeekNumber = (date) => {
+const ISO8601WeekNumber = date => {
     let d = new Date(date.valueOf());
     d.setDate(d.getDate() - ((date.getDay() + 6) % 7) + 3);
     let temp = d.valueOf();

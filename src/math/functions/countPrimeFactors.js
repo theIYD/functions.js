@@ -2,23 +2,16 @@
  * @function countPrimeFactors: A function to count all prime factors of a given number
  * @param {*} n 
  */
-const countPrimeFactors = (n) => {
+const countPrimeFactors = n => {
     let count = 0;
     while (n%2 == 0) {
         n = n/2;
-        count++;
-    }
-    
+        count++; }
     for (let i = 3; i <= Math.sqrt(n); i = i+2) {
         while (n%i == 0) {
             n = n/i;
-            count++;
-        }
-    }
-    
-    if (n > 2)
-        count++;
-    
+            count++;}}
+    if (n > 2) count++;
     return (count);
 }
 

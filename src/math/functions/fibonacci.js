@@ -4,9 +4,8 @@
  * Time Complexity: T(n) = T(n-1) + T(n-2) which is exponential.
  * @param {*} n 
  */
-const fibRecursion = (n) => {
-    if (n <= 1)
-        return n;
+const fibRecursion = n => {
+    if (n <= 1) return n;
     return fibRecursion(n-1) + fibRecursion(n-2);
 }
 
@@ -16,17 +15,14 @@ const fibRecursion = (n) => {
  * Time Complexity: O(n) 
  * @param {*} n 
  */
-const fibDynamic = (n) => {
+const fibDynamic = n => {
     let f = [];
     f.push(n+1);
-
     f[0] = 0;
     f[1] = 1;
-
     for(let i=2; i<=n; i++) {
         f[i] = f[i-1] + f[i-2];
     }
-
     return f[n];
 }
 

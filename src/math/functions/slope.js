@@ -3,7 +3,7 @@
  * Example: arg = 60 degrees or [x0,y0,x1,y1]
  * @param {*} arg 
  */
-const slopeOfALine = (arg) => {
+const slopeOfALine = arg => {
     let slope = 0;
 
     if(arg) {

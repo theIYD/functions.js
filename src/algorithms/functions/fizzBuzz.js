@@ -2,7 +2,7 @@
  * @function FizzBuzz Algorithm: most famous asked question
  * @param {*} n 
  */
-const fizzBuzz = (n) => {
+const fizzBuzz = n => {
     for (let i = 1; i < n; i++) {
         if( i % 3 === 0 && i % 5 === 0){
             console.log("FizzBuzz");

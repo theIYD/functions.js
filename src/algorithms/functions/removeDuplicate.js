@@ -2,7 +2,7 @@
  * @function Remove duplicates from an array
  * @param {*} arr 
  */
-const removeDuplicate = (arr) => {
+const removeDuplicate = arr => {
     let exists = {}, output = [];
     arr.forEach((val) => {
         if(!exists[val]) {

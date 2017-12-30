@@ -2,7 +2,7 @@
  * @function fisherYates: Shuffle an array using the Fisher Yates Algorithm using a while loop.
  * @param {*} arr 
  */
-const fisherYates = (arr) => {
+const fisherYates = arr => {
     let currentIndex = arr.length
     , temporaryValue
     , randomIndex
