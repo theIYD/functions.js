@@ -41,7 +41,7 @@ console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 
 The library can be loaded as a standalone script.
 
-```js
+```html
 
 <script type="text/javascript" src="FunctionsJS.min.js"></script>
 <script type="text/javascript">
