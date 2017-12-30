@@ -36,6 +36,20 @@ console.log(func.AlgoFunc.Reverse([17,65,100,32,98,14,25]));
 console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
 //returns 'true'
 ```
+
+## Client Side
+
+The library can be loaded as a standalone script.
+
+```js
+
+<script type="text/javascript" src="FunctionsJS.min.js"></script>
+<script type="text/javascript">
+	console.log(FunctionsJS.AlgoFunc.BubbleSort([5,6,9,8,4,2,1]));
+	//=> [1,2,4,5,6,8,9]
+</script>
+```
+
 ## Methods 
 
 | Method Name | Category | Description | Return Type |
