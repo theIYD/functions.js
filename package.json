@@ -7,8 +7,7 @@
     "build": "babel src --out-dir dist",
     "test": "mocha scripts/test/ -w --recursive",
     "test:single": "mocha scripts/test/ --recursive",
-    "generate-readme": "node ./scripts/generator.js",
-    "prepublish": "npm run build"
+    "generate-readme": "node ./scripts/generator.js"
   },
   "homepage": "https://github.com/theIYD/functions.js",
   "repository": {
