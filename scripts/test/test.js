@@ -401,4 +401,153 @@ describe('start functions.js', () => {
             });
         });
     });
+
+    describe('start math test functions', () => {
+        const mathFunc = func.MathFunc;
+
+        function checkNumber(num) {
+            return !isNaN(num);
+        }
+        describe('function_name: average', () => {
+            it('should return the average of the array ([5,6,7,8])', () => {
+                expect(mathFunc.Average([5,6,7,8])).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: changeBase', () => {
+            it('should return a number with base changed (25)', () => {
+                expect(mathFunc.BaseChange(25,10,16)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: combination', () => {
+            it('should return a combination (5)', () => {
+                expect(mathFunc.Combination(5,3)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: countPrimeFactors', () => {
+            it('should return a combination (5)', () => {
+                expect(mathFunc.CountPrimeFactors(91)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: euclideanDistance', () => {
+            it('should return the euclidean distance between two points ([5,3], [8,6])', () => {
+                expect(mathFunc.EuclideanDistance([5,3], [8,6])).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: fibRecursion', () => {
+            it('should return the 8th fibonacci number', () => {
+                expect(mathFunc.Fibonacci.fibRecursion(8)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: fibDynamic', () => {
+            it('should return the 8th fibonacci number', () => {
+                expect(mathFunc.Fibonacci.fibDynamic(8)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: gcd', () => {
+            it('should return the gcd among the two numbers 16 and 48', () => {
+                expect(mathFunc.GCD(16,48)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: hammingDistance', () => {
+            it('should return the hamming distance', () => {
+                expect(mathFunc.HammingDistance(82,75)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: isDivisible', () => {
+            it('should return true (25,5)', () => {
+                expect(mathFunc.IsItDivisible(25,5)).to.be.true;
+            });
+        });
+
+        describe('function_name: isDivisible', () => {
+            it('should return true (25,5)', () => {
+                expect(mathFunc.IsItDivisible(25,5)).to.be.true;
+            });
+        });
+
+        describe('function_name: isPrime', () => {
+            it('should return false (16)', () => {
+                expect(mathFunc.ItItPrime(16)).to.be.false;
+            });
+        });
+
+        describe('function_name: lcm', () => {
+            it('should return LCM of an array ([2,4,6,5])', () => {
+                expect(mathFunc.LCM([2,4,6,5])).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: median', () => {
+            it('should return median of an array ([2,4,6,5,8,7,4])', () => {
+                expect(mathFunc.Median([2,4,6,5,8,7])).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: nthRoot', () => {
+            it('should return nth root of a positive number (24)', () => {
+                expect(mathFunc.NthRoot(24, 3)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: permutation', () => {
+            it('should return permutation (10)', () => {
+                expect(mathFunc.Permutation(10, 4)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: pythagoras distance', () => {
+            it('should return the pythagoras distance (10)', () => {
+                expect(mathFunc.Pythagoras.pythagorasDistance(10, 4)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: round', () => {
+            it('should return the rounded value of a number (12.0005)', () => {
+                expect(mathFunc.Round(12.0005)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: slope', () => {
+            it('should return the rounded value of a number (12.0005)', () => {
+                expect(mathFunc.Slope(60)).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: slope', () => {
+            it('should return the slope of a line using angle of inclination (60)', () => {
+                expect(mathFunc.Slope(60)).to.satisfy(checkNumber);
+            });
+
+            it('should return the slope of a line using 2 coordinates ([8,5,13,10])', () => {
+                expect(mathFunc.Slope([8,5,13,10])).to.satisfy(checkNumber);
+            });
+        });
+
+        describe('function_name: sum', () => {
+            it('should return the sum of an array ([8,7,4,1,2])', () => {
+                expect(mathFunc.SumOfArray([8,7,4,1,2])).to.be.eql(22);
+            });
+        });
+
+        describe('function_name: sineRule', () => {
+            it('should return the side of a triangle using sine rule', () => {
+                expect(mathFunc.Trigonometry.sineRule(5,60,45)).to.satisfy(checkNumber)
+            });
+        });
+
+        describe('function_name: sineRule', () => {
+            it('should return the side of a triangle using cosine rule', () => {
+                expect(mathFunc.Trigonometry.cosineRule(15,90,30)).to.satisfy(checkNumber)
+            });
+        });
+    });
 });
