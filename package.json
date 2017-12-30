@@ -4,7 +4,8 @@
   "description": "A hub of numerous functions.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist",
+    "build": "babel src --out-dir dist && webpack --env dev && webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha scripts/test/ -w --recursive",
     "test:single": "mocha scripts/test/ --recursive",
     "generate-readme": "node ./scripts/generator.js"
@@ -26,8 +27,11 @@
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "mocha": "^4.0.1",
+    "webpack": "^3.10.0",
+    "yargs": "^10.0.3"
   }
 }

@@ -8,9 +8,9 @@ var string_util = require('./util/isString');
  * @returns {Boolean}  
  */
 var isUpperCase = function isUpperCase(str) {
-  string_util.isString(str);
+    string_util.isString(str);
 
-  return str === str.toUpperCase();
+    return str === str.toUpperCase();
 };
 
 module.exports = isUpperCase;

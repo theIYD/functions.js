@@ -9,10 +9,10 @@ var regexpattern = require('./util/RegexPatterns').RegexPatterns;
  * @returns {Boolean}  
  */
 var isHexColor = function isHexColor(str) {
-  var hex = regexpattern('hexcolor');
+    var hex = regexpattern('hexcolor');
 
-  string_util.isString(str);
-  return hex.test(str);
+    string_util.isString(str);
+    return hex.test(str);
 };
 
 module.exports = isHexColor;
