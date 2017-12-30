@@ -8,9 +8,9 @@ var regexpattern = require('./util/RegexPatterns').RegexPatterns;
  * @param {*} str 
  */
 var isIPAddress = function isIPAddress(str) {
-    string_util.isString(str);
+  string_util.isString(str);
 
-    return regexpattern('ip').test(str);
+  return regexpattern('ip').test(str);
 };
 
 module.exports = isIPAddress;

@@ -7,9 +7,9 @@ var string_util = require('./util/isString');
  * @param {*} str 
  */
 var splitName = function splitName(str) {
-    string_util.isString(str);
+  string_util.isString(str);
 
-    return str.split(" ");
+  return str.split(" ");
 };
 
 module.exports = splitName;

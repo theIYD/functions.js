@@ -8,10 +8,10 @@ var regexpattern = require('./util/RegexPatterns').RegexPatterns;
  * @param {*} str 
  */
 var isValidEmail = function isValidEmail(str) {
-    var regex = regexpattern('email');
+  var regex = regexpattern('email');
 
-    string_util.isString(str);
-    return regex ? regex.test(str) : null;
+  string_util.isString(str);
+  return regex ? regex.test(str) : null;
 };
 
 module.exports = isValidEmail;

@@ -7,10 +7,10 @@ var string_util = require('./util/isString');
  * @param {*} str 
  */
 var isPalindrome = function isPalindrome(str) {
-    string_util.isString(str);
-    var reverse = str.toLowerCase().replace(/[\W_]/g, '').split("").reverse().join("");
+  string_util.isString(str);
+  var reverse = str.toLowerCase().replace(/[\W_]/g, '').split("").reverse().join("");
 
-    return str.toLowerCase().replace(/[\W_]/g, '') === reverse;
+  return str.toLowerCase().replace(/[\W_]/g, '') === reverse;
 };
 
 module.exports = isPalindrome;

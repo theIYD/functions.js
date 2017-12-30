@@ -8,10 +8,10 @@ var regexpattern = require('./util/RegexPatterns').RegexPatterns;
  * @param string
  */
 var isMD5 = function isMD5(str) {
-    string_util.isString(str);
-    var md5 = regexpattern('md5');
+  string_util.isString(str);
+  var md5 = regexpattern('md5');
 
-    return md5.test(str);
+  return md5.test(str);
 };
 
 module.exports = isMD5;
