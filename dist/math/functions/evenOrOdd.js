@@ -2,7 +2,8 @@
 
 /**
  * @function Number is even or odd
- * @param {*} number 
+ * @param {Number} number 
+ * @returns {Boolean}
  */
 var isEven = function isEven(number) {
     return number % 2 === 0;

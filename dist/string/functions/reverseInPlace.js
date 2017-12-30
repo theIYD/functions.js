@@ -2,7 +2,8 @@
 
 /**
  * @function Reverse words of a sentence in place
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {String}  
  */
 var reverseInPlace = function reverseInPlace(str) {
   return str.split(' ').reverse().join(' ').split('').reverse().join('');

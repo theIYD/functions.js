@@ -2,7 +2,8 @@
 
 /**
  * @function Sort an array using the selection sort technique
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Array} 
  */
 var selectionSort = function selectionSort(arr) {
     for (var index = 0; index < arr.length; index++) {

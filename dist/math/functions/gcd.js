@@ -3,8 +3,9 @@
 /**
  * @function gcd: Calculate the greatest common divisor among the two numbers using Euclidean's algorithm.
  * 
- * @param {*} numb1 
- * @param {*} numb2 
+ * @param {Number} numb1 
+ * @param {Number} numb2 
+ * @returns {Number}
  */
 var gcd = function gcd(numb1, numb2) {
     var temp = 0;

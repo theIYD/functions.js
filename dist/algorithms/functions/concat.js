@@ -2,7 +2,8 @@
 
 /**
  * @function Concatenates into a single array
- * @param {*} arrs 
+ * @param {Array} arrs 
+ * @returns {Array}
  */
 var concat = function concat() {
   for (var _len = arguments.length, arrs = Array(_len), _key = 0; _key < _len; _key++) {

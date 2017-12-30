@@ -4,7 +4,8 @@ var string_util = require('./util/isString');
 
 /**
  * @function Convert string to titleCase
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {String}
  */
 var toTitleCase = function toTitleCase(str) {
   string_util.isString(str);

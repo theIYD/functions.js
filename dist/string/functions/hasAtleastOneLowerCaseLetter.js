@@ -4,7 +4,8 @@ var string_util = require('./util/isString');
 
 /**
  * @function hasAtleastOneLowerCaseLetter: String has atleast one lower-cased letter.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean} 
  */
 var hasAtleastOneLowerCaseLetter = function hasAtleastOneLowerCaseLetter(str) {
     string_util.isString(str);

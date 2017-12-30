@@ -4,7 +4,8 @@ var string_util = require('./util/isString');
 
 /**
  * @function isEmpty: String is empty or not
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 var isEmpty = function isEmpty(str) {
   string_util.isString(str);

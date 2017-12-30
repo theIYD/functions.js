@@ -4,8 +4,9 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 /**
  * @function maxOrmin: Get maximum or minimum of an array
- * @param {*} arr 
- * @param {*} task 
+ * @param {Array} arr 
+ * @param {String} task
+ * @returns {Number} 
  */
 var maxOrMin = function maxOrMin(arr, task) {
     if (task) {

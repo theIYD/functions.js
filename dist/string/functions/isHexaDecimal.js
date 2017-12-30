@@ -5,7 +5,8 @@ var regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isHexaDecimal: String is hexadecimal.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean} 
  */
 var isHexaDecimal = function isHexaDecimal(str) {
   string_util.isString(str);

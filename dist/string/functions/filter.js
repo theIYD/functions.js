@@ -2,7 +2,8 @@
 
 /**
  * @function Filter out falsy values from an array
- * @param {*} arr 
+ * @param {Array} arr - an array  
+ * @returns {Array}
  */
 var filterFalsy = function filterFalsy(arr) {
     return arr.filter(function (val) {
@@ -14,8 +15,9 @@ var filterFalsy = function filterFalsy(arr) {
 
 /**
  * @function Filter out an element from an array
- * @param {*} arr 
- * @param {*} elem 
+ * @param {Array} arr: an array 
+ * @param {Element} elem: an element 
+ * @returns {Array}
  */
 var filter = function filter(arr, elem) {
     return arr.filter(function (val) {

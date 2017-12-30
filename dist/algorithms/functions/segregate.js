@@ -2,7 +2,8 @@
 
 /**
  * @function Segregate 0's and 1's in an array
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Array} 
  */
 var segregate = function segregate(arr) {
     var left = 0,

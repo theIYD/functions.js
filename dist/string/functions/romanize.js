@@ -2,7 +2,8 @@
 
 /**
  * @function Romanize a number
- * @param {*} num 
+ * @param {Number} num - a number
+ * @returns {String} 
  */
 var romanize = function romanize(num) {
     if (!+num) throw new Error('Some error');

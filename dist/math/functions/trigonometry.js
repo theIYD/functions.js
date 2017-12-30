@@ -2,9 +2,10 @@
 
 /**
  * @function Sine Rule using two angles & one side
- * @param {*} sideOne 
- * @param {*} angleOne 
- * @param {*} angleTwo 
+ * @param {Number} sideOne 
+ * @param {Number} angleOne 
+ * @param {Number} angleTwo 
+ * @returns {Number}
  */
 var sineRule = function sineRule(sideOne, angleOne, angleTwo) {
     return Math.sin(angleTwo / 180 * Math.PI) * (sideOne / Math.sin(angleOne / 180 * Math.PI));
@@ -12,9 +13,10 @@ var sineRule = function sineRule(sideOne, angleOne, angleTwo) {
 
 /**
  * @function Cosine Rule
- * @param {*} sideOne 
- * @param {*} sideTwo 
- * @param {*} theta 
+ * @param {Number} sideOne 
+ * @param {Number} sideTwo 
+ * @param {Number} theta
+ * @returns {Number} 
  */
 var cosineRule = function cosineRule(sideOne, sideTwo) {
     var theta = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;

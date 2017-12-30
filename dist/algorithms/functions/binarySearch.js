@@ -2,8 +2,9 @@
 
 /**
  * @function Search an element using binary search tehcnique
- * @param {*} arr 
- * @param {*} elem 
+ * @param {Array} arr - an array 
+ * @param {Element} elem - an element
+ * @returns {Number} 
  */
 var binarySearch = function binarySearch(arr, elem) {
   var upperBound = arr.length,

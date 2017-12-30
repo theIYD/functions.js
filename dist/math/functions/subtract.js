@@ -2,7 +2,8 @@
 
 /**
  * @function Subtract a number from another
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Number} 
  */
 var subract = function subract(firstNum, secondNum) {
   return firstNum >= secondNum ? firstNum - secondNum : secondNum - firstNum;

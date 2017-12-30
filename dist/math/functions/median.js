@@ -2,7 +2,8 @@
 
 /**
  * @function Calculate median of a sorted number array
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Number} 
  */
 var median = function median(arr) {
     var median = void 0;

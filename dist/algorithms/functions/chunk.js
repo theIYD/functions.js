@@ -2,8 +2,9 @@
 
 /**
  * @function Split array into chunks of smaller arrays of the desired size
- * @param {*} arr 
- * @param {*} size 
+ * @param {Array} arr - an array 
+ * @param {Number} size
+ * @returns {Array} 
  */
 var chunk = function chunk(arr, size) {
     var output = [],

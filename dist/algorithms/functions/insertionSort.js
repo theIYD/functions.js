@@ -2,7 +2,8 @@
 
 /**
  * @function Sort an array using the insertion sort technique
- * @param {*} arr 
+ * @param {Array} arr 
+ * @returns {Array}
  */
 var insertionSort = function insertionSort(arr) {
   for (var i = 1; i < arr.length; i++) {

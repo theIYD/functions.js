@@ -2,7 +2,8 @@
 
 /**
  * @function Seperate thousands using commas
- * @param {*} num 
+ * @param {Number} num - a number
+ * @returns {String} 
  */
 var thousandSeperator = function thousandSeperator(num) {
   var parts = num.toString().split(".");

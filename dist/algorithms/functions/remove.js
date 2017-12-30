@@ -2,8 +2,9 @@
 
 /**
  * @function Remove an element from an array
- * @param {*} arr 
- * @param {*} elem 
+ * @param {Array} arr - an array 
+ * @param {Element} elem - an element
+ * @returns {Array}
  */
 var remove = function remove(arr, elem) {
   arr.forEach(function (num, i) {

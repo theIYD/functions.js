@@ -4,8 +4,9 @@ var string_util = require('./util/isString');
 
 /**
  * @function Truncate a string at provided position 
- * @param {*} str 
- * @param {*} pos 
+ * @param {String} str - a string
+ * @param {Number} pos - position is array
+ * @returns {String}
  */
 var truncate = function truncate(str, pos) {
   string_util.isString(str);

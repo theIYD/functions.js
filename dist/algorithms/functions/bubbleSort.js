@@ -2,7 +2,8 @@
 
 /**
  * @function Sort an array using bubble sort technique
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Array} 
  */
 var bubbleSort = function bubbleSort(arr) {
     var is_sorted = false,

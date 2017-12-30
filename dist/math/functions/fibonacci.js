@@ -4,7 +4,8 @@
  * Method 1 : Using recursion.
  * @function fibRecursion: Print nth fibonacci number using recursion.
  * Time Complexity: T(n) = T(n-1) + T(n-2) which is exponential.
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {Number}
  */
 var fibRecursion = function fibRecursion(n) {
     if (n <= 1) return n;
@@ -15,7 +16,8 @@ var fibRecursion = function fibRecursion(n) {
  * Method 2: Using dynamic programming
  * @function fibDynamic: Print nth fibonacci number using dynamic programming approach.
  * Time Complexity: O(n) 
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {Number}
  */
 var fibDynamic = function fibDynamic(n) {
     var f = [];

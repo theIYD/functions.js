@@ -5,7 +5,8 @@ var regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isHexColor: String is a hex color.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 var isHexColor = function isHexColor(str) {
   var hex = regexpattern('hexcolor');

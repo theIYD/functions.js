@@ -4,7 +4,8 @@ var string_util = require('./util/isString');
 
 /**
  * @function isUpperCase: String is all upper-cased.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 var isUpperCase = function isUpperCase(str) {
   string_util.isString(str);

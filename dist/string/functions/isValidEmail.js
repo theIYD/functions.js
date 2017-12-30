@@ -5,7 +5,8 @@ var regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isValidEmail: String is a valid email id.
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 var isValidEmail = function isValidEmail(str) {
   var regex = regexpattern('email');

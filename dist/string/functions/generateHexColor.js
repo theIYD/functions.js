@@ -2,6 +2,7 @@
 
 /**
  * @function Generate random hex color
+ * @returns {String}
  */
 var generateHexColor = function generateHexColor() {
   var letters = '0123456789ABCDEF',

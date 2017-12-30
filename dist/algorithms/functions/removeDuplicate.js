@@ -2,7 +2,8 @@
 
 /**
  * @function Remove duplicates from an array
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Array} 
  */
 var removeDuplicate = function removeDuplicate(arr) {
     var exists = {},

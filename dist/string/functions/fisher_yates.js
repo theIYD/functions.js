@@ -2,7 +2,8 @@
 
 /**
  * @function fisherYates: Shuffle an array using the Fisher Yates Algorithm using a while loop.
- * @param {*} arr 
+ * @param {Array} arr: an array
+ * @returns {Array} 
  */
 var fisherYates = function fisherYates(arr) {
     var currentIndex = arr.length,

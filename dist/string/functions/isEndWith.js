@@ -4,8 +4,9 @@ var string_util = require('./util/isString');
 
 /**
  * @function isEndWidth: String ends with target.
- * @param {*} str 
- * @param {*} target 
+ * @param {String} str 
+ * @param {String} target 
+ * @returns {Boolean} 
  */
 var isEndWith = function isEndWith(str, target) {
     if (target) {

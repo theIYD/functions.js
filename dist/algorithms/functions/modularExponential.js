@@ -2,9 +2,10 @@
 
 /**
  * @function Modular Exponential Algorithm
- * @param {*} base 
- * @param {*} power 
- * @param {*} mod 
+ * @param {Number} base 
+ * @param {Number} power 
+ * @param {Number} mod
+ * @returns {Number} 
  */
 var modularExponential = function modularExponential(base, power, mod) {
     if (power < 0) return -1;

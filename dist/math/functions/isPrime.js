@@ -2,7 +2,8 @@
 
 /**
  * @function Check if a number is prime
- * @param {*} number 
+ * @param {Number} number
+ * @returns {Boolean} 
  */
 var isPrime = function isPrime(number) {
     var divisor = 2;

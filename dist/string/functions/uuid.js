@@ -2,6 +2,7 @@
 
 /**
  * @function Generate a UUID i.e universally unique identifier
+ * @returns {String}
  */
 var uuid = function uuid() {
     var date = new Date().getTime();

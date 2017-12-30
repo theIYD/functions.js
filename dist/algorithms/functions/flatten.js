@@ -2,8 +2,8 @@
 
 /**
  * @function Flatten/Merge two arrays
- * @param {*} arr 
- * @param {*} givenArr 
+ * @param {Array} arr - an array
+ * @param {Array} givenArr 
  */
 var flatten = function flatten(arr, givenArr) {
   arr.forEach(function (item) {

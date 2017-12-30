@@ -2,8 +2,9 @@
 
 /**
  * @function Search an element using linear search technique
- * @param {*} arr 
- * @param {*} elem 
+ * @param {Array} arr - an array
+ * @param {Element} elem - an element
+ * @returns {Number}
  */
 var linearSearch = function linearSearch(arr, elem) {
   var temp = 0;

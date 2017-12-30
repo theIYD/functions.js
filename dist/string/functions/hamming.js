@@ -4,8 +4,9 @@ var string_util = require('./util/isString');
 
 /**
  * @function String Hamming Distance
- * @param {*} str1 
- * @param {*} str2 
+ * @param {String} str1 - a string
+ * @param {String} str2 - a string
+ * @returns {Number}
  */
 var stringHammingDistance = function stringHammingDistance(str1, str2) {
     string_util.isString(str1), string_util.isString(str2);

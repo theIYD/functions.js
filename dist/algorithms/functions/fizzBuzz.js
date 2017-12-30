@@ -2,7 +2,8 @@
 
 /**
  * @function FizzBuzz Algorithm: most famous asked question
- * @param {*} n 
+ * @param {Number} n - a number
+ * @returns {String || Number} 
  */
 var fizzBuzz = function fizzBuzz(n) {
     for (var i = 1; i < n; i++) {

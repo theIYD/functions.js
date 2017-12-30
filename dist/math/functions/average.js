@@ -2,7 +2,8 @@
 
 /**
  * @function average: Calculates the average of an array
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Number} 
  */
 var average = function average(arr) {
     var temp = 0,

@@ -2,7 +2,8 @@
 
 /**
  * @function Reverse an array
- * @param {*} arr 
+ * @param {Array} arr - an array
+ * @returns {Array} 
  */
 var reverse = function reverse(arr) {
   var len = arr.length;

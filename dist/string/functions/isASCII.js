@@ -5,13 +5,14 @@ var regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function isASCII: String contains ASCII characters
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean} 
  */
 var isASCII = function isASCII(str) {
-    var regex = regexpattern('ascii');
+  var regex = regexpattern('ascii');
 
-    string_util.isString(str);
-    return regex.test(str);
+  string_util.isString(str);
+  return regex.test(str);
 };
 
 module.exports = isASCII;

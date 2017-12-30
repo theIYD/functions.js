@@ -4,7 +4,8 @@ var string_util = require('./util/isString');
 
 /**
  * @function Camelize a string i.e CamelCase
- * @param {*} str 
+ * @param {String} str - a String
+ * @returns {String} 
  */
 var camelize = function camelize(str) {
     string_util.isString(str);

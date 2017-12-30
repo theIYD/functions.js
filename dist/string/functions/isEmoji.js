@@ -5,7 +5,8 @@ var regexpattern = require('./util/RegexPatterns').RegexPatterns;
 
 /**
  * @function String is an emoji
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {Boolean}  
  */
 var isEmoji = function isEmoji(str) {
   string_util.isString(str);

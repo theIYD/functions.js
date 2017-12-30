@@ -4,7 +4,8 @@ var string_util = require('./util/isString');
 
 /**
  * @function Secures your email using asterisks
- * @param {*} str 
+ * @param {String} str - a string
+ * @returns {String} 
  */
 var secureEmail = function secureEmail(str) {
     string_util.isString(str);
