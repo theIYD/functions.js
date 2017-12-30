@@ -1,3 +1,5 @@
+//Tests
+
 const func = require('../../src/index');
 const expect = require('chai').expect;
 
