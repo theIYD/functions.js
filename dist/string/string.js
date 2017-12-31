@@ -17,6 +17,7 @@ module.exports = {
     HexToRGB: require('./functions/hexToRgb'),
     HumanizeNumber: require('./functions/humanizeNumber'),
     IsItADataURI: require('./functions/isDataURI'),
+    IsItAFunction: require('./functions/isFunction'),
     IsItAHexaDecimal: require('./functions/isHexaDecimal'),
     IsItASCII: require('./functions/isASCII'),
     IsItAValidEmail: require('./functions/isValidEmail'),

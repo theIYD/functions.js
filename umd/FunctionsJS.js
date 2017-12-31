@@ -260,7 +260,7 @@ module.exports = gcd;
 var func = {
     MathFunc: __webpack_require__(5),
     StringFunc: __webpack_require__(31),
-    AlgoFunc: __webpack_require__(84)
+    AlgoFunc: __webpack_require__(85)
 };
 
 module.exports = func;
@@ -934,42 +934,43 @@ module.exports = {
     HexToRGB: __webpack_require__(45),
     HumanizeNumber: __webpack_require__(46),
     IsItADataURI: __webpack_require__(47),
-    IsItAHexaDecimal: __webpack_require__(48),
-    IsItASCII: __webpack_require__(49),
-    IsItAValidEmail: __webpack_require__(50),
-    IsItAnIPAddress: __webpack_require__(51),
-    IsItBool: __webpack_require__(52),
-    IsItEmoji: __webpack_require__(53),
-    IsItEmpty: __webpack_require__(54),
-    IsItEndWith: __webpack_require__(55),
-    IsItEquals: __webpack_require__(56),
-    IsItHexColor: __webpack_require__(57),
-    IsItJSON: __webpack_require__(58),
-    IsItLowerCased: __webpack_require__(59),
-    IsItMACAddress: __webpack_require__(60),
-    IsItMD5: __webpack_require__(61),
-    IsItPalindrome: __webpack_require__(62),
-    IsItUpperCased: __webpack_require__(63),
-    KebabCase: __webpack_require__(64),
-    RemoveTags: __webpack_require__(65),
-    ReverseInPlace: __webpack_require__(66),
-    RgbToHex: __webpack_require__(67),
-    Romanize: __webpack_require__(68),
-    SecureEmail: __webpack_require__(69),
-    SecurePassword: __webpack_require__(70),
-    SnakeCase: __webpack_require__(71),
-    SortChar: __webpack_require__(72),
-    SplitName: __webpack_require__(73),
-    StringHammingDistance: __webpack_require__(74),
-    ThousandSeperator: __webpack_require__(75),
-    ToFloat: __webpack_require__(76),
-    ToInteger: __webpack_require__(77),
-    ToTitleCase: __webpack_require__(78),
-    TrailingAndLeading: __webpack_require__(79),
-    Truncate: __webpack_require__(80),
-    Unescape: __webpack_require__(81),
-    UUID: __webpack_require__(82),
-    ZeroFill: __webpack_require__(83)
+    IsItAFunction: __webpack_require__(48),
+    IsItAHexaDecimal: __webpack_require__(49),
+    IsItASCII: __webpack_require__(50),
+    IsItAValidEmail: __webpack_require__(51),
+    IsItAnIPAddress: __webpack_require__(52),
+    IsItBool: __webpack_require__(53),
+    IsItEmoji: __webpack_require__(54),
+    IsItEmpty: __webpack_require__(55),
+    IsItEndWith: __webpack_require__(56),
+    IsItEquals: __webpack_require__(57),
+    IsItHexColor: __webpack_require__(58),
+    IsItJSON: __webpack_require__(59),
+    IsItLowerCased: __webpack_require__(60),
+    IsItMACAddress: __webpack_require__(61),
+    IsItMD5: __webpack_require__(62),
+    IsItPalindrome: __webpack_require__(63),
+    IsItUpperCased: __webpack_require__(64),
+    KebabCase: __webpack_require__(65),
+    RemoveTags: __webpack_require__(66),
+    ReverseInPlace: __webpack_require__(67),
+    RgbToHex: __webpack_require__(68),
+    Romanize: __webpack_require__(69),
+    SecureEmail: __webpack_require__(70),
+    SecurePassword: __webpack_require__(71),
+    SnakeCase: __webpack_require__(72),
+    SortChar: __webpack_require__(73),
+    SplitName: __webpack_require__(74),
+    StringHammingDistance: __webpack_require__(75),
+    ThousandSeperator: __webpack_require__(76),
+    ToFloat: __webpack_require__(77),
+    ToInteger: __webpack_require__(78),
+    ToTitleCase: __webpack_require__(79),
+    TrailingAndLeading: __webpack_require__(80),
+    Truncate: __webpack_require__(81),
+    Unescape: __webpack_require__(82),
+    UUID: __webpack_require__(83),
+    ZeroFill: __webpack_require__(84)
 };
 
 /***/ }),
@@ -1401,6 +1402,24 @@ module.exports = isDataURI;
 "use strict";
 
 
+/**
+ * @function Value is a function
+ * @param {Argument} val 
+ * @returns {Boolean}
+ */
+var isFunction = function isFunction(val) {
+  return typeof val === 'function';
+};
+
+module.exports = isFunction;
+
+/***/ }),
+/* 49 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
 var string_util = __webpack_require__(0);
 var regexpattern = __webpack_require__(1).RegexPatterns;
 
@@ -1418,7 +1437,7 @@ var isHexaDecimal = function isHexaDecimal(str) {
 module.exports = isHexaDecimal;
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1442,7 +1461,7 @@ var isASCII = function isASCII(str) {
 module.exports = isASCII;
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1466,7 +1485,7 @@ var isValidEmail = function isValidEmail(str) {
 module.exports = isValidEmail;
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1489,7 +1508,7 @@ var isIPAddress = function isIPAddress(str) {
 module.exports = isIPAddress;
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1510,7 +1529,7 @@ var isBool = function isBool(str) {
 module.exports = isBool;
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1532,7 +1551,7 @@ var isEmoji = function isEmoji(str) {
 module.exports = isEmoji;
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1553,7 +1572,7 @@ var isEmpty = function isEmpty(str) {
 module.exports = isEmpty;
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1577,7 +1596,7 @@ var isEndWith = function isEndWith(str, target) {
 module.exports = isEndWith;
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1598,7 +1617,7 @@ var isEquals = function isEquals(str, elem) {
 module.exports = isEquals;
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1622,7 +1641,7 @@ var isHexColor = function isHexColor(str) {
 module.exports = isHexColor;
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1649,7 +1668,7 @@ var isJSON = function isJSON(str) {
 module.exports = isJSON;
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1671,7 +1690,7 @@ var isLowerCase = function isLowerCase(str) {
 module.exports = isLowerCase;
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1695,7 +1714,7 @@ var isMACAddress = function isMACAddress(str) {
 module.exports = isMACAddress;
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1719,7 +1738,7 @@ var isMD5 = function isMD5(str) {
 module.exports = isMD5;
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1742,7 +1761,7 @@ var isPalindrome = function isPalindrome(str) {
 module.exports = isPalindrome;
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1764,7 +1783,7 @@ var isUpperCase = function isUpperCase(str) {
 module.exports = isUpperCase;
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1784,7 +1803,7 @@ var kebabCase = function kebabCase(str) {
 module.exports = kebabCase;
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1806,7 +1825,7 @@ var removeTags = function removeTags(str) {
 module.exports = removeTags;
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1824,7 +1843,7 @@ var reverseInPlace = function reverseInPlace(str) {
 module.exports = reverseInPlace;
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1847,7 +1866,7 @@ var rgbToHex = function rgbToHex(red, green, blue) {
 module.exports = rgbToHex;
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1872,7 +1891,7 @@ var romanize = function romanize(num) {
 module.exports = romanize;
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1900,7 +1919,7 @@ var secureEmail = function secureEmail(str) {
 module.exports = secureEmail;
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1921,7 +1940,7 @@ var securePassword = function securePassword(str) {
 module.exports = securePassword;
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1943,7 +1962,7 @@ var snakeCase = function snakeCase(str) {
 module.exports = snakeCase;
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1961,7 +1980,7 @@ var sortChar = function sortChar(str) {
 module.exports = sortChar;
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1983,7 +2002,7 @@ var splitName = function splitName(str) {
 module.exports = splitName;
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2015,7 +2034,7 @@ var stringHammingDistance = function stringHammingDistance(str1, str2) {
 module.exports = stringHammingDistance;
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2035,7 +2054,7 @@ var thousandSeperator = function thousandSeperator(num) {
 module.exports = thousandSeperator;
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2056,7 +2075,7 @@ var toFloat = function toFloat(str) {
 module.exports = toFloat;
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2077,7 +2096,7 @@ var toInt = function toInt(str, radix) {
 module.exports = toInt;
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2100,7 +2119,7 @@ var toTitleCase = function toTitleCase(str) {
 module.exports = toTitleCase;
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2118,7 +2137,7 @@ var trailingAndLeading = function trailingAndLeading(arr) {
 module.exports = trailingAndLeading;
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2140,7 +2159,7 @@ var truncate = function truncate(str, pos) {
 module.exports = truncate;
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2161,7 +2180,7 @@ var unescape = function unescape(str) {
 module.exports = unescape;
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2184,7 +2203,7 @@ var uuid = function uuid() {
 module.exports = uuid;
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2202,33 +2221,33 @@ var zeroFill = function zeroFill(number, len) {
 module.exports = zeroFill;
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 module.exports = {
-    BinarySearch: __webpack_require__(85),
-    BubbleSort: __webpack_require__(86),
-    Chunk: __webpack_require__(87),
-    Collatz: __webpack_require__(88),
-    Concat: __webpack_require__(89),
-    FizzBuzz: __webpack_require__(90),
-    Flatten: __webpack_require__(91),
-    InsertionSort: __webpack_require__(92),
-    LinearSearch: __webpack_require__(93),
-    ModularExponential: __webpack_require__(94),
-    NthLargest: __webpack_require__(95),
-    Remove: __webpack_require__(96),
-    RemoveDuplicates: __webpack_require__(97),
-    Reverse: __webpack_require__(98),
-    Segregate: __webpack_require__(99),
-    SelectionSort: __webpack_require__(100)
+    BinarySearch: __webpack_require__(86),
+    BubbleSort: __webpack_require__(87),
+    Chunk: __webpack_require__(88),
+    Collatz: __webpack_require__(89),
+    Concat: __webpack_require__(90),
+    FizzBuzz: __webpack_require__(91),
+    Flatten: __webpack_require__(92),
+    InsertionSort: __webpack_require__(93),
+    LinearSearch: __webpack_require__(94),
+    ModularExponential: __webpack_require__(95),
+    NthLargest: __webpack_require__(96),
+    Remove: __webpack_require__(97),
+    RemoveDuplicates: __webpack_require__(98),
+    Reverse: __webpack_require__(99),
+    Segregate: __webpack_require__(100),
+    SelectionSort: __webpack_require__(101)
 };
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2263,7 +2282,7 @@ var binarySearch = function binarySearch(arr, elem) {
 module.exports = binarySearch;
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2295,7 +2314,7 @@ var bubbleSort = function bubbleSort(arr) {
 module.exports = bubbleSort;
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2320,7 +2339,7 @@ var chunk = function chunk(arr, size) {
 module.exports = chunk;
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2338,7 +2357,7 @@ var collatz = function collatz(number) {
 module.exports = collatz;
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2366,7 +2385,7 @@ var concat = function concat() {
 module.exports = concat;
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2394,7 +2413,7 @@ var fizzBuzz = function fizzBuzz(n) {
 module.exports = fizzBuzz;
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2417,7 +2436,7 @@ var flatten = function flatten(arr, givenArr) {
 module.exports = flatten;
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2445,7 +2464,7 @@ var insertionSort = function insertionSort(arr) {
 module.exports = insertionSort;
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2469,7 +2488,7 @@ var linearSearch = function linearSearch(arr, elem) {
 module.exports = linearSearch;
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2498,7 +2517,7 @@ var modularExponential = function modularExponential(base, power, mod) {
 module.exports = modularExponential;
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2518,7 +2537,7 @@ var nthLargest = function nthLargest(arr, nth) {
 module.exports = nthLargest;
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2540,7 +2559,7 @@ var remove = function remove(arr, elem) {
 module.exports = remove;
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2569,7 +2588,7 @@ var removeDuplicate = function removeDuplicate(arr) {
 module.exports = removeDuplicate;
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2590,7 +2609,7 @@ var reverse = function reverse(arr) {
 module.exports = reverse;
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2623,7 +2642,7 @@ var segregate = function segregate(arr) {
 module.exports = segregate;
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

@@ -104,6 +104,7 @@ The library can be loaded as a standalone script.
 |`isEndWith(str, target)` |string |String ends with target. |boolean |
 |`isEquals(str, elem)` |string |Compares the two strings entered. |boolean |
 |`isEven(number)` |math |True if a number is even, false otherwise. |boolean |
+|`isFunction(val)` |string |Value is a function. |boolean |
 |`isHexaDecimal(str)` |string |String is hexadecimal. |boolean |
 |`isHexColor(str)` |string |String is a hex color. |boolean |
 |`isIPAddress(str)` |string |String is an IP address. |boolean |
