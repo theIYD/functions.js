@@ -300,6 +300,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`isFunction(val)`',
+        topic: 'string',
+        description: 'Value is a function.',
+        return_type: 'boolean'
+    },
+    {
         title: '`isHexaDecimal(str)`',
         topic: 'string',
         description: 'String is hexadecimal.',

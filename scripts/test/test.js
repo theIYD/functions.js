@@ -169,6 +169,12 @@ describe('start functions.js', () => {
              });
            });
 
+           describe('function_name: isFunction', () => {
+            it('should return true for the value to be (val => return val)', () => {
+               expect(stringFunc.IsItAFunction(val => {return val})).to.be.true;
+            });
+          });
+
            describe('function_name: isHexaDecimal', () => {
              it('should return true for the string to be equal to (EF12D5)', () => {
                 expect(stringFunc.IsItAHexaDecimal('EF12D5')).to.be.true;
