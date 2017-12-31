@@ -15,6 +15,9 @@
   "repository": {
     "url": "https://github.com/theIYD/functions.js"
   },
+  "files": [
+    "./umd"
+  ],
   "keywords": [
     "functions",
     "math",
