@@ -16,7 +16,8 @@
     "url": "https://github.com/theIYD/functions.js"
   },
   "files": [
-    "./umd"
+    "dist",
+    "umd"
   ],
   "keywords": [
     "functions",
