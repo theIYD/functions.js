@@ -34,7 +34,7 @@ const install = `## Install\n\nThe project is up on <a href="https://www.npmjs.c
 
 const usage = `## Usage\n\nBelow is an example on how to use the library into your projects.\n\n` + marked + 'js\n\n' + jscode;
 
-const client_side_usage = `\n## Client Side\n\nThe library can be loaded as a standalone script.\n\n` + marked + 'html\n\n' + `<script type="text/javascript" src="FunctionsJS.min.js"></script>\n<script type="text/javascript">\n\tconsole.log(FunctionsJS.AlgoFunc.BubbleSort([5,6,9,8,4,2,1]));\n\t//=> [1,2,4,5,6,8,9]\n</script>\n` + marked + '\n\n';
+const client_side_usage = `\n## Client Side\n\nThe library can be loaded as a standalone script.\n\n` + marked + 'html\n\n' + `<script type="text/javascript" src="https://unpkg.com/functions.js/umd/FunctionsJS.min.js"></script>\n<script type="text/javascript">\n\tconsole.log(FunctionsJS.AlgoFunc.BubbleSort([5,6,9,8,4,2,1]));\n\t//=> [1,2,4,5,6,8,9]\n</script>\n` + marked + '\n\n';
 
 const about = `\n## About\n The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/okay-string">okay-string</a>**. I thought of renaming it to <em>functions</em> & learn more by actually practicing functions. That's how <code>functions.js</code> was created.😍\n`;
 
