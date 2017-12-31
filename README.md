@@ -43,7 +43,7 @@ The library can be loaded as a standalone script.
 
 ```html
 
-<script type="text/javascript" src="FunctionsJS.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/functions.js/umd/FunctionsJS.min.js"></script>
 <script type="text/javascript">
 	console.log(FunctionsJS.AlgoFunc.BubbleSort([5,6,9,8,4,2,1]));
 	//=> [1,2,4,5,6,8,9]
