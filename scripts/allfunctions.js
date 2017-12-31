@@ -318,6 +318,12 @@ const funcs = [
         return_type: 'boolean'
     },
     {
+        title: '`isJSON(str)`',
+        topic: 'string',
+        description: 'String is a JSON object.',
+        return_type: 'boolean'
+    },
+    {
         title: '`isLowerCase(str)`',
         topic: 'string',
         description: 'String is all lower-cased.',
@@ -570,6 +576,18 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`toFloat(str)`',
+        topic: 'string',
+        description: 'Parse string to float value',
+        return_type: 'number'
+    },
+    {
+        title: '`toInt(str)`',
+        topic: 'string',
+        description: 'Parse string to integer value',
+        return_type: 'number'
+    },
+    {
         title: '`toTitleCase(str)`',
         topic: 'string',
         description: 'Convert string to titleCase',
@@ -586,6 +604,12 @@ const funcs = [
         topic: 'string',
         description: 'Remove leading and trailing zeroes from an array',
         return_type: 'array'
+    },
+    {
+        title: '`unescape(str)`',
+        topic: 'string',
+        description: 'Unescape the string.',
+        return_type: 'string'
     },
     {
         title: '`uuid()`',

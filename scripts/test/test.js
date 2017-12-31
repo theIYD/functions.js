@@ -187,6 +187,12 @@ describe('start functions.js', () => {
              });
            });
 
+           describe('function_name: isJSON', () => {
+            it('should return true for the string to be a JSON object', () => {
+               expect(stringFunc.IsItJSON('{}')).to.be.true;
+            });
+          });
+          
            describe('function_name: isLowerCase', () => {
              it('should return true for the string to be equal to (moon)', () => {
                 expect(stringFunc.IsItLowerCased('moon')).to.be.true;
@@ -289,6 +295,18 @@ describe('start functions.js', () => {
              });
            });
 
+           describe('function_name: toFloat', () => {
+            it('should return a float value', () => {
+               expect(stringFunc.ToFloat('12.06')).to.be.eql(12.06);
+            });
+          });
+
+          describe('function_name: toInt', () => {
+            it('should return a integer value', () => {
+               expect(stringFunc.ToInteger('12.06')).to.be.eql(12);
+            });
+          });
+
            describe('function_name: toTitleCase', () => {
              it('should return a title cased string (how are you ?)', () => {
                 expect(stringFunc.ToTitleCase('how are you ?')).to.be.a('string').eql('How Are You ?');
@@ -306,6 +324,12 @@ describe('start functions.js', () => {
                 expect(stringFunc.Truncate('Code and Develop', 2)).to.be.an('string').eql('Code and');
              });
            });
+
+           describe('function_name: unescape', () => {
+            it('should return an unescaped string', () => {
+               expect(stringFunc.Unescape('&lt;h6&gt;')).to.be.eql('<h6>');
+            });
+          });
 
            describe('function_name: uuid', () => {
              it('should return a UUID', () => {
