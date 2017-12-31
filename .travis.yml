@@ -1,10 +1,13 @@
 language: node_js
 node_js:
 - node
+
 script:
-- npm run build
-- npm run generate-readme
 - npm run test:single
+- npm run build
+- npm run build:umd
+- npm run generate-readme
+
 after_success:
 - chmod +x .travis/push.sh
 - sudo .travis/push.sh

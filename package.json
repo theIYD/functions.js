@@ -4,7 +4,8 @@
   "description": "A hub of numerous functions.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist && webpack --env dev && webpack --env build",
+    "build": "babel src --out-dir dist",
+    "build:umd": "webpack --env dev && webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha scripts/test/ -w --recursive",
     "test:single": "mocha scripts/test/ --recursive",
