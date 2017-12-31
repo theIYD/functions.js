@@ -27,6 +27,7 @@ module.exports = {
     IsItEndWith: require('./functions/isEndWith'),
     IsItEquals: require('./functions/isEquals'),
     IsItHexColor: require('./functions/isHexColor'),
+    IsItJSON: require('./functions/isJSON'),
     IsItLowerCased: require('./functions/isLowerCase'),
     IsItMACAddress: require('./functions/isMACAddress'),
     IsItMD5: require('./functions/isMD5'),
@@ -44,9 +45,12 @@ module.exports = {
     SplitName: require('./functions/splitName'),
     StringHammingDistance: require('./functions/hamming'),
     ThousandSeperator: require('./functions/thousandSeperator'),
+    ToFloat: require('./functions/toFloat'),
+    ToInteger: require('./functions/toInt'),
     ToTitleCase: require('./functions/toTitleCase'),
     TrailingAndLeading: require('./functions/trailingAndLeading'),
     Truncate: require('./functions/truncate'),
+    Unescape: require('./functions/unescape'),
     UUID: require('./functions/uuid'),
     ZeroFill: require('./functions/zeroFill')
 };

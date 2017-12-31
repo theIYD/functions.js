@@ -107,6 +107,7 @@ The library can be loaded as a standalone script.
 |`isHexaDecimal(str)` |string |String is hexadecimal. |boolean |
 |`isHexColor(str)` |string |String is a hex color. |boolean |
 |`isIPAddress(str)` |string |String is an IP address. |boolean |
+|`isJSON(str)` |string |String is a JSON object. |boolean |
 |`isLowerCase(str)` |string |String is all lower-cased. |boolean |
 |`isMACAddress(str)` |string |String is a MAC Address. |boolean |
 |`isMD5(str)` |string |String is a a MD5 type. |boolean |
@@ -149,9 +150,12 @@ The library can be loaded as a standalone script.
 |`subtract(firstNum, secondNum)` |math |Subtract a number from another |number |
 |`sumOfArray(arr)` |math |Addition of all the integers in an array |number |
 |`thousandSeperator(num)` |string |Seperate thousands using commas |number |
+|`toFloat(str)` |string |Parse string to float value |number |
+|`toInt(str)` |string |Parse string to integer value |number |
 |`toTitleCase(str)` |string |Convert string to titleCase |string |
 |`truncate(str,pos)` |string |Truncate a string at provided position |string |
 |`trailingAndLeading(arr)` |string |Remove leading and trailing zeroes from an array |array |
+|`unescape(str)` |string |Unescape the string. |string |
 |`uuid()` |string |Generate a UUID i.e universally unique identifier. |number |
 |`zeroFill(number, len)` |string |Zerofill a number to the given length. |number |
 
