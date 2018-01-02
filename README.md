@@ -33,7 +33,7 @@ console.log(func.MathFunc.EuclideanDistance([3,4,5], [8,7,9]));
 console.log(func.AlgoFunc.Reverse([17,65,100,32,98,14,25]));
 //returns '[25,14,98,32,100,65,17]'
 
-console.log(func.StringFunc.hasAtleastOneLowerCaseLetter('HELLoWORLD'));
+console.log(func.StringFunc.HasAtleastOneLowerCaseLetter('HELLoWORLD'));
 //returns 'true'
 ```
 
