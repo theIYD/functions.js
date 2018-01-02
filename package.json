@@ -1,46 +1,16 @@
 {
-  "name": "functions.js",
-  "version": "1.4.1",
-  "description": "A hub of numerous functions.",
-  "main": "./dist/index.js",
+  "name": "f-doc",
+  "version": "1.0.0",
+  "description": "Documentation for Functions.js",
+  "main": "index.js",
   "scripts": {
-    "build": "babel src --out-dir dist",
-    "build:umd": "webpack --env dev && webpack --env build",
-    "dev": "webpack --progress --colors --watch --env dev",
-    "test": "mocha scripts/test/ -w --recursive",
-    "test:single": "mocha scripts/test/ --recursive",
-    "generate-readme": "node ./scripts/generator.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/theIYD/functions.js",
-  "repository": {
-    "url": "https://github.com/theIYD/functions.js"
-  },
-  "files": [
-    "dist",
-    "umd"
-  ],
-  "keywords": [
-    "functions",
-    "math",
-    "validation",
-    "string",
-    "collections",
-    "library",
-    "javascript"
-  ],
+  "keywords": [],
   "author": "Idrees Dargahwala",
   "license": "MIT",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1",
-    "webpack": "^3.10.0",
-    "yargs": "^10.0.3"
-  },
   "dependencies": {
-    "dotenv": "^4.0.0",
-    "firebase": "^4.8.1"
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2"
   }
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
+    <link rel="stylesheet" href="./src/assets/hljs/styles/default.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="./src/assets/app.css">
+    <title>Documentation: Functions.js</title>
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="wrap-nav">
+                <a href=".">Home</a>
+                <ul>
+                    <li><a href="src/pages/api.html">API</a></li>
+                    <li><a target="_blank" href="https://github.com/theIYD/functions.js"><i class="ion-social-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">functions.js</h1>
+            <p class="subtle">A hub of numerous functions with various functionalities</p>
+        </div>
+    </header>
+    <div class="version">
+        <div class="wrapper">
+            <p>
+                <span class="commit-title">Latest Commit:</span>
+                <a target="_blank" class="latest_commit_url">
+                    <span class="commit-message"></span>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="wrapper">
+            <div class="install">
+                <h2 class="install-title">Install</h2>
+                <p>The library is available on
+                    <a href="">
+                        <strong>npm</strong>
+                    </a> for installation. The command below can be used</p>
+                <pre>
+                    <code class="install-code">$ npm install functions.js</code>
+                </pre>
+            </div>
+            <div class="usage">
+                <h2 class="usage-title">Basic Usage</h2>
+                <p>The library can be loaded into your application via RequireJS</p>
+                <pre>
+                    <code class="javascript usage-code-npm"><br>const func = require('functions.js');<br><br>const output = func.StringFunc.HasAtleastOneUpperCaseLetter('helLoworld');<br>console.log(output);<br>//=> returns true
+                    </code>
+                </pre>
+                <p class="usage-client">If you want to use the library on the client, use the version available on
+                    <a href="">
+                        <strong>unpkg.com</strong>
+                    </a>
+                </p>
+                <pre>
+                    <code class="javascript usage-code-npm"><br><strong>&lt;script</strong> type="text/javascript"<br>src="https://unpkg.com/functions.js/umd/FunctionsJS.min.js">&lt;/script><br><br>&lt;script type="text/javascript"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(FunctionsJS.AlgoFunc.BubbleSort([5,6,9,8,4,2,1]));<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//=> [1,2,4,5,6,8,9]<br>&lt;/script>
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <p>&copy; 2018 Idrees Dargahwala</p>
+        </div>
+    </footer>
+    </div>
+    <script src="https://npmcdn.com/axios/dist/axios.min.js"></script>
+    <script src="./src/assets/hljs/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
