@@ -42,7 +42,7 @@ describe('start functions.js', () => {
         });
 
         describe('function_name: ISO8601WeekNumber', () => {
-            let date = new Date();
+            let date = new Date('27 December 2017');
             it('should return the number 52', () => {
                 expect(stringFunc.Date.ISO8601WeekNumber(date)).to.be.eql(52);
             });
