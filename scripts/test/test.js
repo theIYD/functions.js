@@ -379,9 +379,7 @@ describe('start functions.js', () => {
 
         describe('function_name: collatz', () => {
             it('should return a Collatz number', () => {
-                expect(algoFunc.Collatz(4)).to.satisfy((num) => {
-                    return !isNaN(num);
-                });
+                expect(algoFunc.Collatz(4)).to.be.an('array');
             });
         });
 
