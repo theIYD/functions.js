@@ -1,6 +1,6 @@
 {
   "name": "functions.js",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "description": "A hub of numerous functions.",
   "main": "./dist/index.js",
   "scripts": {
