@@ -24,17 +24,19 @@ Below is an example on how to use the library into your projects.
 
 const func = require('functions.js');
 
-console.log(func.StringFunc.SecureEmail('helloworld@example.com'));
-//returns 'he********@example.com'
+const algo = new func.algorithms();
+const mathematics = new func.mathematics();
+const strings = new func.strings();
 
-console.log(func.MathFunc.EuclideanDistance([3,4,5], [8,7,9]));
-//returns '7.0710678118654755'
+console.log(strings.camelize('john doe'));
+//returns 'johnDoe'
 
-console.log(func.AlgoFunc.Reverse([17,65,100,32,98,14,25]));
-//returns '[25,14,98,32,100,65,17]'
+console.log(mathematics.factorialOneLine(5));
+//returns 120
 
-console.log(func.StringFunc.HasAtleastOneLowerCaseLetter('HELLoWORLD'));
-//returns 'true'
+console.log(algo.selectionSort([5,10,3,1]));
+//returns [1,3,5,10]
+
 ```
 
 ## Client Side
@@ -43,10 +45,11 @@ The library can be loaded as a standalone script.
 
 ```html
 
-<script type="text/javascript" src="https://unpkg.com/functions.js/umd/FunctionsJS.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/functions.js/umd/FJS.min.js"></script>
 <script type="text/javascript">
-	console.log(FunctionsJS.AlgoFunc.BubbleSort([5,6,9,8,4,2,1]));
-	//=> [1,2,4,5,6,8,9]
+	const algo = new FJS.algorithms();
+	console.log(algo.nthLargest([5,6,9,8,4,2,1]));
+	//=> returns 9
 </script>
 ```
 
