@@ -1,7 +1,5 @@
-const func = {
-    MathFunc: require('./math/math'),
-    StringFunc: require('./string/string'),
-    AlgoFunc: require('./algorithms/algorithm')
-};
-
-module.exports = func;
+module.exports = {
+    mathematics: require('./Mathematics/Mathematics'),
+    strings: require('./Strings/Strings'),
+    algorithms: require('./Algorithms/Algorithms')
+}

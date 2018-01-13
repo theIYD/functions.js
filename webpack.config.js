@@ -5,7 +5,7 @@ const path = require('path');
 const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 const env = require('yargs').argv.env;
 
-let libraryName = 'FunctionsJS';
+let libraryName = 'FJS';
 let plugins = [], outputFile;
 
 if (env === 'build') {
