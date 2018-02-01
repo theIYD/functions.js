@@ -445,6 +445,19 @@ var Mathematics = function () {
         }
 
         /**
+         * @function Reverse an integer
+         * @param {Number} integer
+         * @returns {Number} 
+         */
+
+    }, {
+        key: 'integerReversal',
+        value: function integerReversal(integer) {
+            var reversed = integer.toString().split('').reverse().join('');
+            return parseInt(reversed) * Math.sign(integer);
+        }
+
+        /**
          * @function Calculate LCM of an array of numbers
          * @param {Array} arr - an array
          * @returns {Number} 

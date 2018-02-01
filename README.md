@@ -98,6 +98,7 @@ The library can be loaded as a standalone script.
 |`hexToRgb(hex)` |string |Converts hex color to RGB. |array |
 |`humanizeNumber(num)` |string |Humanize a number. |string |
 |`insertionSort(arr)` |algorithm |Sort an array using the insertion sort technique. |array |
+|`integerReversal(integer)` |mathematics |Reverse an integer. |number |
 |`isASCII(str)` |string |String contains ASCII characters |boolean |
 |`isBool(str)` |string |String contains true or false |boolean |
 |`isDataURI(str)` |string |String is a data uri format. |boolean |
