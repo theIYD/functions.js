@@ -279,6 +279,16 @@ class Mathematics {
     }
 
     /**
+     * @function Reverse an integer
+     * @param {Number} integer
+     * @returns {Number} 
+     */
+    integerReversal(integer) {
+        const reversed = integer.toString().split('').reverse().join('');
+        return parseInt(reversed) * Math.sign(integer);
+    }
+
+    /**
      * @function Calculate LCM of an array of numbers
      * @param {Array} arr - an array
      * @returns {Number} 

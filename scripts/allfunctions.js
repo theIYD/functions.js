@@ -246,6 +246,12 @@ const funcs = [
         return_type: 'array'
     },
     {
+        title: '`integerReversal(integer)`',
+        topic: 'mathematics',
+        description: 'Reverse an integer.',
+        return_type: 'number'
+    },
+    {
         title: '`isASCII(str)`',
         topic: 'string',
         description: 'String contains ASCII characters',
