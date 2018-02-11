@@ -540,6 +540,12 @@ const funcs = [
         return_type: 'arr'
     },
     {
+        title: '`sigmoid(number)`',
+        topic: 'math',
+        description: 'Sigmoid Function',
+        return_type: 'number'
+    },
+    {
         title: '`sineRule(sideOne, angleOne, angleTwo)`',
         topic: 'math',
         description: 'Sine Rule using two angles & one side',

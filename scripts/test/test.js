@@ -477,6 +477,16 @@ describe('start functions.js', () => {
             });
         });
 
+        describe('function_name: sigmoid', () => {
+            it('should return 0.5124973964842104 which is sigmoid of a positive 0.05', () => {
+                expect(mathFunc.sigmoid(0.05)).to.be.eql(0.5124973964842103).to.satisfy(checkNumber);
+            });
+
+            it('should return 0.22618142573054617 which is sigmoid of -1.23', () => {
+                expect(mathFunc.sigmoid(-1.23)).to.be.eql(0.2261814257305462).to.satisfy(checkNumber);
+            });
+        });
+
         describe('function_name: slope', () => {
             it('should return the slope of a line using angle of inclination (60)', () => {
                 expect(mathFunc.slopeOfALine(60)).to.satisfy(checkNumber);
