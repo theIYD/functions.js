@@ -147,6 +147,7 @@ The library can be loaded as a standalone script.
 |`securePassword(str)` |string |Secure password using astrisks |string |
 |`segregate(arr)` |algorithm |Segregate 0's and 1's in an array |array |
 |`selectionSort(arr)` |algorithm |Sort an array using the selection sort technique |arr |
+|`sigmoid(number)` |math |Sigmoid Function |number |
 |`sineRule(sideOne, angleOne, angleTwo)` |math |Sine Rule using two angles & one side |number |
 |`slopeOfALine(arg)` |math |Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points. Example arg = 60 degrees or [x0,y0,x1,y1] |number |
 |`snakeCase(str)` |string |to Snake Case |string |
