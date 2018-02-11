@@ -318,6 +318,21 @@ class Mathematics {
     }
 
     /**
+     * @function Predict the value of PI using Leibniz
+     * @param {Number} - limit
+     * @returns {Number} 
+     */
+    leibniz(limit) {
+        let temp = 0;
+        for(let j = 0; j <= limit; j++) {
+            temp += Math.pow(-1, j) / (2 * j + 1);
+        }
+
+        //To get PI, 4*PI/4 = PI
+        return 4 * temp;
+    }
+
+    /**
      * @function maxOrmin: Get maximum or minimum of an array
      * @param {Array} arr 
      * @param {String} task

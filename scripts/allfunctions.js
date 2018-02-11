@@ -420,6 +420,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`leibniz(limit)`',
+        topic: 'math',
+        description: 'Predict the value of PI',
+        return_type: 'number'
+    },
+    {
         title: '`linearSearch(arr, elem)`',
         topic: 'algorithm',
         description: 'Search an element using linear search technique',

@@ -453,6 +453,12 @@ describe('start functions.js', () => {
             });
         });
 
+        describe('function_name: leibniz', () => {
+            it('should return 3.1465677471829556 for limit = 200', () => {
+                expect(mathFunc.leibniz(200)).to.be.eql(3.1465677471829556).to.satisfy(checkNumber);
+            });
+        });
+
         describe('function_name: median', () => {
             it('should return median of an array ([2,4,6,5,8,7,4])', () => {
                 expect(mathFunc.median([2, 4, 6, 5, 8, 7])).to.satisfy(checkNumber);
