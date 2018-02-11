@@ -73,6 +73,7 @@ The library can be loaded as a standalone script.
 |`countVowels(str)` |string |Count the number of vowels in a string. |number |
 |`degToRad(deg)` |math |Convert degrees to radians. |number |
 |`differenceBetweenDates(date1, date2)` |math |Simple division function which returns an array of quotient & remainder. |array |
+|`digitalRoot(number)` |math |Digital Root of a number |number |
 |`division(dividend, divisor)` |math |Simple division function which returns an array of quotient & remainder. |array |
 |`doublefactorial(n)` |math |Print semi-factorial or double factorial of number using the iterative approach. |number |
 |`escape(str)` |string |Escape characters from string |string |
