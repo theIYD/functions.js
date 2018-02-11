@@ -589,6 +589,18 @@ var Mathematics = function () {
         }
 
         /**
+         * @function Sigmoid Function
+         * @param {Number} number - a number
+         * @returns {Number}
+         */
+
+    }, {
+        key: 'sigmoid',
+        value: function sigmoid(number) {
+            return 1 / (1 + Math.exp(-number));
+        }
+
+        /**
          * @function slopeOfALine: Calculates the slope of a line using points and angle of inclination. arg takes angle of inclination or an array of initial points and final points.
          * Example: arg = 60 degrees or [x0,y0,x1,y1]
          * @param {Number || Array} arg - a number or an array of points
