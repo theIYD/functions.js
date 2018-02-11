@@ -302,6 +302,18 @@ var Mathematics = function () {
         }
 
         /**
+         * @function Calculate geometric variance
+         * @param {Number} probability
+         * @returns {Number} 
+         */
+
+    }, {
+        key: 'geometricVariance',
+        value: function geometricVariance(probability) {
+            return (1 - probability) / Math.pow(probability, 2);
+        }
+
+        /**
          * @function gcd: Calculate the greatest common divisor among the two numbers using Euclidean's algorithm.
          * 
          * @param {Number} numb1 

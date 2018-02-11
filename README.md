@@ -89,6 +89,7 @@ The library can be loaded as a standalone script.
 |`fisherYates(arr)` |math |Shuffle an array using the Fisher Yates Algorithm using a while loop. |array |
 |`fizzBuzz(n)` |algorithm |FizzBuzz Algorithm: most famous asked question. |string |
 |`flatten(arr, givenArr)` |algorithm |Flatten/Merge two arrays. |array |
+|`geometricVariance(probability)` |math |Calculate geometric variance. |number |
 |`gcd(numb1, numb2)` |math |Calculate the greatest common divisor among the two numbers using Euclideans algorithm. |number |
 |`generateHexColor()` |string |Generate random hex color. |string |
 |`generateRGBColor()` |string |Generate random RGB color. |string |
