@@ -96,6 +96,12 @@ const funcs = [
         return_type: 'array'
     },
     {
+        title: '`digitalRoot(number)`',
+        topic: 'math',
+        description: 'Digital Root of a number',
+        return_type: 'number'
+    },
+    {
         title: '`division(dividend, divisor)`',
         topic: 'math',
         description: 'Simple division function which returns an array of quotient & remainder.',

@@ -387,6 +387,12 @@ describe('start functions.js', () => {
             });
         });
 
+        describe('function_name: digitalRoots', () => {
+            it('should return 4 for digital root of 265', () => {
+                expect(mathFunc.digitalRoot(265)).to.be.eql(4).to.satisfy(checkNumber);
+            });
+        });
+
         describe('function_name: euclideanDistance', () => {
             it('should return the euclidean distance between two points ([5,3], [8,6])', () => {
                 expect(mathFunc.euclideanDistance([5, 3], [8, 6])).to.satisfy(checkNumber);

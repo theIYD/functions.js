@@ -98,6 +98,15 @@ class Mathematics {
     }
 
     /**
+     * @function Digital Root of a number.
+     * @param {Number} input number 
+     * @returns {Number}
+     */
+    digitalRoot(number) {
+        return (number-1)%9+1;
+    }
+
+    /**
      * @function Simple division function which returns an array of quotient & remainder.
      * @param {Number} dividend 
      * @param {Number} divisor 
