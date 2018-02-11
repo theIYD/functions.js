@@ -405,6 +405,24 @@ var Mathematics = function () {
         }
 
         /**
+         * @function Predict the value of PI using Leibniz
+         * @param {Number} - limit
+         * @returns {Number} 
+         */
+
+    }, {
+        key: 'leibniz',
+        value: function leibniz(limit) {
+            var temp = 0;
+            for (var j = 0; j <= limit; j++) {
+                temp += Math.pow(-1, j) / (2 * j + 1);
+            }
+
+            //To get PI, 4*PI/4 = PI
+            return 4 * temp;
+        }
+
+        /**
          * @function maxOrmin: Get maximum or minimum of an array
          * @param {Array} arr 
          * @param {String} task
