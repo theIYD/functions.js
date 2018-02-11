@@ -411,6 +411,12 @@ describe('start functions.js', () => {
             });
         });
 
+        describe('function_name: geometricVariance', () => {
+            it('should return the geometric variance provided probability', () => {
+                expect(mathFunc.geometricVariance(0.5)).to.be.eql(2).to.satisfy(checkNumber);
+            });
+        });
+
         describe('function_name: gcd', () => {
             it('should return the gcd among the two numbers 16 and 48', () => {
                 expect(mathFunc.gcd(16, 48)).to.satisfy(checkNumber);

@@ -192,6 +192,12 @@ const funcs = [
         return_type: 'array'
     },
     {
+        title: '`geometricVariance(probability)`',
+        topic: 'math',
+        description: 'Calculate geometric variance.',
+        return_type: 'number'
+    },
+    {
         title: '`gcd(numb1, numb2)`',
         topic: 'math',
         description: 'Calculate the greatest common divisor among the two numbers using Euclideans algorithm.',
