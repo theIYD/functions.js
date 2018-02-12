@@ -483,6 +483,12 @@ describe('start functions.js', () => {
             });
         });
 
+        describe('function_name: nthSGonalNumber', () => {
+            it('should return 10th pentagonal number', () => {
+                expect(mathFunc.nthSGonalNumber(5, 10)).to.be.eql(145).to.satisfy(checkNumber);
+            });
+        });
+
         describe('function_name: permutation', () => {
             it('should return permutation (10)', () => {
                 expect(mathFunc.permutation(10, 4)).to.satisfy(checkNumber);

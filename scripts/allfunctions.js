@@ -468,6 +468,12 @@ const funcs = [
         return_type: 'number'
     },
     {
+        title: '`nthSGonalNumber(sides, number)`',
+        topic: 'math',
+        description: `Calculates the nth s-gonal number of 'sides' polygon`,
+        return_type: 'number'
+    },
+    {
         title: '`nthLargest(arr, nth)`',
         topic: 'algorithm',
         description: 'Find the nth largest number from an unsorted array',

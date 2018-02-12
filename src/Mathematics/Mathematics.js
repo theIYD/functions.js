@@ -395,6 +395,16 @@ class Mathematics {
     }
 
     /**
+     * @function nthSGonalNumber: Calculates the nth s-gonal number of 'sides' polygon
+     * @param {Number} sides - number of sides of a polygon 
+     * @param {Number} number 
+     * @returns {Number}
+     */
+    nthSGonalNumber(sides, number) {
+        return (sides - 2)*number*(number-1)/2 + number;
+    }
+
+    /**
      * @function nthRoot: Calculates the nth root of a positive number
      * @param {Number} number - a number 
      * @param {Number} power 
