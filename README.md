@@ -135,6 +135,7 @@ The library can be loaded as a standalone script.
 |`median(arr)` |math |Calculate median of a sorted number array |number |
 |`modularExponential(base, power, mod)` |algorithm |Modular Exponential Algorithm |number |
 |`nthRoot(number, n)` |math |Calculates the nth root of a positive number |number |
+|`nthSGonalNumber(sides, number)` |math |Calculates the nth s-gonal number of 'sides' polygon |number |
 |`nthLargest(arr, nth)` |algorithm |Find the nth largest number from an unsorted array |number |
 |`permutation(num,rep)` |math |Calculates simple permutation. |number |
 |`pythagorasDistance(arg1, arg2)` |math |Calculate the pythogorean distance if arg1 and arg2 are 2 sides of a right-angled triangle. |number |
