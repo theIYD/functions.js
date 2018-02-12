@@ -54,6 +54,23 @@ var Mathematics = function () {
         }
 
         /**
+         * @function Catalan Number
+         * @param {Number} number
+         * @returns {Number} 
+         */
+
+    }, {
+        key: 'catalan',
+        value: function catalan(number) {
+            var res = 0;
+            if (number <= 1) return 1;
+            for (var i = 0; i < number; i++) {
+                res += this.catalan(i) * this.catalan(number - i - 1);
+            }
+            return res;
+        }
+
+        /**
          * @function Clamp a number
          * @param {Number} number 
          * @param {Number} min 

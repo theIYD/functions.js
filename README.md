@@ -62,6 +62,7 @@ The library can be loaded as a standalone script.
 |`binarySearch(arr, elem)` |algorithm |Search an element using binary search tehcnique |number(position) |
 |`bubbleSort(arr)` |algorithm |Sort an array using bubble sort technique |array |
 |`camelize(str)` |string |Camelize a string i.e CamelCase |string |
+|`catalan(number)` |math |Catalan Number |number |
 |`changeBase(number, original, final)` |math |Convert a base of a number to any base. |number |
 |`chunk(arr, size)` |math |Split array into chunks of smaller arrays of the desired size. |array |
 |`clamp(number, min, max)` |math |Clamp a number. |number |
