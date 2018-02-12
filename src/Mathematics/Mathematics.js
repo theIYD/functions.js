@@ -347,6 +347,20 @@ class Mathematics {
     }
 
     /**
+     * @function Create a line from 2 points in XY plane
+     * @param {Array} - [x1, y1]
+     * @param {Array} - [x2, y2]
+     * @returns {Number} 
+     */
+    lineFromPoints(initial, final) {
+        let coeffOfX = final[1] - initial[1];
+        let coeffOfY = initial[0] - final[0];
+        let constant = coeffOfX*(initial[0]) + coeffOfY*(initial[1]);
+  
+        return `${coeffOfX}x + ${coeffOfY}y = ${constant}`;
+    }
+
+    /**
      * @function maxOrmin: Get maximum or minimum of an array
      * @param {Array} arr 
      * @param {String} task

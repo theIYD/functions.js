@@ -459,6 +459,12 @@ describe('start functions.js', () => {
             });
         });
 
+        describe('function_name: lcm', () => {
+            it('should return LCM of an array ([2,4,6,5])', () => {
+                expect(mathFunc.lineFromPoints([3,2], [2,6])).to.be.eql("4x + 1y = 14");
+            });
+        });
+
         describe('function_name: leibniz', () => {
             it('should return 3.1465677471829556 for limit = 200', () => {
                 expect(mathFunc.leibniz(200)).to.be.eql(3.1465677471829556).to.satisfy(checkNumber);

@@ -438,6 +438,12 @@ const funcs = [
         return_type: 'number(position)'
     },
     {
+        title: '`lineFromPoints(initial, final)`',
+        topic: 'math',
+        description: 'Create a line from [x1, y1] & [x2, y2] in XY plane.',
+        return_type: 'string'
+    },
+    {
         title: '`maxOrMin(arr, task)`',
         topic: 'math',
         description: 'Get maximum or minimum of an array',
