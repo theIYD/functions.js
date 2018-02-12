@@ -30,6 +30,12 @@ const funcs = [
         return_type: 'string'
     },
     {
+        title: '`catalan(number)`',
+        topic: 'math',
+        description: 'Catalan Number',
+        return_type: 'number'
+    },
+    {
         title: '`changeBase(number, original, final)`',
         topic: 'math',
         description: 'Convert a base of a number to any base.',

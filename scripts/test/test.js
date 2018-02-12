@@ -369,6 +369,12 @@ describe('start functions.js', () => {
             });
         });
 
+        describe('function_name: catalan', () => {
+            it('should return 42 from 5th Catalan Number', () => {
+                expect(mathFunc.catalan(5)).to.eql(42).to.satisfy(checkNumber);
+            });
+        });
+
         describe('function_name: changeBase', () => {
             it('should return a number with base changed (25)', () => {
                 expect(mathFunc.baseChange(25, 10, 16)).to.satisfy(checkNumber);

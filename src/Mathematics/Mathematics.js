@@ -34,6 +34,20 @@ class Mathematics {
     }
 
     /**
+     * @function Catalan Number
+     * @param {Number} number
+     * @returns {Number} 
+     */
+    catalan(number) {
+        let res = 0;
+        if (number <= 1) return 1;
+        for (let i = 0; i < number; i++) {
+            res += this.catalan(i) * this.catalan(number - i - 1);
+        }
+        return res;
+    }
+
+    /**
      * @function Clamp a number
      * @param {Number} number 
      * @param {Number} min 
