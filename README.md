@@ -130,6 +130,7 @@ The library can be loaded as a standalone script.
 |`lcm(arr)` |math |Calculate LCM of an array of numbers |number |
 |`leibniz(limit)` |math |Predict the value of PI |number |
 |`linearSearch(arr, elem)` |algorithm |Search an element using linear search technique |number(position) |
+|`lineFromPoints(initial, final)` |math |Create a line from [x1, y1] & [x2, y2] in XY plane. |string |
 |`maxOrMin(arr, task)` |math |Get maximum or minimum of an array |number |
 |`median(arr)` |math |Calculate median of a sorted number array |number |
 |`modularExponential(base, power, mod)` |algorithm |Modular Exponential Algorithm |number |
