@@ -525,7 +525,7 @@ class Mathematics {
      * @returns {Number} 
      */
     cosineRule(sideOne, sideTwo, theta = 0) {
-        let angle = (Math.PI / 180) * parseFloat(theta)
+        let angle = (Math.PI / 180) * parseFloat(theta);
         return Math.sqrt((sideOne * sideOne + sideTwo * sideTwo) - 2 * sideOne * sideTwo * Math.cos(angle))
     }
 }
