@@ -172,6 +172,8 @@ The library can be loaded as a standalone script.
 |`zeroFill(number, len)` |string |Zerofill a number to the given length. |number |
 
 
+### Documentation
+You can find the documentation of the package over [here](https://github.com/theIYD/functions.js/blob/master/docs/api.md)
 ## Test
 
 Run the following command:
