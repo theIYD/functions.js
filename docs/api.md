@@ -48,6 +48,31 @@
 - [sineRule](#m-sineRule)
 </details>
 
+<details>
+<summary>Algorithms</summary>
+
+- [binarySearch](#a-binarySearch)
+- [bubbleSort](#a-bubbleSort)
+- [chunk](#a-chunk)
+- [collatz](#a-collatz)
+- [concat](#a-concat)
+- [fisherYates](#a-fisherYates)
+- [fizzBuzz](#a-fizzBuzz)
+- [flatten](#a-flatten)
+- [insertionSort](#a-insertionSort)
+- [linearSearch](#a-linearSearch)
+- [modularExponential](#a-modularExponential)
+- [nthLargest](#a-nthLargest)
+- [remove](#a-remove)
+- [removeDuplicates](#a-removeDuplicates)
+- [reverse](#a-reverse)
+- [segregate](#a-segregate)
+- [selectionSort](#a-selectionSort)
+</details>
+
+## Mathematics
+> functions performing mathematics
+
 ---
 
 #### `average(arr)` <a id="m-average"></a>
@@ -549,4 +574,213 @@ Apply sine rule to a triangle having 2 angles with one side to find the remainin
 const sine = mathematics.sineRule(5, 60, 45);
 console.log(sine);
 // 6.12
+```
+
+## Algorithms
+> functions which solve a problem
+
+---
+
+#### `binarySearch(arr, elem)` <a id="a-binarySearch"></a>
+
+Search an `elem` in an `arr` using the traditional Binary Search Technique.
+Returns the index.
+
+```javascript
+const bSearch = algorithms.binarySearch([6, 5, 4, 2, 3, 5], 2);
+console.log(bSearch);
+// 3
+```
+
+---
+
+#### `bubbleSort(arr)` <a id="a-bubbleSort"></a>
+
+Sort an `arr` using Bubble Sort Technique.
+
+```javascript
+const bSort = algorithms.bubbleSort([6, 5, 4, 2, 3, 5]);
+console.log(bSort);
+// [2, 3, 4, 5, 5, 6]
+```
+
+---
+
+#### `chunk(arr, size)` <a id="a-chunk"></a>
+
+Split a given `arr` into chunks of array of given `size`.
+
+```javascript
+const chunk = algorithms.chunk([6, 5, 4, 2, 3, 5, 8, 9, 4, 1], 2);
+console.log(chunk);
+// [ [ 6, 5 ], [ 4, 2 ], [ 3, 5 ], [ 8, 9 ], [ 4, 1 ] ]
+```
+
+---
+
+#### `collatz(number)` <a id="a-collatz"></a>
+
+The Collatz conjecture is a conjecture in mathematics that concerns a sequence defined as follows: start with any positive integer n. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half the previous term. Otherwise, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1. [Wikipedia](https://en.wikipedia.org/wiki/Collatz_conjecture)
+
+```javascript
+const collatz = algorithms.collatz(4);
+console.log(collatz);
+// [ 4, 2, 1 ]
+```
+
+---
+
+#### `concat(...arrs)` <a id="a-concat"></a>
+
+Concantenate arrays into a single array.
+
+```javascript
+const concat = algorithms.concat([1,2], [8,9]);
+console.log(concat);
+// [1, 2, 8, 9]
+```
+
+---
+
+#### `fisherYates(arr)` <a id="a-fisherYates"></a>
+
+The Fisher–Yates shuffle is an algorithm for generating a random permutation of a finite sequence—in plain terms, the algorithm shuffles the sequence. [Wikipedia](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+
+```javascript
+const fisherYates = algorithms.fisherYates([100,40,60,80,20]);
+console.log(fisherYates);
+// A shuffled array
+```
+
+---
+
+#### `fizzBuzz(n)` <a id="a-fizzBuzz"></a>
+
+The classic FizzBuzz Algorithm. [Wikipedia](https://en.wikipedia.org/wiki/Fizz_buzz)
+
+```javascript
+const fizz = algorithms.fizzBuzz(8);
+console.log(fizz);
+// ... ;) :D
+```
+
+---
+
+#### `flatten(arr, givenArr)` <a id="a-flatten"></a>
+
+Merge two arrays together.
+
+```javascript
+const flatten = algorithms.flatten([1, 2, 3, 4, 5], [6, 7, 8, 9, 10]);
+console.log(flatten);
+// [ 6, 7, 8, 9, 10, 1, 2, 3, 4, 5 ]
+```
+
+---
+
+#### `insertionSort(arr)` <a id="a-insertionSort"></a>
+
+Sort an array using the Insertion Sort Technique. [Wikipedia](https://en.wikipedia.org/wiki/Insertion_sort)
+
+```javascript
+const insertionSort = algorithms.insertionSort([5,2,3,9]);
+console.log(insertionSort);
+// [2,3,5,9]
+```
+
+---
+
+#### `linearSearch(arr, elem)` <a id="a-linearSearch"></a>
+
+Search an `elem` using the Linear Search Technique. [Wikipedia](https://en.wikipedia.org/wiki/Linear_search)
+
+```javascript
+const linearSearch = algorithms.linearSearch([1,5,2,3,9,4], 2);
+console.log(linearSearch);
+// 2
+```
+
+---
+
+#### `modularExponential(base, power, mod)` <a id="a-modularExponential"></a>
+
+Modular exponentiation is a type of exponentiation performed over a modulus. It is useful in computer science, especially in the field of public-key cryptography. 
+[Wikipedia](https://en.wikipedia.org/wiki/Modular_exponentiation)
+
+```javascript
+const modularExponential = algorithms.modularExponential(10,5,6);
+console.log(modularExponential);
+// 4
+```
+
+---
+
+#### `nthLargest(arr, nth)` <a id="a-nthLargest"></a>
+
+Find the nth largest number in an `arr` of numbers.
+
+```javascript
+const nthLargest = algorithms.nthLargest([1,5,2,3,9,4], 2);
+console.log(nthLargest);
+// 5
+```
+
+---
+
+#### `remove(arr, elem)` <a id="a-remove"></a>
+
+Remove an `elem` from a given `arr`. 
+
+```javascript
+const remove = algorithms.remove([8,1,0,8,9,6,0,0,7,2], 1);
+console.log(remove);
+// [ 8, 0, 8, 9, 6, 0, 0, 7, 2 ]
+```
+
+---
+
+#### `removeDuplicates(arr)` <a id="a-removeDuplicates"></a>
+
+Remove duplicates from a given `arr`.
+
+```javascript
+const removeDuplicates = algorithms.removeDuplicates([9,8,6,7,6,4,5,2,9,7]);
+console.log(removeDuplicates);
+// [ 2, 4, 5, 6, 7, 8, 9 ]
+```
+
+---
+
+#### `reverse(arr)` <a id="a-reverse"></a>
+
+Reverse an array.
+
+```javascript
+const reverse = algorithms.reverse([1,4,3,6]);
+console.log(reverse);
+// [6,3,4,1]
+```
+
+---
+
+#### `segregate(arr)` <a id="a-segregate"></a>
+
+Segregate 0's and 1's in an array.
+
+```javascript
+const segregate = algorithms.segregate([0, 1, 0, 0, 0, 1, 1, 1, 0]);
+console.log(segregate);
+// [ 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+```
+
+---
+
+#### `selectionSort(arr)` <a id="a-selectionSort"></a>
+
+Another technique known as Selection Sort to sort arrays.
+
+```javascript
+const selectionSort = algorithms.selectionSort([-1, -2, -3, 0, 1, 2]);
+console.log(selectionSort);
+// [ -3, -2, -1, 0, 1, 2 ]
 ```
