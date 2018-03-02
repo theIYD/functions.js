@@ -36,6 +36,8 @@ const usage = `## Usage\n\nBelow is an example on how to use the library into yo
 
 const client_side_usage = `\n## Client Side\n\nThe library can be loaded as a standalone script.\n\n` + marked + 'html\n\n' + `<script type="text/javascript" src="https://unpkg.com/functions.js/umd/FJS.min.js"></script>\n<script type="text/javascript">\n\tconst algo = new FJS.algorithms();\n\tconsole.log(algo.nthLargest([5,6,9,8,4,2,1]));\n\t//=> returns 9\n</script>\n` + marked + '\n\n';
 
+const api = `\n### Documentation\nYou can find the documentation of the package over [here](https://github.com/theIYD/functions.js/blob/master/docs/api.md)`;
+
 const about = `\n## About\n The project is a continuation to a package previously owned by me named **<a href="https://www.npmjs.com/okay-string">okay-string</a>**. I thought of renaming it to <em>functions</em> & learn more by actually practicing functions. That's how <code>functions.js</code> was created.😍\n`;
 
 const test = `\n## Test\n\nRun the following command:\n\n` + marked + `\nnpm run test\n\n` + marked + `\n`;
@@ -43,7 +45,7 @@ const test = `\n## Test\n\nRun the following command:\n\n` + marked + `\nnpm run
 const faq = `\n## FAQ🙋\nHere are some solutions to frequently asked questions:\n\n#### Q. How to use ?\nTake a look over <a href="https://github.com/theIYD/functions.js#usage">here</a>.\n\n#### Q. Another lodash or underscore ?\nThese two libraries are industry standards & are widely used. They have a ton of great, useful functions to use in a project. There is a **difference**. functions.js was created to learn predefined methods and make something out of it by creating a new method. So i think there is no comparison between this & the other two libraries. \n\n#### Q. How do i contribute ?\nRead the guidelines mentioned <a href="https://github.com/theIYD/functions.js/blob/master/CONTRIBUTING.md">here</a>\n`;
 
 const license = `\n## License📃\n The project is licensed under <a href="https://github.com/theIYD/functions.js/blob/master/LICENSE">MIT</a>`;
-output = header + install + usage + client_side_usage + func_generated_table + test + about + faq + license;
+output = header + install + usage + client_side_usage + func_generated_table + api + test + about + faq + license;
 
 const contributing_guide_header = `# Contributing ✏️\n To this project, you can contribute by sending pull requests for new functions that might solve some problem or reduce the complexity of a problem.\n`;
 
