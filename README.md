@@ -200,3 +200,5 @@ Read the guidelines mentioned <a href="https://github.com/theIYD/functions.js/bl
 
 ## License📃
  The project is licensed under <a href="https://github.com/theIYD/functions.js/blob/master/LICENSE">MIT</a>
+
+You can view the `license.md` file [here](https://github.com/theIYD/functions.js/blob/master/LICENSE).
